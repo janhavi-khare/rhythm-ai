@@ -1,0 +1,5001 @@
+user_id,cycle_length,cycle_day,sleep_quality,energy,mood,bloating,cravings,phase
+0,29,1,2,3,3,2,4,Menstrual
+0,29,4,0,1,5,2,2,Menstrual
+0,29,1,0,2,4,2,4,Menstrual
+0,29,8,0,3,5,2,1,Follicular
+0,29,1,2,3,4,3,2,Menstrual
+0,29,15,2,5,4,2,1,Ovulation
+0,29,15,1,3,5,1,1,Ovulation
+0,29,3,0,1,4,4,3,Menstrual
+0,29,19,2,5,5,1,2,Ovulation
+0,29,21,0,1,4,2,4,Early Luteal
+0,29,18,2,4,5,1,2,Ovulation
+0,29,15,1,5,5,2,1,Ovulation
+0,29,7,2,3,3,2,2,Follicular
+0,29,6,1,4,4,1,2,Follicular
+0,29,21,2,3,2,4,2,Early Luteal
+0,29,1,0,1,3,3,2,Menstrual
+0,29,15,2,5,4,1,1,Ovulation
+0,29,27,2,1,4,4,4,Late Luteal
+0,29,13,1,4,5,1,1,Follicular
+0,29,22,0,3,3,2,2,Early Luteal
+1,27,9,2,4,4,0,0,Follicular
+1,27,5,2,5,3,1,1,Follicular
+1,27,19,1,3,4,2,2,Early Luteal
+1,27,7,2,3,2,1,0,Follicular
+1,27,4,1,5,2,1,1,Follicular
+1,27,24,1,1,2,3,2,Late Luteal
+1,27,27,1,2,1,2,2,Late Luteal
+1,27,4,1,5,3,0,1,Follicular
+1,27,18,0,3,4,3,2,Early Luteal
+1,27,2,2,1,1,2,2,Menstrual
+1,27,13,1,5,5,1,0,Ovulation
+1,27,16,1,4,4,0,0,Ovulation
+1,27,11,2,2,3,1,0,Follicular
+1,27,18,1,5,3,1,1,Early Luteal
+1,27,5,1,3,3,1,1,Follicular
+1,27,15,0,5,3,1,0,Ovulation
+1,27,4,1,3,5,1,0,Follicular
+1,27,6,2,4,5,0,0,Follicular
+1,27,8,1,3,5,1,0,Follicular
+1,27,8,0,4,2,1,1,Follicular
+2,30,19,2,5,5,1,0,Ovulation
+2,30,11,1,3,4,0,1,Follicular
+2,30,2,2,1,2,1,1,Menstrual
+2,30,17,0,4,3,0,1,Ovulation
+2,30,17,1,4,5,0,0,Ovulation
+2,30,8,1,4,3,0,1,Follicular
+2,30,16,1,4,5,1,1,Ovulation
+2,30,6,1,4,3,0,0,Follicular
+2,30,18,2,5,5,0,0,Ovulation
+2,30,18,0,3,5,0,0,Ovulation
+2,30,8,1,4,4,0,0,Follicular
+2,30,3,0,3,4,2,1,Menstrual
+2,30,27,1,1,4,3,2,Late Luteal
+2,30,24,2,2,2,3,3,Early Luteal
+2,30,17,2,4,5,1,0,Ovulation
+2,30,15,0,4,4,0,1,Ovulation
+2,30,15,2,3,5,0,0,Ovulation
+2,30,21,0,2,3,2,3,Early Luteal
+2,30,20,0,3,4,3,1,Early Luteal
+2,30,18,2,5,4,0,1,Ovulation
+3,28,2,2,3,3,2,1,Menstrual
+3,28,9,1,5,5,1,0,Follicular
+3,28,28,0,2,1,3,5,Late Luteal
+3,28,28,2,3,3,5,4,Late Luteal
+3,28,12,2,3,5,0,1,Follicular
+3,28,2,2,3,4,3,2,Menstrual
+3,28,3,2,1,4,1,2,Menstrual
+3,28,22,1,2,3,2,1,Early Luteal
+3,28,26,0,3,2,3,5,Late Luteal
+3,28,7,1,5,5,1,1,Follicular
+3,28,12,2,5,4,0,0,Follicular
+3,28,5,1,3,2,1,1,Follicular
+3,28,5,2,4,3,0,1,Follicular
+3,28,27,0,1,4,4,3,Late Luteal
+3,28,24,0,1,4,2,4,Late Luteal
+3,28,17,0,4,5,0,1,Ovulation
+3,28,15,1,4,5,1,0,Ovulation
+3,28,1,1,2,1,1,3,Menstrual
+3,28,24,1,1,2,4,5,Late Luteal
+3,28,5,0,4,5,0,0,Follicular
+4,30,29,0,1,3,4,3,Late Luteal
+4,30,3,2,3,4,2,2,Menstrual
+4,30,9,1,5,4,1,0,Follicular
+4,30,7,2,3,3,1,0,Follicular
+4,30,10,2,4,5,0,0,Follicular
+4,30,1,2,1,5,1,1,Menstrual
+4,30,16,2,4,5,1,0,Ovulation
+4,30,21,0,1,3,2,1,Early Luteal
+4,30,22,1,2,4,2,1,Early Luteal
+4,30,16,0,4,4,0,0,Ovulation
+4,30,12,2,5,4,0,0,Follicular
+4,30,26,2,2,3,3,4,Late Luteal
+4,30,11,2,2,5,1,1,Follicular
+4,30,15,2,5,3,1,0,Follicular
+4,30,10,0,3,4,0,0,Follicular
+4,30,3,2,3,3,1,1,Menstrual
+4,30,8,0,4,5,1,1,Follicular
+4,30,22,1,5,4,1,1,Early Luteal
+4,30,16,2,5,4,0,1,Ovulation
+4,30,13,2,5,3,0,0,Follicular
+5,27,25,0,1,2,4,5,Late Luteal
+5,27,19,1,3,1,2,1,Early Luteal
+5,27,4,1,1,3,2,3,Menstrual
+5,27,6,1,3,4,3,3,Menstrual
+5,27,20,2,3,3,2,1,Early Luteal
+5,27,1,1,3,2,2,3,Menstrual
+5,27,8,2,4,4,0,0,Follicular
+5,27,13,1,3,3,0,1,Follicular
+5,27,1,2,2,4,3,1,Menstrual
+5,27,5,2,1,3,2,1,Menstrual
+5,27,22,2,2,2,3,2,Early Luteal
+5,27,1,1,2,4,1,1,Menstrual
+5,27,27,1,1,4,3,5,Late Luteal
+5,27,25,2,1,2,4,5,Late Luteal
+5,27,27,2,1,1,3,4,Late Luteal
+5,27,3,2,4,2,2,1,Menstrual
+5,27,17,1,5,4,1,0,Ovulation
+5,27,18,1,4,5,1,1,Ovulation
+5,27,3,0,1,4,1,2,Menstrual
+5,27,13,1,3,3,1,1,Follicular
+6,31,12,2,5,4,0,1,Follicular
+6,31,20,1,5,5,0,0,Ovulation
+6,31,16,1,3,4,0,1,Ovulation
+6,31,23,0,2,3,3,1,Early Luteal
+6,31,1,1,3,4,1,2,Menstrual
+6,31,8,1,2,5,0,1,Follicular
+6,31,23,2,4,4,3,1,Early Luteal
+6,31,8,0,2,4,0,0,Follicular
+6,31,18,2,4,5,0,0,Ovulation
+6,31,7,2,4,4,0,1,Follicular
+6,31,13,1,3,4,1,1,Follicular
+6,31,5,0,1,2,3,1,Menstrual
+6,31,21,0,1,4,1,2,Early Luteal
+6,31,19,2,4,4,0,1,Ovulation
+6,31,4,1,1,2,3,2,Menstrual
+6,31,20,1,4,4,0,0,Ovulation
+6,31,6,2,4,5,0,1,Follicular
+6,31,10,0,2,3,0,1,Follicular
+6,31,3,0,1,3,3,3,Menstrual
+6,31,10,2,4,3,1,1,Follicular
+7,27,3,2,4,3,1,1,Menstrual
+7,27,24,0,1,4,1,3,Late Luteal
+7,27,13,0,3,5,0,0,Follicular
+7,27,13,2,5,3,0,0,Follicular
+7,27,14,2,5,4,0,0,Follicular
+7,27,25,2,4,2,1,2,Late Luteal
+7,27,3,2,3,2,1,0,Menstrual
+7,27,18,0,5,5,0,0,Ovulation
+7,27,5,1,2,4,0,2,Menstrual
+7,27,16,2,4,3,0,0,Ovulation
+7,27,9,1,5,5,0,0,Follicular
+7,27,25,1,1,4,2,4,Late Luteal
+7,27,15,0,3,5,0,0,Ovulation
+7,27,25,1,1,4,2,2,Late Luteal
+7,27,19,1,5,5,0,0,Ovulation
+7,27,8,0,5,5,0,0,Follicular
+7,27,5,2,1,2,2,1,Menstrual
+7,27,3,2,1,3,0,1,Menstrual
+7,27,25,2,1,4,4,2,Late Luteal
+7,27,20,2,4,2,0,0,Early Luteal
+8,31,9,2,4,5,0,1,Follicular
+8,31,22,1,2,4,1,3,Early Luteal
+8,31,21,1,5,5,0,0,Ovulation
+8,31,1,1,2,2,3,3,Menstrual
+8,31,22,2,4,2,3,3,Early Luteal
+8,31,11,2,4,5,1,0,Follicular
+8,31,30,0,1,2,4,3,Late Luteal
+8,31,16,2,3,3,0,1,Follicular
+8,31,25,1,3,2,2,1,Early Luteal
+8,31,17,2,5,5,0,0,Ovulation
+8,31,20,2,5,4,1,0,Ovulation
+8,31,8,1,4,4,0,1,Follicular
+8,31,13,2,5,3,1,0,Follicular
+8,31,8,1,4,5,1,1,Follicular
+8,31,9,1,5,3,1,0,Follicular
+8,31,14,2,3,3,0,1,Follicular
+8,31,6,2,3,3,1,1,Menstrual
+8,31,10,2,3,3,0,1,Follicular
+8,31,29,1,3,4,2,3,Late Luteal
+8,31,10,0,4,3,0,1,Follicular
+9,27,14,1,5,2,0,0,Follicular
+9,27,26,1,1,3,4,4,Late Luteal
+9,27,16,2,5,5,0,0,Ovulation
+9,27,13,1,5,3,0,0,Follicular
+9,27,11,2,5,3,0,0,Follicular
+9,27,23,2,1,4,2,3,Late Luteal
+9,27,9,0,4,4,0,0,Follicular
+9,27,14,0,1,4,0,0,Follicular
+9,27,23,1,1,2,2,1,Late Luteal
+9,27,22,1,3,2,1,1,Early Luteal
+9,27,15,1,4,5,0,0,Ovulation
+9,27,4,1,2,2,2,2,Menstrual
+9,27,2,2,1,3,2,1,Menstrual
+9,27,24,2,1,3,4,1,Late Luteal
+9,27,26,0,1,3,2,1,Late Luteal
+9,27,14,2,3,4,0,0,Follicular
+9,27,19,2,4,5,0,0,Ovulation
+9,27,13,1,5,3,0,0,Follicular
+9,27,18,1,4,5,0,0,Ovulation
+9,27,13,1,4,5,0,0,Follicular
+10,26,11,2,5,5,1,1,Follicular
+10,26,20,2,5,1,1,1,Early Luteal
+10,26,20,0,2,4,2,1,Early Luteal
+10,26,11,2,3,3,1,0,Follicular
+10,26,17,2,5,4,1,0,Ovulation
+10,26,24,2,2,4,2,2,Late Luteal
+10,26,11,2,3,3,1,0,Follicular
+10,26,14,1,5,4,1,1,Ovulation
+10,26,4,2,3,1,1,2,Menstrual
+10,26,2,2,1,3,3,1,Menstrual
+10,26,13,2,4,5,1,1,Follicular
+10,26,4,2,1,2,2,2,Menstrual
+10,26,26,2,1,3,4,2,Late Luteal
+10,26,14,2,5,5,1,0,Ovulation
+10,26,24,0,1,1,2,2,Late Luteal
+10,26,20,1,1,5,2,2,Early Luteal
+10,26,12,0,3,3,1,1,Follicular
+10,26,22,0,1,2,3,2,Late Luteal
+10,26,1,2,3,4,3,3,Menstrual
+10,26,11,2,3,4,1,1,Follicular
+11,29,1,1,3,3,2,1,Menstrual
+11,29,14,1,4,4,1,1,Follicular
+11,29,24,2,2,2,2,2,Early Luteal
+11,29,15,2,5,5,0,0,Ovulation
+11,29,15,2,4,4,0,1,Ovulation
+11,29,16,1,4,4,0,0,Ovulation
+11,29,5,0,2,2,1,1,Menstrual
+11,29,28,1,2,1,3,4,Late Luteal
+11,29,24,1,4,4,3,3,Early Luteal
+11,29,9,2,4,5,1,0,Follicular
+11,29,7,2,5,5,0,0,Follicular
+11,29,2,0,2,3,1,2,Menstrual
+11,29,11,2,5,3,0,0,Follicular
+11,29,4,2,2,2,1,3,Menstrual
+11,29,10,1,5,4,1,1,Follicular
+11,29,15,1,4,4,0,0,Ovulation
+11,29,17,1,4,5,1,0,Ovulation
+11,29,5,2,2,4,3,2,Menstrual
+11,29,19,2,4,5,0,0,Ovulation
+11,29,12,1,3,4,0,0,Follicular
+12,29,12,2,5,4,1,1,Follicular
+12,29,27,2,4,1,5,3,Late Luteal
+12,29,22,2,4,3,4,2,Early Luteal
+12,29,18,1,3,4,1,2,Ovulation
+12,29,18,2,3,5,2,1,Ovulation
+12,29,5,0,2,2,4,4,Menstrual
+12,29,6,1,3,4,3,2,Menstrual
+12,29,19,0,3,4,2,1,Ovulation
+12,29,3,2,3,3,4,4,Menstrual
+12,29,12,0,2,3,2,2,Follicular
+12,29,12,2,4,3,1,1,Follicular
+12,29,4,2,1,3,3,3,Menstrual
+12,29,15,2,4,5,2,2,Follicular
+12,29,12,1,4,4,1,1,Follicular
+12,29,24,1,2,5,4,2,Early Luteal
+12,29,18,2,4,5,2,1,Ovulation
+12,29,1,2,2,2,4,3,Menstrual
+12,29,20,0,3,5,2,2,Ovulation
+12,29,9,2,2,5,2,1,Follicular
+12,29,24,0,3,2,2,2,Early Luteal
+13,27,20,1,3,2,1,0,Early Luteal
+13,27,11,1,5,4,0,0,Follicular
+13,27,6,0,1,3,0,0,Menstrual
+13,27,19,0,4,3,2,1,Early Luteal
+13,27,12,2,3,3,0,0,Follicular
+13,27,14,1,4,4,0,0,Ovulation
+13,27,19,2,3,4,2,2,Early Luteal
+13,27,5,0,1,3,2,0,Menstrual
+13,27,14,1,4,5,0,0,Ovulation
+13,27,20,1,2,5,2,0,Early Luteal
+13,27,15,0,4,4,0,0,Ovulation
+13,27,19,1,3,4,0,1,Early Luteal
+13,27,7,1,5,3,0,0,Follicular
+13,27,6,1,2,2,1,2,Menstrual
+13,27,7,2,3,3,0,0,Follicular
+13,27,25,0,1,1,1,1,Late Luteal
+13,27,12,0,2,4,0,0,Follicular
+13,27,2,1,3,3,1,0,Menstrual
+13,27,25,2,4,2,4,2,Late Luteal
+13,27,25,1,1,4,1,1,Late Luteal
+14,31,7,1,5,5,2,2,Follicular
+14,31,17,0,3,5,2,1,Ovulation
+14,31,17,1,5,3,1,1,Ovulation
+14,31,14,0,3,4,2,2,Follicular
+14,31,29,0,1,2,5,5,Late Luteal
+14,31,2,2,1,2,4,2,Menstrual
+14,31,30,1,2,4,5,5,Late Luteal
+14,31,17,2,5,4,1,1,Ovulation
+14,31,29,2,3,2,5,5,Late Luteal
+14,31,25,1,4,4,2,3,Early Luteal
+14,31,6,1,4,5,2,2,Follicular
+14,31,25,1,3,4,2,4,Early Luteal
+14,31,8,2,5,4,1,1,Follicular
+14,31,30,1,1,4,5,5,Late Luteal
+14,31,24,2,2,3,2,4,Early Luteal
+14,31,23,1,3,3,4,3,Early Luteal
+14,31,21,1,4,3,2,2,Early Luteal
+14,31,29,0,1,2,5,3,Late Luteal
+14,31,16,2,4,5,1,2,Ovulation
+14,31,21,0,4,4,4,2,Early Luteal
+15,29,23,0,1,4,1,2,Early Luteal
+15,29,9,1,4,3,0,0,Follicular
+15,29,5,1,3,2,2,2,Menstrual
+15,29,11,0,3,4,0,0,Follicular
+15,29,2,1,3,4,0,0,Menstrual
+15,29,13,1,5,5,0,0,Follicular
+15,29,5,0,1,4,2,1,Menstrual
+15,29,17,2,4,5,0,0,Ovulation
+15,29,3,2,2,1,2,0,Menstrual
+15,29,13,2,5,4,0,0,Follicular
+15,29,6,2,3,4,0,2,Menstrual
+15,29,2,2,2,3,0,1,Menstrual
+15,29,7,0,1,2,1,0,Menstrual
+15,29,28,2,3,1,2,1,Late Luteal
+15,29,14,2,4,3,0,0,Follicular
+15,29,26,1,1,1,1,2,Late Luteal
+15,29,7,1,3,3,2,1,Menstrual
+15,29,27,2,2,3,4,4,Late Luteal
+15,29,14,2,3,3,0,0,Follicular
+15,29,19,2,4,4,0,0,Ovulation
+16,29,2,2,3,4,2,3,Menstrual
+16,29,22,1,4,3,2,2,Early Luteal
+16,29,29,1,1,2,2,3,Late Luteal
+16,29,23,2,2,2,2,3,Early Luteal
+16,29,29,1,1,3,2,3,Late Luteal
+16,29,20,2,3,4,1,3,Early Luteal
+16,29,28,0,1,2,4,2,Late Luteal
+16,29,17,0,3,4,0,1,Ovulation
+16,29,6,2,3,4,0,1,Follicular
+16,29,17,0,3,3,1,0,Ovulation
+16,29,20,0,1,3,2,3,Early Luteal
+16,29,21,0,1,4,1,2,Early Luteal
+16,29,28,2,1,3,3,4,Late Luteal
+16,29,18,2,4,4,0,0,Ovulation
+16,29,22,2,4,2,3,2,Early Luteal
+16,29,9,2,3,5,1,0,Follicular
+16,29,7,2,4,5,1,0,Follicular
+16,29,9,0,5,4,1,0,Follicular
+16,29,3,1,2,2,3,1,Menstrual
+16,29,27,0,1,4,2,5,Late Luteal
+17,29,11,2,3,4,0,0,Follicular
+17,29,20,1,4,3,2,2,Early Luteal
+17,29,22,2,2,3,2,0,Early Luteal
+17,29,9,2,4,3,0,0,Follicular
+17,29,23,1,3,3,2,0,Early Luteal
+17,29,27,1,3,1,3,2,Late Luteal
+17,29,20,0,1,4,2,1,Early Luteal
+17,29,11,1,5,2,0,0,Follicular
+17,29,5,2,2,4,0,0,Follicular
+17,29,25,1,2,4,1,1,Late Luteal
+17,29,23,1,3,4,2,2,Early Luteal
+17,29,10,2,5,5,0,0,Follicular
+17,29,3,2,1,4,0,2,Menstrual
+17,29,20,2,4,3,2,1,Early Luteal
+17,29,17,0,3,4,0,0,Ovulation
+17,29,1,2,3,2,0,1,Menstrual
+17,29,12,0,4,5,0,0,Follicular
+17,29,29,2,3,3,1,2,Late Luteal
+17,29,21,1,4,3,2,0,Early Luteal
+17,29,20,2,2,1,0,2,Early Luteal
+18,27,22,1,4,4,3,4,Early Luteal
+18,27,2,0,1,2,3,4,Menstrual
+18,27,10,1,5,5,1,1,Follicular
+18,27,23,0,1,4,3,5,Late Luteal
+18,27,13,0,3,5,1,2,Ovulation
+18,27,9,2,3,5,1,1,Follicular
+18,27,10,2,5,3,1,2,Follicular
+18,27,11,2,3,3,2,2,Follicular
+18,27,6,2,4,4,1,1,Follicular
+18,27,6,2,5,2,1,2,Follicular
+18,27,26,2,4,1,3,4,Late Luteal
+18,27,4,1,4,3,2,4,Menstrual
+18,27,26,1,1,1,5,5,Late Luteal
+18,27,1,1,3,4,3,2,Menstrual
+18,27,23,2,1,2,4,4,Late Luteal
+18,27,15,0,4,5,2,2,Ovulation
+18,27,20,2,2,3,3,4,Early Luteal
+18,27,3,1,3,3,4,3,Menstrual
+18,27,7,1,5,3,1,1,Follicular
+18,27,22,2,2,4,3,3,Early Luteal
+19,27,17,0,3,5,1,0,Ovulation
+19,27,26,2,3,3,4,4,Late Luteal
+19,27,22,0,1,3,3,1,Early Luteal
+19,27,18,2,5,4,0,0,Ovulation
+19,27,7,1,3,2,2,3,Menstrual
+19,27,17,0,3,5,1,0,Ovulation
+19,27,3,2,4,4,3,1,Menstrual
+19,27,3,1,3,3,1,2,Menstrual
+19,27,11,1,5,5,0,0,Follicular
+19,27,7,2,3,4,2,1,Menstrual
+19,27,27,0,2,1,3,3,Late Luteal
+19,27,14,1,5,3,0,0,Follicular
+19,27,20,1,5,4,3,1,Early Luteal
+19,27,3,1,3,4,2,1,Menstrual
+19,27,3,1,2,3,1,2,Menstrual
+19,27,20,2,2,2,2,3,Early Luteal
+19,27,7,1,2,4,1,3,Menstrual
+19,27,19,1,4,4,0,0,Ovulation
+19,27,12,1,4,3,1,1,Follicular
+19,27,20,1,2,3,2,3,Early Luteal
+20,27,13,1,4,5,2,1,Follicular
+20,27,20,1,4,2,3,4,Early Luteal
+20,27,20,2,5,3,4,2,Early Luteal
+20,27,19,0,1,3,4,3,Early Luteal
+20,27,21,1,4,3,2,4,Early Luteal
+20,27,6,1,1,2,4,4,Menstrual
+20,27,1,2,3,3,4,2,Menstrual
+20,27,19,0,1,3,4,3,Early Luteal
+20,27,5,1,1,5,3,3,Menstrual
+20,27,22,1,4,3,4,2,Early Luteal
+20,27,10,2,5,5,2,2,Follicular
+20,27,19,2,2,4,2,2,Early Luteal
+20,27,2,0,2,1,3,4,Menstrual
+20,27,11,1,4,5,2,2,Follicular
+20,27,22,1,4,3,3,3,Early Luteal
+20,27,24,0,1,3,5,5,Late Luteal
+20,27,22,2,3,4,4,2,Early Luteal
+20,27,5,1,3,3,3,2,Menstrual
+20,27,1,2,3,4,2,3,Menstrual
+20,27,10,2,4,4,2,1,Follicular
+21,28,13,0,2,4,0,1,Follicular
+21,28,3,2,1,4,1,3,Menstrual
+21,28,7,0,4,2,0,0,Follicular
+21,28,7,1,5,4,1,1,Follicular
+21,28,9,0,5,4,0,0,Follicular
+21,28,8,2,4,3,0,1,Follicular
+21,28,18,0,4,5,1,1,Ovulation
+21,28,19,2,2,3,1,3,Early Luteal
+21,28,8,1,4,4,0,1,Follicular
+21,28,6,1,5,4,1,0,Follicular
+21,28,27,0,1,1,2,4,Late Luteal
+21,28,1,0,1,4,3,1,Menstrual
+21,28,20,1,3,3,3,2,Early Luteal
+21,28,27,0,2,5,3,2,Late Luteal
+21,28,18,2,4,5,0,0,Ovulation
+21,28,16,2,4,5,0,0,Ovulation
+21,28,21,2,2,4,1,3,Early Luteal
+21,28,19,2,1,4,2,3,Early Luteal
+21,28,18,2,5,3,1,0,Ovulation
+21,28,9,1,5,4,1,0,Follicular
+22,29,15,2,4,5,0,1,Ovulation
+22,29,29,2,3,2,3,2,Late Luteal
+22,29,15,0,2,4,1,0,Ovulation
+22,29,19,0,1,2,1,1,Early Luteal
+22,29,25,0,1,1,5,5,Late Luteal
+22,29,27,1,3,1,2,5,Late Luteal
+22,29,20,1,3,2,1,1,Early Luteal
+22,29,15,1,5,5,0,1,Ovulation
+22,29,20,1,3,3,3,3,Early Luteal
+22,29,3,0,1,4,2,1,Menstrual
+22,29,25,1,1,4,4,2,Late Luteal
+22,29,18,1,5,5,0,1,Ovulation
+22,29,5,1,5,3,1,0,Follicular
+22,29,10,0,2,5,1,0,Follicular
+22,29,8,2,4,3,0,1,Follicular
+22,29,27,1,1,1,3,5,Late Luteal
+22,29,17,2,5,3,0,1,Ovulation
+22,29,25,2,2,2,2,4,Late Luteal
+22,29,15,0,3,4,0,1,Ovulation
+22,29,16,0,3,5,1,1,Ovulation
+23,27,12,1,5,4,0,1,Follicular
+23,27,10,2,2,4,0,0,Follicular
+23,27,17,1,4,5,0,1,Ovulation
+23,27,6,1,3,4,2,3,Menstrual
+23,27,4,2,3,3,2,2,Menstrual
+23,27,4,1,2,4,1,3,Menstrual
+23,27,11,2,4,3,1,0,Follicular
+23,27,27,1,1,2,5,5,Late Luteal
+23,27,22,1,2,3,3,2,Early Luteal
+23,27,13,1,3,4,1,0,Follicular
+23,27,23,1,3,5,4,4,Late Luteal
+23,27,9,2,4,3,1,0,Follicular
+23,27,15,2,3,5,1,0,Ovulation
+23,27,19,0,3,3,1,1,Ovulation
+23,27,4,1,3,3,3,2,Menstrual
+23,27,5,1,1,2,3,2,Menstrual
+23,27,25,1,3,1,5,4,Late Luteal
+23,27,13,0,3,5,0,0,Follicular
+23,27,13,2,5,5,0,0,Follicular
+23,27,9,0,4,4,0,1,Follicular
+24,30,28,0,1,5,4,2,Late Luteal
+24,30,24,0,1,5,1,3,Early Luteal
+24,30,25,0,1,2,3,2,Early Luteal
+24,30,17,2,5,4,0,1,Ovulation
+24,30,8,1,5,4,1,0,Follicular
+24,30,25,2,4,3,3,1,Early Luteal
+24,30,12,2,4,4,0,0,Follicular
+24,30,11,0,1,4,1,0,Follicular
+24,30,18,0,4,4,0,1,Ovulation
+24,30,3,0,2,1,3,3,Menstrual
+24,30,28,2,1,2,3,5,Late Luteal
+24,30,30,2,2,2,5,5,Late Luteal
+24,30,7,0,2,4,1,0,Follicular
+24,30,15,0,3,5,1,1,Ovulation
+24,30,14,2,5,5,1,0,Follicular
+24,30,28,2,3,3,4,3,Late Luteal
+24,30,7,1,4,4,0,0,Follicular
+24,30,18,2,5,4,1,0,Ovulation
+24,30,22,2,3,5,3,2,Early Luteal
+24,30,15,2,4,4,1,1,Ovulation
+25,26,23,2,2,1,4,2,Late Luteal
+25,26,8,1,4,2,0,0,Follicular
+25,26,4,1,1,2,1,0,Menstrual
+25,26,22,2,1,5,1,3,Late Luteal
+25,26,11,0,3,3,0,0,Follicular
+25,26,26,1,2,2,3,3,Late Luteal
+25,26,8,2,4,4,0,0,Follicular
+25,26,11,0,2,4,0,0,Follicular
+25,26,3,1,2,4,1,0,Menstrual
+25,26,13,1,4,5,0,0,Ovulation
+25,26,5,2,4,5,0,0,Follicular
+25,26,22,1,2,2,3,1,Late Luteal
+25,26,2,1,2,3,1,2,Menstrual
+25,26,22,0,1,1,2,3,Late Luteal
+25,26,10,0,3,4,0,0,Follicular
+25,26,7,1,5,5,0,0,Follicular
+25,26,6,0,2,5,0,0,Follicular
+25,26,7,0,4,5,0,0,Follicular
+25,26,21,0,3,4,1,2,Early Luteal
+25,26,9,1,2,5,0,0,Follicular
+26,30,6,2,4,3,0,0,Follicular
+26,30,20,2,5,4,2,2,Early Luteal
+26,30,8,0,2,3,0,0,Follicular
+26,30,13,2,5,5,0,0,Follicular
+26,30,16,1,3,4,0,0,Ovulation
+26,30,23,1,4,4,2,0,Early Luteal
+26,30,2,2,1,4,1,0,Menstrual
+26,30,26,2,2,2,2,3,Late Luteal
+26,30,12,1,3,4,0,0,Follicular
+26,30,23,1,5,2,2,1,Early Luteal
+26,30,21,1,2,2,1,1,Early Luteal
+26,30,12,2,4,4,0,0,Follicular
+26,30,26,0,2,2,3,2,Late Luteal
+26,30,8,1,2,3,0,0,Follicular
+26,30,15,2,4,5,0,0,Ovulation
+26,30,25,2,4,3,2,2,Early Luteal
+26,30,27,2,1,3,2,3,Late Luteal
+26,30,18,0,4,5,0,0,Ovulation
+26,30,24,1,3,1,2,0,Early Luteal
+26,30,29,1,1,1,2,1,Late Luteal
+27,27,22,0,2,3,2,2,Early Luteal
+27,27,25,2,3,1,2,4,Late Luteal
+27,27,2,1,3,2,1,1,Menstrual
+27,27,20,0,3,4,2,2,Early Luteal
+27,27,18,2,5,4,0,0,Ovulation
+27,27,6,2,3,5,0,0,Follicular
+27,27,15,2,5,4,0,0,Ovulation
+27,27,17,0,5,4,0,0,Ovulation
+27,27,1,0,1,4,0,2,Menstrual
+27,27,25,2,2,2,1,2,Late Luteal
+27,27,18,1,5,5,0,0,Ovulation
+27,27,5,0,1,4,2,1,Menstrual
+27,27,24,2,3,3,1,4,Late Luteal
+27,27,2,2,1,4,0,0,Menstrual
+27,27,21,1,5,3,2,0,Early Luteal
+27,27,9,2,5,4,0,0,Follicular
+27,27,24,1,1,1,3,3,Late Luteal
+27,27,15,2,5,5,0,0,Ovulation
+27,27,21,1,2,3,2,1,Early Luteal
+27,27,17,2,4,4,0,0,Ovulation
+28,26,15,2,4,4,0,0,Ovulation
+28,26,6,1,2,5,3,3,Menstrual
+28,26,16,1,5,3,1,0,Ovulation
+28,26,21,2,4,3,1,2,Early Luteal
+28,26,10,2,2,2,1,1,Follicular
+28,26,4,2,3,4,1,3,Menstrual
+28,26,2,2,1,1,3,1,Menstrual
+28,26,12,2,2,4,1,1,Follicular
+28,26,18,2,5,4,0,0,Ovulation
+28,26,8,1,4,4,1,1,Follicular
+28,26,15,2,4,4,1,1,Ovulation
+28,26,11,1,3,5,0,1,Follicular
+28,26,12,0,4,2,0,1,Follicular
+28,26,19,1,4,3,2,2,Early Luteal
+28,26,23,1,1,3,2,4,Late Luteal
+28,26,26,0,3,3,3,3,Late Luteal
+28,26,7,1,3,3,1,2,Menstrual
+28,26,13,2,4,4,0,1,Follicular
+28,26,5,2,1,1,3,2,Menstrual
+28,26,25,2,1,1,2,5,Late Luteal
+29,26,15,2,4,3,1,1,Ovulation
+29,26,18,2,4,5,1,0,Ovulation
+29,26,25,1,3,3,5,3,Late Luteal
+29,26,3,2,3,2,1,1,Menstrual
+29,26,14,0,2,4,1,1,Ovulation
+29,26,21,0,3,4,1,1,Early Luteal
+29,26,20,2,2,3,3,3,Early Luteal
+29,26,5,0,1,4,3,3,Menstrual
+29,26,4,1,1,4,1,3,Menstrual
+29,26,7,0,2,5,0,1,Follicular
+29,26,6,1,2,3,3,3,Menstrual
+29,26,15,1,3,4,1,1,Ovulation
+29,26,1,1,1,3,1,2,Menstrual
+29,26,22,0,1,2,2,2,Late Luteal
+29,26,21,2,4,4,1,3,Early Luteal
+29,26,17,0,4,4,0,0,Ovulation
+29,26,5,2,2,5,1,2,Menstrual
+29,26,26,2,2,1,4,2,Late Luteal
+29,26,1,0,2,2,1,3,Menstrual
+29,26,5,0,2,4,2,3,Menstrual
+30,30,26,1,3,4,4,1,Late Luteal
+30,30,29,1,3,2,3,2,Late Luteal
+30,30,9,2,5,3,0,0,Follicular
+30,30,18,1,3,4,0,0,Ovulation
+30,30,8,2,3,4,0,0,Follicular
+30,30,15,1,3,5,0,0,Follicular
+30,30,22,1,2,4,1,1,Early Luteal
+30,30,6,0,1,2,1,2,Menstrual
+30,30,28,2,2,3,3,3,Late Luteal
+30,30,1,0,1,3,1,0,Menstrual
+30,30,7,1,1,4,0,2,Menstrual
+30,30,15,2,2,3,0,0,Follicular
+30,30,30,2,2,2,1,4,Late Luteal
+30,30,6,0,1,2,0,0,Menstrual
+30,30,12,2,3,3,0,0,Follicular
+30,30,15,2,3,3,0,0,Follicular
+30,30,2,2,3,4,2,1,Menstrual
+30,30,2,1,1,4,0,1,Menstrual
+30,30,29,0,1,4,4,1,Late Luteal
+30,30,15,2,3,4,0,0,Follicular
+31,26,1,2,2,1,1,1,Menstrual
+31,26,20,1,3,5,3,2,Early Luteal
+31,26,22,0,1,3,3,4,Late Luteal
+31,26,19,2,2,3,1,3,Early Luteal
+31,26,23,1,4,4,5,4,Late Luteal
+31,26,6,1,3,3,1,0,Follicular
+31,26,20,1,4,1,1,2,Early Luteal
+31,26,3,2,1,3,2,1,Menstrual
+31,26,26,2,3,2,3,4,Late Luteal
+31,26,23,0,1,3,5,4,Late Luteal
+31,26,2,2,2,2,1,1,Menstrual
+31,26,23,1,2,2,4,5,Late Luteal
+31,26,7,1,4,4,1,0,Follicular
+31,26,5,1,4,3,1,1,Follicular
+31,26,6,2,4,4,1,1,Follicular
+31,26,12,2,5,4,1,0,Ovulation
+31,26,10,2,2,4,0,0,Follicular
+31,26,1,0,1,2,1,1,Menstrual
+31,26,4,0,3,5,0,0,Follicular
+31,26,10,2,5,5,1,1,Follicular
+32,27,19,2,4,4,0,0,Ovulation
+32,27,21,1,2,2,3,3,Early Luteal
+32,27,11,1,5,4,1,1,Follicular
+32,27,16,2,3,5,0,1,Ovulation
+32,27,18,2,4,4,0,1,Ovulation
+32,27,2,2,1,3,1,3,Menstrual
+32,27,24,1,3,2,2,4,Late Luteal
+32,27,22,2,3,4,2,3,Early Luteal
+32,27,2,0,1,2,2,3,Menstrual
+32,27,16,2,4,4,1,0,Ovulation
+32,27,24,1,3,2,2,3,Late Luteal
+32,27,8,0,2,3,1,1,Follicular
+32,27,5,2,1,4,1,3,Menstrual
+32,27,23,2,3,4,3,2,Late Luteal
+32,27,4,1,1,3,1,1,Menstrual
+32,27,11,1,5,4,1,1,Follicular
+32,27,24,1,2,2,4,3,Late Luteal
+32,27,21,2,3,4,1,1,Early Luteal
+32,27,3,2,1,3,1,2,Menstrual
+32,27,21,1,5,2,1,1,Early Luteal
+33,28,15,2,4,5,0,0,Ovulation
+33,28,24,1,1,4,2,2,Late Luteal
+33,28,6,0,2,4,2,2,Menstrual
+33,28,28,0,1,2,3,3,Late Luteal
+33,28,1,0,3,5,0,0,Menstrual
+33,28,15,1,4,5,0,0,Ovulation
+33,28,25,0,2,4,1,2,Late Luteal
+33,28,4,2,2,5,2,0,Menstrual
+33,28,12,2,3,4,0,0,Follicular
+33,28,15,2,5,5,0,0,Ovulation
+33,28,23,1,4,1,0,2,Early Luteal
+33,28,3,2,2,5,0,1,Menstrual
+33,28,2,2,3,2,2,0,Menstrual
+33,28,26,2,1,2,3,1,Late Luteal
+33,28,23,2,5,2,2,2,Early Luteal
+33,28,17,1,5,4,0,0,Ovulation
+33,28,8,2,5,2,0,0,Follicular
+33,28,13,1,4,4,0,0,Follicular
+33,28,1,0,1,2,2,0,Menstrual
+33,28,15,2,5,4,0,0,Ovulation
+34,31,28,1,4,3,2,5,Late Luteal
+34,31,21,1,3,2,2,3,Early Luteal
+34,31,20,2,4,4,0,0,Ovulation
+34,31,7,0,4,5,0,0,Follicular
+34,31,16,0,2,5,0,0,Ovulation
+34,31,8,0,3,4,1,0,Follicular
+34,31,25,2,2,4,3,1,Early Luteal
+34,31,20,2,5,3,1,1,Ovulation
+34,31,5,1,2,2,1,1,Menstrual
+34,31,20,1,4,4,1,1,Ovulation
+34,31,12,1,4,5,1,1,Follicular
+34,31,1,2,2,5,1,1,Menstrual
+34,31,19,2,4,5,1,1,Ovulation
+34,31,18,0,3,3,1,1,Ovulation
+34,31,27,2,2,2,3,3,Late Luteal
+34,31,30,0,2,4,2,3,Late Luteal
+34,31,8,2,4,4,1,0,Follicular
+34,31,12,0,2,2,0,0,Follicular
+34,31,27,1,2,4,3,5,Late Luteal
+34,31,31,2,2,1,5,4,Late Luteal
+35,27,14,0,3,5,0,1,Ovulation
+35,27,3,0,2,4,3,3,Menstrual
+35,27,10,0,4,2,0,1,Follicular
+35,27,21,1,2,3,3,3,Early Luteal
+35,27,4,2,3,3,1,2,Menstrual
+35,27,20,2,2,3,3,3,Early Luteal
+35,27,22,2,2,2,3,2,Early Luteal
+35,27,11,2,5,5,0,1,Follicular
+35,27,9,2,2,5,0,0,Follicular
+35,27,12,1,4,4,0,1,Follicular
+35,27,19,1,4,4,1,2,Early Luteal
+35,27,17,0,3,5,0,0,Ovulation
+35,27,9,2,4,4,1,1,Follicular
+35,27,26,2,3,3,2,2,Late Luteal
+35,27,18,2,5,4,0,0,Ovulation
+35,27,16,0,3,4,1,0,Ovulation
+35,27,18,2,5,4,1,1,Ovulation
+35,27,27,2,4,2,3,4,Late Luteal
+35,27,18,2,4,5,1,1,Ovulation
+35,27,10,2,2,4,1,0,Follicular
+36,28,3,2,3,3,3,2,Menstrual
+36,28,9,1,5,2,2,1,Follicular
+36,28,19,0,1,3,2,4,Early Luteal
+36,28,9,0,4,5,2,2,Follicular
+36,28,27,0,1,5,3,3,Late Luteal
+36,28,17,2,3,5,1,1,Ovulation
+36,28,18,1,4,5,2,1,Ovulation
+36,28,3,0,1,1,2,2,Menstrual
+36,28,19,1,3,1,3,3,Early Luteal
+36,28,22,1,3,4,3,2,Early Luteal
+36,28,1,2,1,2,2,4,Menstrual
+36,28,16,0,4,5,1,1,Ovulation
+36,28,3,0,1,2,4,2,Menstrual
+36,28,14,2,5,5,2,2,Ovulation
+36,28,21,0,2,2,4,3,Early Luteal
+36,28,21,2,4,4,2,2,Early Luteal
+36,28,11,1,3,3,1,2,Follicular
+36,28,27,2,4,3,5,5,Late Luteal
+36,28,9,1,4,3,2,1,Follicular
+36,28,11,2,2,5,2,1,Follicular
+37,31,19,2,4,3,1,0,Ovulation
+37,31,8,1,4,5,0,0,Follicular
+37,31,2,1,3,2,2,2,Menstrual
+37,31,6,1,2,3,2,2,Menstrual
+37,31,10,1,5,3,1,0,Follicular
+37,31,12,1,5,4,0,0,Follicular
+37,31,22,2,2,2,1,3,Early Luteal
+37,31,2,1,3,2,2,1,Menstrual
+37,31,25,2,2,2,1,1,Early Luteal
+37,31,7,1,4,5,0,0,Follicular
+37,31,30,0,1,3,3,5,Late Luteal
+37,31,1,2,1,3,3,2,Menstrual
+37,31,22,1,4,3,2,2,Early Luteal
+37,31,22,1,3,4,1,1,Early Luteal
+37,31,26,1,4,2,1,1,Early Luteal
+37,31,18,2,4,3,0,0,Ovulation
+37,31,3,2,2,2,3,2,Menstrual
+37,31,26,1,4,4,3,2,Early Luteal
+37,31,13,2,4,4,1,1,Follicular
+37,31,18,0,5,4,1,1,Ovulation
+38,30,24,2,4,4,2,0,Early Luteal
+38,30,5,2,3,4,0,2,Menstrual
+38,30,7,2,5,3,0,0,Follicular
+38,30,17,1,4,4,0,0,Ovulation
+38,30,18,1,3,5,0,0,Ovulation
+38,30,16,0,3,4,0,0,Ovulation
+38,30,14,1,5,4,0,0,Follicular
+38,30,28,0,2,3,4,3,Late Luteal
+38,30,1,2,1,3,2,1,Menstrual
+38,30,19,1,4,4,0,0,Ovulation
+38,30,12,1,4,3,0,0,Follicular
+38,30,21,2,5,5,1,2,Early Luteal
+38,30,20,2,2,2,0,2,Early Luteal
+38,30,26,2,3,1,4,4,Late Luteal
+38,30,5,2,2,3,2,2,Menstrual
+38,30,14,0,2,3,0,0,Follicular
+38,30,29,2,4,1,1,1,Late Luteal
+38,30,25,0,2,3,1,0,Early Luteal
+38,30,9,1,5,5,0,0,Follicular
+38,30,4,2,2,3,0,1,Menstrual
+39,31,29,1,2,2,3,3,Late Luteal
+39,31,31,2,1,2,2,5,Late Luteal
+39,31,3,1,1,3,1,3,Menstrual
+39,31,23,0,3,5,2,2,Early Luteal
+39,31,26,1,3,3,3,2,Early Luteal
+39,31,28,1,3,1,3,2,Late Luteal
+39,31,2,1,1,2,1,1,Menstrual
+39,31,11,2,4,3,0,1,Follicular
+39,31,9,0,3,4,0,1,Follicular
+39,31,18,1,5,4,0,0,Ovulation
+39,31,20,2,3,4,1,1,Early Luteal
+39,31,21,2,2,1,2,3,Early Luteal
+39,31,22,2,3,3,3,1,Early Luteal
+39,31,12,0,2,3,0,0,Follicular
+39,31,14,2,4,5,1,0,Follicular
+39,31,30,2,2,3,2,2,Late Luteal
+39,31,24,0,3,1,3,3,Early Luteal
+39,31,2,0,1,2,1,2,Menstrual
+39,31,18,2,4,4,1,1,Ovulation
+39,31,15,1,4,4,0,1,Ovulation
+40,31,1,1,4,5,3,3,Menstrual
+40,31,8,1,3,5,1,1,Follicular
+40,31,12,2,4,3,2,1,Follicular
+40,31,26,0,1,2,2,3,Early Luteal
+40,31,13,1,2,5,1,2,Follicular
+40,31,12,2,3,5,2,2,Follicular
+40,31,13,2,4,2,2,2,Follicular
+40,31,9,2,5,5,1,1,Follicular
+40,31,5,1,2,3,4,4,Menstrual
+40,31,30,1,2,1,5,4,Late Luteal
+40,31,31,1,1,3,3,4,Late Luteal
+40,31,25,2,2,4,3,4,Early Luteal
+40,31,18,2,4,5,1,2,Ovulation
+40,31,27,1,2,2,4,3,Late Luteal
+40,31,22,0,3,2,2,2,Early Luteal
+40,31,1,2,2,3,3,2,Menstrual
+40,31,21,0,2,4,3,4,Early Luteal
+40,31,11,2,4,5,1,2,Follicular
+40,31,9,1,4,3,2,2,Follicular
+40,31,4,2,2,4,4,2,Menstrual
+41,30,13,1,4,5,1,1,Follicular
+41,30,7,1,5,5,1,1,Follicular
+41,30,10,1,5,5,1,0,Follicular
+41,30,25,1,2,2,2,1,Early Luteal
+41,30,18,1,5,4,1,1,Ovulation
+41,30,23,1,3,2,2,3,Early Luteal
+41,30,26,2,1,4,5,5,Late Luteal
+41,30,5,2,3,3,1,1,Follicular
+41,30,2,2,2,3,2,2,Menstrual
+41,30,4,2,2,4,1,1,Follicular
+41,30,2,1,3,3,2,1,Menstrual
+41,30,23,2,2,4,1,3,Early Luteal
+41,30,17,2,5,4,0,0,Ovulation
+41,30,17,2,4,5,1,1,Ovulation
+41,30,23,1,3,4,1,3,Early Luteal
+41,30,28,1,3,2,2,3,Late Luteal
+41,30,27,1,2,1,3,3,Late Luteal
+41,30,1,2,3,3,2,2,Menstrual
+41,30,9,2,3,3,0,1,Follicular
+41,30,9,2,3,5,1,0,Follicular
+42,29,10,1,5,4,0,0,Follicular
+42,29,12,2,5,4,0,0,Follicular
+42,29,9,2,5,5,0,0,Follicular
+42,29,28,1,1,1,1,4,Late Luteal
+42,29,21,2,3,2,2,1,Early Luteal
+42,29,2,1,2,5,0,2,Menstrual
+42,29,23,2,2,3,1,1,Early Luteal
+42,29,17,0,4,5,0,0,Ovulation
+42,29,23,2,2,1,2,2,Early Luteal
+42,29,14,2,5,5,0,0,Ovulation
+42,29,5,1,4,3,0,0,Follicular
+42,29,10,0,5,4,0,0,Follicular
+42,29,19,0,3,4,0,1,Early Luteal
+42,29,3,2,1,1,1,2,Menstrual
+42,29,12,2,3,5,0,0,Follicular
+42,29,17,1,4,5,0,0,Ovulation
+42,29,12,1,3,3,0,0,Follicular
+42,29,11,2,5,5,0,0,Follicular
+42,29,11,1,5,5,0,0,Follicular
+42,29,18,2,5,4,0,0,Ovulation
+43,28,22,1,3,4,4,3,Early Luteal
+43,28,4,1,3,2,2,2,Menstrual
+43,28,19,2,5,2,3,3,Early Luteal
+43,28,26,2,2,5,5,4,Late Luteal
+43,28,3,0,2,2,3,4,Menstrual
+43,28,18,0,3,5,1,1,Ovulation
+43,28,27,1,2,2,5,4,Late Luteal
+43,28,20,1,3,4,2,3,Early Luteal
+43,28,9,1,4,5,2,2,Follicular
+43,28,19,2,2,5,4,4,Early Luteal
+43,28,5,0,2,3,2,2,Menstrual
+43,28,19,2,2,2,2,2,Early Luteal
+43,28,27,2,1,1,4,4,Late Luteal
+43,28,14,2,4,4,1,2,Ovulation
+43,28,20,0,3,4,2,3,Early Luteal
+43,28,4,0,2,2,3,3,Menstrual
+43,28,11,0,2,4,1,2,Follicular
+43,28,7,1,4,4,2,2,Follicular
+43,28,14,2,5,5,1,2,Ovulation
+43,28,15,1,5,5,1,2,Ovulation
+44,30,13,1,5,3,1,1,Follicular
+44,30,2,2,2,2,3,1,Menstrual
+44,30,17,1,5,5,0,1,Ovulation
+44,30,19,1,4,4,1,0,Ovulation
+44,30,23,2,4,2,2,3,Early Luteal
+44,30,15,2,4,4,0,0,Follicular
+44,30,24,0,1,2,1,2,Early Luteal
+44,30,1,1,1,2,2,1,Menstrual
+44,30,27,2,3,3,5,3,Late Luteal
+44,30,26,1,2,3,5,5,Late Luteal
+44,30,20,1,5,3,1,0,Ovulation
+44,30,8,2,5,4,0,1,Follicular
+44,30,10,2,5,3,1,0,Follicular
+44,30,11,2,4,3,1,1,Follicular
+44,30,25,1,3,2,2,2,Early Luteal
+44,30,23,1,3,4,3,3,Early Luteal
+44,30,29,1,2,1,3,4,Late Luteal
+44,30,28,1,3,3,4,3,Late Luteal
+44,30,17,1,4,4,1,0,Ovulation
+44,30,19,0,5,5,1,0,Ovulation
+45,26,19,1,4,3,3,3,Early Luteal
+45,26,15,1,4,4,0,1,Ovulation
+45,26,12,0,3,5,0,0,Follicular
+45,26,5,2,2,3,2,3,Menstrual
+45,26,18,2,5,5,1,1,Ovulation
+45,26,6,0,2,4,1,3,Menstrual
+45,26,15,2,5,4,0,0,Ovulation
+45,26,22,1,3,1,2,5,Late Luteal
+45,26,13,1,5,2,1,0,Follicular
+45,26,3,2,2,4,2,2,Menstrual
+45,26,5,0,1,4,1,3,Menstrual
+45,26,24,1,3,3,4,3,Late Luteal
+45,26,11,1,3,5,0,1,Follicular
+45,26,1,2,1,3,2,1,Menstrual
+45,26,2,1,1,3,2,1,Menstrual
+45,26,4,1,1,3,1,1,Menstrual
+45,26,23,1,3,3,3,2,Late Luteal
+45,26,22,2,3,1,2,4,Late Luteal
+45,26,11,1,3,4,1,1,Follicular
+45,26,4,1,2,1,3,2,Menstrual
+46,26,8,0,5,3,0,0,Follicular
+46,26,11,1,2,3,1,0,Follicular
+46,26,12,0,4,3,1,1,Follicular
+46,26,8,2,2,5,0,1,Follicular
+46,26,19,1,2,2,1,1,Early Luteal
+46,26,9,2,5,2,1,0,Follicular
+46,26,21,1,2,4,1,1,Early Luteal
+46,26,7,0,3,2,1,0,Follicular
+46,26,15,2,5,4,1,0,Ovulation
+46,26,25,0,1,4,3,4,Late Luteal
+46,26,4,0,1,2,3,2,Menstrual
+46,26,25,1,2,3,5,5,Late Luteal
+46,26,13,1,4,4,1,1,Ovulation
+46,26,2,0,1,4,1,1,Menstrual
+46,26,23,0,3,1,4,5,Late Luteal
+46,26,16,1,4,5,0,1,Ovulation
+46,26,9,0,4,4,1,0,Follicular
+46,26,10,1,3,5,0,0,Follicular
+46,26,2,1,4,4,2,3,Menstrual
+46,26,4,1,2,4,3,2,Menstrual
+47,29,9,1,5,5,1,1,Follicular
+47,29,8,1,3,5,1,1,Follicular
+47,29,4,1,5,4,0,0,Follicular
+47,29,10,1,4,3,1,0,Follicular
+47,29,15,2,4,4,1,0,Ovulation
+47,29,9,2,4,5,0,0,Follicular
+47,29,9,1,5,5,1,0,Follicular
+47,29,25,0,1,1,3,5,Late Luteal
+47,29,18,2,5,4,1,1,Ovulation
+47,29,24,1,4,3,1,3,Early Luteal
+47,29,26,1,1,2,2,2,Late Luteal
+47,29,2,2,3,2,1,3,Menstrual
+47,29,22,2,2,3,1,3,Early Luteal
+47,29,19,2,2,3,1,2,Early Luteal
+47,29,15,1,4,5,0,0,Ovulation
+47,29,26,2,1,2,2,4,Late Luteal
+47,29,20,1,2,2,1,2,Early Luteal
+47,29,22,1,5,2,2,2,Early Luteal
+47,29,9,2,5,4,0,0,Follicular
+47,29,15,0,3,5,0,0,Ovulation
+48,27,20,2,2,4,1,2,Early Luteal
+48,27,25,0,2,3,4,5,Late Luteal
+48,27,18,2,4,5,0,0,Ovulation
+48,27,19,2,2,2,1,1,Early Luteal
+48,27,7,1,5,5,1,1,Follicular
+48,27,16,2,4,5,0,0,Ovulation
+48,27,6,1,1,3,3,1,Menstrual
+48,27,27,1,1,2,5,2,Late Luteal
+48,27,6,2,3,2,3,3,Menstrual
+48,27,11,1,3,3,0,0,Follicular
+48,27,21,2,4,4,3,2,Early Luteal
+48,27,6,0,1,4,3,2,Menstrual
+48,27,8,1,5,5,1,1,Follicular
+48,27,27,2,3,1,5,4,Late Luteal
+48,27,23,0,1,1,5,4,Late Luteal
+48,27,27,2,3,2,5,2,Late Luteal
+48,27,27,2,3,2,5,4,Late Luteal
+48,27,1,2,2,3,2,1,Menstrual
+48,27,8,1,3,3,0,1,Follicular
+48,27,21,1,3,4,1,2,Early Luteal
+49,30,10,1,3,3,0,0,Follicular
+49,30,25,1,2,3,0,2,Early Luteal
+49,30,16,0,3,4,0,0,Ovulation
+49,30,6,1,1,4,1,2,Menstrual
+49,30,7,1,2,3,0,1,Menstrual
+49,30,29,1,2,3,2,4,Late Luteal
+49,30,12,0,4,5,0,0,Follicular
+49,30,21,0,2,2,2,1,Early Luteal
+49,30,24,2,4,4,2,2,Early Luteal
+49,30,22,0,2,2,1,2,Early Luteal
+49,30,13,1,4,3,0,0,Follicular
+49,30,5,1,1,3,2,0,Menstrual
+49,30,27,2,2,2,3,2,Late Luteal
+49,30,27,2,2,1,1,1,Late Luteal
+49,30,29,0,2,2,2,3,Late Luteal
+49,30,18,1,5,5,0,0,Ovulation
+49,30,27,2,3,3,2,3,Late Luteal
+49,30,21,2,3,2,0,2,Early Luteal
+49,30,7,1,2,4,1,0,Menstrual
+49,30,14,0,3,2,0,0,Follicular
+50,30,12,1,5,4,1,1,Follicular
+50,30,8,2,4,5,1,1,Follicular
+50,30,16,0,4,5,1,1,Ovulation
+50,30,2,0,1,2,3,2,Menstrual
+50,30,24,0,3,3,1,2,Early Luteal
+50,30,12,1,4,5,1,0,Follicular
+50,30,14,2,4,5,1,1,Ovulation
+50,30,22,0,1,4,1,1,Early Luteal
+50,30,12,2,4,4,1,0,Follicular
+50,30,18,1,4,5,0,0,Ovulation
+50,30,8,2,5,3,0,0,Follicular
+50,30,23,2,4,3,1,1,Early Luteal
+50,30,30,2,2,4,5,5,Late Luteal
+50,30,28,1,1,1,5,4,Late Luteal
+50,30,29,2,3,1,5,3,Late Luteal
+50,30,10,2,4,3,1,0,Follicular
+50,30,4,2,3,3,0,0,Follicular
+50,30,3,2,1,3,3,1,Menstrual
+50,30,20,0,1,3,2,1,Early Luteal
+50,30,8,2,5,3,1,0,Follicular
+51,26,6,1,3,3,2,0,Menstrual
+51,26,1,1,3,3,0,1,Menstrual
+51,26,15,2,5,4,0,0,Ovulation
+51,26,2,1,1,3,1,1,Menstrual
+51,26,18,2,5,5,0,0,Ovulation
+51,26,24,2,1,4,1,4,Late Luteal
+51,26,12,1,4,5,0,0,Follicular
+51,26,16,0,3,5,0,0,Ovulation
+51,26,15,2,5,5,0,0,Ovulation
+51,26,25,1,3,2,3,4,Late Luteal
+51,26,21,1,4,2,0,1,Early Luteal
+51,26,13,2,4,5,0,0,Follicular
+51,26,26,2,1,2,3,3,Late Luteal
+51,26,8,1,3,3,0,0,Follicular
+51,26,3,1,3,2,2,2,Menstrual
+51,26,8,2,4,3,0,0,Follicular
+51,26,6,1,2,3,0,0,Menstrual
+51,26,8,1,4,3,0,0,Follicular
+51,26,20,1,4,3,1,2,Early Luteal
+51,26,26,0,1,2,3,1,Late Luteal
+52,28,25,0,1,3,4,1,Late Luteal
+52,28,10,2,5,5,0,0,Follicular
+52,28,9,1,3,4,0,0,Follicular
+52,28,5,1,4,3,0,0,Follicular
+52,28,26,1,2,2,4,3,Late Luteal
+52,28,21,2,4,2,1,0,Early Luteal
+52,28,9,2,5,3,0,0,Follicular
+52,28,12,0,4,3,0,0,Follicular
+52,28,11,1,4,5,0,0,Follicular
+52,28,25,1,3,2,2,4,Late Luteal
+52,28,23,0,1,3,2,2,Early Luteal
+52,28,7,1,4,3,0,0,Follicular
+52,28,23,2,4,4,1,1,Early Luteal
+52,28,12,2,3,3,0,0,Follicular
+52,28,25,0,1,2,1,2,Late Luteal
+52,28,24,2,2,2,4,1,Late Luteal
+52,28,7,1,4,4,0,0,Follicular
+52,28,12,2,4,4,0,0,Follicular
+52,28,13,0,4,3,0,0,Follicular
+52,28,8,2,5,4,0,0,Follicular
+53,30,21,1,3,3,2,3,Early Luteal
+53,30,28,0,2,2,3,4,Late Luteal
+53,30,4,1,4,3,0,0,Follicular
+53,30,16,2,4,4,1,1,Ovulation
+53,30,5,2,4,5,1,1,Follicular
+53,30,27,1,1,4,2,4,Late Luteal
+53,30,21,2,5,2,3,3,Early Luteal
+53,30,8,0,3,5,1,0,Follicular
+53,30,18,2,4,5,1,0,Ovulation
+53,30,2,2,3,3,2,1,Menstrual
+53,30,21,0,3,3,3,3,Early Luteal
+53,30,28,1,2,3,5,4,Late Luteal
+53,30,3,1,1,4,2,1,Menstrual
+53,30,10,2,5,3,0,0,Follicular
+53,30,8,2,3,3,0,0,Follicular
+53,30,8,2,4,5,0,1,Follicular
+53,30,22,1,3,3,3,2,Early Luteal
+53,30,18,0,4,5,0,1,Ovulation
+53,30,1,1,3,3,1,3,Menstrual
+53,30,9,2,4,4,1,1,Follicular
+54,28,5,0,5,4,1,0,Follicular
+54,28,10,1,3,4,1,1,Follicular
+54,28,15,2,5,5,0,1,Ovulation
+54,28,23,2,4,4,1,3,Early Luteal
+54,28,15,1,4,4,1,1,Ovulation
+54,28,18,1,2,3,1,2,Early Luteal
+54,28,11,0,3,5,0,0,Follicular
+54,28,23,2,4,2,1,3,Early Luteal
+54,28,5,1,5,5,1,1,Follicular
+54,28,13,2,4,5,0,1,Ovulation
+54,28,24,2,1,5,2,4,Late Luteal
+54,28,10,0,3,3,1,1,Follicular
+54,28,18,2,4,2,1,1,Early Luteal
+54,28,20,2,4,2,2,3,Early Luteal
+54,28,2,2,1,2,2,2,Menstrual
+54,28,26,2,2,2,2,3,Late Luteal
+54,28,8,1,5,5,0,0,Follicular
+54,28,10,1,4,3,0,0,Follicular
+54,28,8,0,3,5,0,1,Follicular
+54,28,5,2,5,5,0,0,Follicular
+55,27,7,1,3,1,2,3,Menstrual
+55,27,19,2,3,5,0,0,Ovulation
+55,27,8,2,4,5,1,0,Follicular
+55,27,15,1,4,4,0,0,Ovulation
+55,27,25,1,4,3,3,2,Late Luteal
+55,27,17,1,4,4,0,1,Ovulation
+55,27,26,1,2,4,2,5,Late Luteal
+55,27,17,1,5,3,1,1,Ovulation
+55,27,3,1,1,3,3,3,Menstrual
+55,27,23,1,1,1,3,3,Late Luteal
+55,27,5,1,1,1,1,1,Menstrual
+55,27,3,1,1,3,3,1,Menstrual
+55,27,25,2,2,1,4,3,Late Luteal
+55,27,13,2,5,5,1,1,Follicular
+55,27,15,1,3,5,0,1,Ovulation
+55,27,25,2,1,3,5,3,Late Luteal
+55,27,6,1,3,2,2,3,Menstrual
+55,27,15,1,3,4,1,1,Ovulation
+55,27,27,2,3,5,5,5,Late Luteal
+55,27,26,1,1,3,4,3,Late Luteal
+56,26,24,2,1,2,3,4,Late Luteal
+56,26,3,2,2,4,3,2,Menstrual
+56,26,7,2,4,4,1,0,Follicular
+56,26,4,2,2,4,1,3,Menstrual
+56,26,22,2,1,4,2,3,Late Luteal
+56,26,17,1,4,4,1,0,Ovulation
+56,26,6,1,3,4,1,1,Follicular
+56,26,13,1,4,5,0,0,Ovulation
+56,26,10,2,4,5,0,1,Follicular
+56,26,15,1,5,5,1,1,Ovulation
+56,26,16,0,3,5,1,0,Ovulation
+56,26,5,0,3,5,1,0,Follicular
+56,26,24,2,3,1,4,4,Late Luteal
+56,26,5,1,3,4,1,1,Follicular
+56,26,15,1,5,4,0,1,Ovulation
+56,26,10,1,3,3,0,1,Follicular
+56,26,1,0,1,2,3,3,Menstrual
+56,26,5,1,4,2,1,1,Follicular
+56,26,9,2,4,3,1,1,Follicular
+56,26,25,2,1,1,2,3,Late Luteal
+57,27,10,1,4,5,0,0,Follicular
+57,27,9,1,4,5,0,0,Follicular
+57,27,10,1,5,3,0,0,Follicular
+57,27,15,2,5,5,0,0,Ovulation
+57,27,19,2,2,5,0,2,Early Luteal
+57,27,23,2,1,1,4,1,Late Luteal
+57,27,26,0,1,2,3,1,Late Luteal
+57,27,19,2,2,3,0,0,Early Luteal
+57,27,16,1,4,5,0,0,Ovulation
+57,27,1,2,2,1,1,2,Menstrual
+57,27,21,1,3,4,2,1,Early Luteal
+57,27,20,1,3,3,1,1,Early Luteal
+57,27,22,2,2,4,0,2,Early Luteal
+57,27,2,2,2,4,2,0,Menstrual
+57,27,15,2,5,5,0,0,Ovulation
+57,27,11,2,4,3,0,0,Follicular
+57,27,22,1,1,3,2,2,Early Luteal
+57,27,27,0,2,2,2,3,Late Luteal
+57,27,24,0,1,1,3,1,Late Luteal
+57,27,8,2,4,3,0,0,Follicular
+58,26,13,2,5,4,0,1,Ovulation
+58,26,16,1,4,5,0,0,Ovulation
+58,26,2,1,2,2,1,2,Menstrual
+58,26,14,0,4,5,0,0,Ovulation
+58,26,7,2,4,2,0,1,Follicular
+58,26,17,0,5,5,1,1,Ovulation
+58,26,5,1,4,3,0,1,Follicular
+58,26,15,2,4,4,0,1,Ovulation
+58,26,16,1,4,4,1,1,Ovulation
+58,26,12,2,3,4,0,1,Follicular
+58,26,4,0,1,2,1,3,Menstrual
+58,26,6,2,4,3,0,0,Follicular
+58,26,17,0,4,5,0,1,Ovulation
+58,26,17,0,4,4,1,1,Ovulation
+58,26,14,1,5,4,0,1,Ovulation
+58,26,25,1,1,4,4,4,Late Luteal
+58,26,13,1,5,5,0,1,Ovulation
+58,26,4,2,3,3,3,1,Menstrual
+58,26,4,1,1,3,1,3,Menstrual
+58,26,9,0,3,3,1,0,Follicular
+59,28,5,2,3,4,0,1,Follicular
+59,28,27,1,2,2,5,2,Late Luteal
+59,28,21,2,2,4,1,3,Early Luteal
+59,28,11,1,3,5,1,0,Follicular
+59,28,3,1,3,4,3,1,Menstrual
+59,28,3,2,3,4,1,3,Menstrual
+59,28,20,2,3,3,3,1,Early Luteal
+59,28,22,2,3,2,1,1,Early Luteal
+59,28,26,1,3,3,4,4,Late Luteal
+59,28,18,2,3,4,0,1,Ovulation
+59,28,16,2,3,3,1,0,Ovulation
+59,28,20,2,4,2,2,2,Early Luteal
+59,28,7,2,3,3,1,0,Follicular
+59,28,9,1,4,4,1,1,Follicular
+59,28,5,0,2,2,1,1,Follicular
+59,28,13,2,2,4,0,1,Follicular
+59,28,15,1,5,4,1,0,Ovulation
+59,28,20,2,3,4,2,3,Early Luteal
+59,28,16,1,5,4,1,1,Ovulation
+59,28,2,2,3,3,3,1,Menstrual
+60,26,9,1,3,5,2,1,Follicular
+60,26,7,0,3,5,1,1,Follicular
+60,26,4,2,3,4,3,2,Menstrual
+60,26,11,2,5,5,1,2,Follicular
+60,26,7,0,3,5,2,1,Follicular
+60,26,10,1,5,3,1,2,Follicular
+60,26,16,2,4,4,2,1,Ovulation
+60,26,7,2,5,3,1,1,Follicular
+60,26,13,1,5,3,2,2,Ovulation
+60,26,8,1,3,3,1,2,Follicular
+60,26,2,1,1,3,4,2,Menstrual
+60,26,25,1,2,4,5,5,Late Luteal
+60,26,22,1,1,3,3,5,Late Luteal
+60,26,18,1,2,2,3,2,Early Luteal
+60,26,3,1,1,4,3,3,Menstrual
+60,26,6,2,4,4,2,2,Follicular
+60,26,22,1,2,1,5,3,Late Luteal
+60,26,25,2,3,1,5,5,Late Luteal
+60,26,15,1,4,4,2,2,Ovulation
+60,26,21,0,2,4,3,3,Early Luteal
+61,31,30,1,3,4,3,5,Late Luteal
+61,31,18,2,4,4,0,1,Ovulation
+61,31,9,2,4,3,0,1,Follicular
+61,31,26,1,5,3,3,3,Early Luteal
+61,31,25,0,2,1,1,3,Early Luteal
+61,31,26,1,3,3,2,1,Early Luteal
+61,31,19,0,3,5,0,1,Ovulation
+61,31,20,2,5,5,0,1,Ovulation
+61,31,23,0,1,2,3,3,Early Luteal
+61,31,2,1,3,4,1,2,Menstrual
+61,31,2,1,3,5,2,1,Menstrual
+61,31,25,2,4,3,3,1,Early Luteal
+61,31,17,2,5,4,1,1,Ovulation
+61,31,26,1,2,4,2,2,Early Luteal
+61,31,11,2,4,2,1,0,Follicular
+61,31,7,0,2,3,0,0,Follicular
+61,31,5,2,1,3,1,1,Menstrual
+61,31,1,0,1,1,1,2,Menstrual
+61,31,6,1,4,3,2,3,Menstrual
+61,31,16,1,3,4,1,0,Ovulation
+62,27,7,1,4,5,2,1,Follicular
+62,27,24,2,1,1,5,5,Late Luteal
+62,27,15,1,5,4,2,2,Ovulation
+62,27,1,1,1,3,4,4,Menstrual
+62,27,2,2,4,3,4,4,Menstrual
+62,27,19,0,2,4,3,3,Early Luteal
+62,27,16,0,4,5,2,2,Ovulation
+62,27,2,1,3,3,4,3,Menstrual
+62,27,16,1,4,5,1,2,Ovulation
+62,27,21,2,3,2,4,4,Early Luteal
+62,27,11,0,1,4,1,1,Follicular
+62,27,22,1,4,4,4,4,Early Luteal
+62,27,8,2,3,4,2,2,Follicular
+62,27,6,2,4,5,1,2,Follicular
+62,27,27,2,2,4,4,3,Late Luteal
+62,27,14,1,5,5,1,1,Ovulation
+62,27,11,0,3,3,2,1,Follicular
+62,27,2,1,1,3,3,3,Menstrual
+62,27,8,2,4,4,1,2,Follicular
+62,27,6,0,3,5,2,2,Follicular
+63,27,5,2,4,4,0,1,Follicular
+63,27,1,0,2,4,2,3,Menstrual
+63,27,16,1,4,5,0,1,Ovulation
+63,27,12,1,4,4,1,0,Follicular
+63,27,19,0,2,4,3,1,Early Luteal
+63,27,17,2,4,5,1,1,Ovulation
+63,27,1,1,2,4,1,1,Menstrual
+63,27,5,1,3,3,0,0,Follicular
+63,27,25,2,2,1,3,4,Late Luteal
+63,27,22,1,2,3,2,1,Early Luteal
+63,27,3,0,1,3,1,1,Menstrual
+63,27,18,1,4,4,3,3,Early Luteal
+63,27,16,2,5,4,0,0,Ovulation
+63,27,23,2,1,1,2,3,Late Luteal
+63,27,16,2,4,4,0,0,Ovulation
+63,27,22,1,4,4,1,3,Early Luteal
+63,27,24,2,1,2,4,2,Late Luteal
+63,27,26,2,2,1,2,2,Late Luteal
+63,27,14,1,4,4,0,0,Ovulation
+63,27,27,1,1,3,3,5,Late Luteal
+64,26,13,1,3,4,1,1,Follicular
+64,26,10,1,5,3,0,0,Follicular
+64,26,16,0,4,4,0,1,Ovulation
+64,26,1,1,3,2,3,2,Menstrual
+64,26,14,1,5,5,0,0,Ovulation
+64,26,25,2,1,2,5,2,Late Luteal
+64,26,8,2,4,2,0,0,Follicular
+64,26,17,1,5,5,1,1,Ovulation
+64,26,12,0,3,3,1,1,Follicular
+64,26,6,2,1,2,3,3,Menstrual
+64,26,1,1,1,5,2,2,Menstrual
+64,26,7,2,4,2,0,0,Follicular
+64,26,1,2,4,3,1,1,Menstrual
+64,26,5,2,3,3,3,3,Menstrual
+64,26,23,2,2,2,2,2,Late Luteal
+64,26,25,0,1,3,2,5,Late Luteal
+64,26,11,0,4,5,1,0,Follicular
+64,26,15,2,5,4,1,0,Ovulation
+64,26,16,2,4,4,0,0,Ovulation
+64,26,17,2,5,5,1,1,Ovulation
+65,31,25,0,1,2,3,2,Early Luteal
+65,31,29,2,1,3,5,5,Late Luteal
+65,31,29,2,1,1,3,2,Late Luteal
+65,31,5,1,1,2,1,2,Menstrual
+65,31,8,2,4,3,1,0,Follicular
+65,31,5,0,1,2,2,3,Menstrual
+65,31,25,1,2,2,1,1,Early Luteal
+65,31,11,1,4,2,1,1,Follicular
+65,31,30,1,3,4,5,2,Late Luteal
+65,31,22,2,2,5,2,3,Early Luteal
+65,31,27,2,2,1,4,5,Late Luteal
+65,31,14,0,2,3,0,0,Follicular
+65,31,29,0,2,4,5,3,Late Luteal
+65,31,2,2,1,4,3,2,Menstrual
+65,31,25,1,4,2,2,2,Early Luteal
+65,31,3,2,3,4,3,2,Menstrual
+65,31,3,1,3,4,1,3,Menstrual
+65,31,29,2,1,3,4,3,Late Luteal
+65,31,15,1,5,3,1,1,Follicular
+65,31,29,2,1,1,3,2,Late Luteal
+66,28,28,1,2,3,4,2,Late Luteal
+66,28,20,1,2,1,1,0,Early Luteal
+66,28,14,1,5,5,0,0,Ovulation
+66,28,14,1,5,4,0,0,Ovulation
+66,28,18,1,4,5,0,0,Ovulation
+66,28,7,1,4,5,0,0,Follicular
+66,28,12,2,3,4,0,0,Follicular
+66,28,10,0,2,5,0,0,Follicular
+66,28,15,2,4,5,0,0,Ovulation
+66,28,23,1,2,3,0,0,Early Luteal
+66,28,21,1,3,3,2,2,Early Luteal
+66,28,4,0,2,4,2,2,Menstrual
+66,28,20,2,3,4,0,1,Early Luteal
+66,28,9,1,4,3,0,0,Follicular
+66,28,10,2,5,3,0,0,Follicular
+66,28,20,0,2,1,1,0,Early Luteal
+66,28,4,1,2,3,1,1,Menstrual
+66,28,11,0,2,2,0,0,Follicular
+66,28,24,2,1,1,1,3,Late Luteal
+66,28,14,0,4,4,0,0,Ovulation
+67,28,12,1,5,5,0,1,Follicular
+67,28,26,1,3,2,5,2,Late Luteal
+67,28,25,0,1,1,5,2,Late Luteal
+67,28,8,2,3,5,1,1,Follicular
+67,28,11,0,4,3,1,0,Follicular
+67,28,14,2,5,5,1,1,Ovulation
+67,28,9,2,5,4,0,0,Follicular
+67,28,9,1,5,3,0,1,Follicular
+67,28,10,0,4,3,1,1,Follicular
+67,28,16,1,5,5,0,0,Ovulation
+67,28,24,2,2,1,4,3,Late Luteal
+67,28,6,2,4,3,1,0,Follicular
+67,28,5,2,4,5,0,1,Follicular
+67,28,1,0,2,2,1,1,Menstrual
+67,28,8,1,3,3,1,0,Follicular
+67,28,4,1,3,5,0,0,Follicular
+67,28,18,0,3,5,3,3,Early Luteal
+67,28,23,2,3,4,3,1,Early Luteal
+67,28,11,1,4,3,1,0,Follicular
+67,28,19,1,1,3,2,1,Early Luteal
+68,27,9,2,5,3,0,0,Follicular
+68,27,13,1,5,5,0,0,Follicular
+68,27,20,0,1,2,1,1,Early Luteal
+68,27,15,0,4,5,0,0,Ovulation
+68,27,4,2,2,3,2,0,Menstrual
+68,27,5,2,2,3,1,2,Menstrual
+68,27,10,2,5,4,0,0,Follicular
+68,27,25,0,1,1,2,1,Late Luteal
+68,27,15,2,4,5,0,0,Ovulation
+68,27,7,2,3,4,0,0,Follicular
+68,27,22,1,4,2,1,2,Early Luteal
+68,27,19,0,1,2,2,0,Early Luteal
+68,27,24,2,3,2,1,4,Late Luteal
+68,27,14,0,4,4,0,0,Ovulation
+68,27,5,2,2,4,0,0,Menstrual
+68,27,12,2,3,4,0,0,Follicular
+68,27,4,2,1,5,0,2,Menstrual
+68,27,23,0,1,3,4,3,Late Luteal
+68,27,1,2,2,2,0,0,Menstrual
+68,27,19,2,2,1,2,1,Early Luteal
+69,29,15,0,3,4,1,2,Ovulation
+69,29,22,1,2,3,2,3,Early Luteal
+69,29,7,2,4,4,2,1,Follicular
+69,29,7,1,5,5,2,1,Follicular
+69,29,6,1,5,3,1,2,Follicular
+69,29,16,2,3,4,2,2,Ovulation
+69,29,11,1,5,4,2,2,Follicular
+69,29,18,2,4,4,1,2,Ovulation
+69,29,6,0,4,3,2,1,Follicular
+69,29,21,2,4,4,4,3,Early Luteal
+69,29,27,2,1,1,5,3,Late Luteal
+69,29,14,2,5,4,2,2,Ovulation
+69,29,14,0,5,4,1,1,Ovulation
+69,29,4,1,3,3,3,2,Menstrual
+69,29,16,1,3,3,2,1,Ovulation
+69,29,20,1,4,1,4,3,Early Luteal
+69,29,29,2,2,3,3,3,Late Luteal
+69,29,20,1,3,2,2,3,Early Luteal
+69,29,13,1,5,4,1,2,Follicular
+69,29,17,2,5,4,1,2,Ovulation
+70,27,6,1,3,2,0,1,Follicular
+70,27,24,1,3,1,3,2,Late Luteal
+70,27,19,0,3,4,3,3,Early Luteal
+70,27,27,0,1,3,2,5,Late Luteal
+70,27,5,1,3,3,0,1,Follicular
+70,27,18,2,3,2,1,2,Early Luteal
+70,27,18,2,5,3,1,2,Early Luteal
+70,27,25,0,1,2,4,5,Late Luteal
+70,27,10,0,5,4,0,0,Follicular
+70,27,1,1,2,2,3,2,Menstrual
+70,27,6,1,3,4,0,0,Follicular
+70,27,24,1,1,2,3,4,Late Luteal
+70,27,27,2,2,4,3,4,Late Luteal
+70,27,17,1,3,5,1,1,Ovulation
+70,27,15,2,3,4,0,1,Ovulation
+70,27,8,2,3,4,0,0,Follicular
+70,27,6,0,4,5,1,0,Follicular
+70,27,23,1,1,2,4,2,Late Luteal
+70,27,8,1,3,5,1,1,Follicular
+70,27,9,2,5,3,1,1,Follicular
+71,26,23,1,3,3,3,4,Late Luteal
+71,26,13,2,5,4,0,0,Ovulation
+71,26,10,2,3,5,1,1,Follicular
+71,26,22,2,1,1,5,4,Late Luteal
+71,26,9,1,3,5,1,1,Follicular
+71,26,4,1,5,5,1,0,Follicular
+71,26,23,2,1,3,5,5,Late Luteal
+71,26,3,1,3,2,3,2,Menstrual
+71,26,7,2,4,5,0,0,Follicular
+71,26,11,2,4,5,0,0,Follicular
+71,26,25,2,1,2,4,4,Late Luteal
+71,26,16,1,4,5,0,1,Ovulation
+71,26,23,1,2,2,5,4,Late Luteal
+71,26,6,1,5,4,0,1,Follicular
+71,26,6,2,3,2,1,0,Follicular
+71,26,25,1,2,3,5,4,Late Luteal
+71,26,24,2,2,3,4,3,Late Luteal
+71,26,25,2,3,3,4,4,Late Luteal
+71,26,20,1,2,2,2,3,Early Luteal
+71,26,5,1,4,5,1,0,Follicular
+72,31,10,1,5,5,0,0,Follicular
+72,31,12,0,4,5,1,1,Follicular
+72,31,28,2,2,4,4,4,Late Luteal
+72,31,13,0,4,3,0,0,Follicular
+72,31,30,2,1,1,5,5,Late Luteal
+72,31,14,2,4,4,0,0,Follicular
+72,31,12,0,4,3,1,1,Follicular
+72,31,1,2,1,3,2,1,Menstrual
+72,31,21,2,4,3,1,3,Early Luteal
+72,31,7,1,3,3,0,0,Follicular
+72,31,21,0,2,2,3,1,Early Luteal
+72,31,6,2,4,4,1,1,Follicular
+72,31,25,1,4,3,2,3,Early Luteal
+72,31,30,1,2,4,4,2,Late Luteal
+72,31,17,2,5,4,0,1,Ovulation
+72,31,28,2,1,3,5,5,Late Luteal
+72,31,27,0,1,3,2,3,Late Luteal
+72,31,1,0,1,2,1,2,Menstrual
+72,31,2,1,3,3,1,2,Menstrual
+72,31,8,2,3,4,0,1,Follicular
+73,30,22,2,2,3,2,2,Early Luteal
+73,30,1,2,2,1,2,3,Menstrual
+73,30,22,0,1,3,1,3,Early Luteal
+73,30,3,2,2,4,1,2,Menstrual
+73,30,23,2,3,3,1,1,Early Luteal
+73,30,24,2,2,3,3,3,Early Luteal
+73,30,7,2,5,3,1,0,Follicular
+73,30,15,2,5,3,0,0,Follicular
+73,30,13,2,3,4,1,0,Follicular
+73,30,1,2,2,2,3,3,Menstrual
+73,30,23,0,4,4,3,3,Early Luteal
+73,30,8,1,3,4,0,1,Follicular
+73,30,24,2,2,3,2,3,Early Luteal
+73,30,21,0,2,4,3,1,Early Luteal
+73,30,9,1,4,3,0,1,Follicular
+73,30,11,2,4,5,0,1,Follicular
+73,30,30,2,2,2,5,3,Late Luteal
+73,30,26,1,3,4,5,4,Late Luteal
+73,30,14,1,5,5,0,1,Follicular
+73,30,22,2,2,4,3,3,Early Luteal
+74,28,27,2,1,1,4,5,Late Luteal
+74,28,8,1,3,4,1,0,Follicular
+74,28,3,1,1,4,2,3,Menstrual
+74,28,12,1,3,5,0,0,Follicular
+74,28,2,1,1,2,2,2,Menstrual
+74,28,19,1,3,4,1,2,Early Luteal
+74,28,27,0,2,3,2,5,Late Luteal
+74,28,6,2,5,5,0,0,Follicular
+74,28,7,2,4,3,0,1,Follicular
+74,28,1,2,1,3,1,2,Menstrual
+74,28,5,2,3,5,1,0,Follicular
+74,28,1,1,3,2,3,2,Menstrual
+74,28,24,2,1,5,2,4,Late Luteal
+74,28,7,2,4,4,1,0,Follicular
+74,28,3,1,2,4,3,2,Menstrual
+74,28,5,0,1,4,1,1,Follicular
+74,28,22,1,4,3,2,2,Early Luteal
+74,28,23,1,3,4,1,3,Early Luteal
+74,28,11,2,3,5,0,0,Follicular
+74,28,3,1,2,4,1,3,Menstrual
+75,26,8,0,2,3,1,0,Follicular
+75,26,13,1,5,4,1,1,Ovulation
+75,26,15,1,5,4,0,0,Ovulation
+75,26,16,1,4,5,0,0,Ovulation
+75,26,24,1,1,2,4,4,Late Luteal
+75,26,3,2,1,3,3,3,Menstrual
+75,26,2,0,1,5,1,2,Menstrual
+75,26,22,0,1,4,3,3,Late Luteal
+75,26,20,2,3,2,1,1,Early Luteal
+75,26,1,1,2,3,2,3,Menstrual
+75,26,21,2,4,2,2,3,Early Luteal
+75,26,3,1,1,3,1,3,Menstrual
+75,26,15,0,3,4,0,0,Ovulation
+75,26,10,0,2,4,0,1,Follicular
+75,26,2,2,4,3,1,2,Menstrual
+75,26,14,0,3,5,1,1,Ovulation
+75,26,4,1,4,4,2,2,Menstrual
+75,26,9,0,4,3,1,0,Follicular
+75,26,16,1,4,5,0,0,Ovulation
+75,26,9,1,3,4,1,1,Follicular
+76,27,22,2,3,4,3,2,Early Luteal
+76,27,2,1,2,3,1,1,Menstrual
+76,27,11,1,5,5,0,0,Follicular
+76,27,6,1,2,2,1,3,Menstrual
+76,27,9,0,3,4,1,1,Follicular
+76,27,14,0,2,4,0,1,Follicular
+76,27,12,2,4,5,0,0,Follicular
+76,27,6,1,4,4,1,3,Menstrual
+76,27,11,1,3,3,0,0,Follicular
+76,27,19,1,3,4,0,0,Ovulation
+76,27,22,1,2,3,2,2,Early Luteal
+76,27,15,1,5,4,1,0,Ovulation
+76,27,3,2,2,5,2,1,Menstrual
+76,27,19,2,5,5,0,0,Ovulation
+76,27,1,2,3,3,3,1,Menstrual
+76,27,3,1,4,3,3,3,Menstrual
+76,27,4,0,2,2,3,3,Menstrual
+76,27,26,2,1,3,2,2,Late Luteal
+76,27,25,2,3,1,4,5,Late Luteal
+76,27,18,2,5,5,1,1,Ovulation
+77,28,15,1,5,5,0,0,Ovulation
+77,28,8,1,3,3,0,0,Follicular
+77,28,28,0,1,4,2,1,Late Luteal
+77,28,25,1,2,1,1,3,Late Luteal
+77,28,1,1,2,2,2,2,Menstrual
+77,28,8,1,5,5,0,0,Follicular
+77,28,26,2,1,3,1,2,Late Luteal
+77,28,8,0,2,5,0,0,Follicular
+77,28,11,2,5,4,0,0,Follicular
+77,28,2,2,3,2,1,2,Menstrual
+77,28,14,1,5,3,0,0,Follicular
+77,28,1,2,1,3,1,1,Menstrual
+77,28,12,1,5,3,0,0,Follicular
+77,28,11,1,4,4,0,0,Follicular
+77,28,13,1,4,3,0,0,Follicular
+77,28,1,2,1,3,1,0,Menstrual
+77,28,7,2,1,5,0,0,Menstrual
+77,28,27,0,2,3,3,1,Late Luteal
+77,28,7,1,1,4,0,1,Menstrual
+77,28,28,1,2,2,3,4,Late Luteal
+78,26,3,1,3,2,3,2,Menstrual
+78,26,13,2,3,3,2,1,Follicular
+78,26,2,2,4,2,4,4,Menstrual
+78,26,21,0,1,4,2,3,Early Luteal
+78,26,14,2,4,4,1,1,Ovulation
+78,26,12,2,4,4,1,1,Follicular
+78,26,7,1,4,3,1,1,Follicular
+78,26,18,2,4,4,1,1,Ovulation
+78,26,11,0,4,4,1,2,Follicular
+78,26,3,1,2,5,3,2,Menstrual
+78,26,16,0,4,5,1,2,Ovulation
+78,26,1,2,2,2,2,3,Menstrual
+78,26,3,0,2,3,4,4,Menstrual
+78,26,14,2,5,5,2,2,Ovulation
+78,26,21,2,3,3,4,3,Early Luteal
+78,26,14,2,4,5,1,1,Ovulation
+78,26,26,1,3,4,5,5,Late Luteal
+78,26,21,1,2,3,3,2,Early Luteal
+78,26,3,1,1,3,4,3,Menstrual
+78,26,9,1,4,3,1,1,Follicular
+79,29,3,2,3,4,3,3,Menstrual
+79,29,4,2,2,5,3,3,Menstrual
+79,29,21,2,3,3,2,2,Early Luteal
+79,29,17,0,4,4,0,1,Ovulation
+79,29,7,1,2,5,0,1,Follicular
+79,29,16,0,4,5,1,0,Ovulation
+79,29,12,2,5,3,1,1,Follicular
+79,29,6,1,4,3,2,3,Menstrual
+79,29,20,2,3,2,1,1,Early Luteal
+79,29,1,0,2,2,3,3,Menstrual
+79,29,13,2,2,4,1,1,Follicular
+79,29,21,2,3,2,2,1,Early Luteal
+79,29,6,1,3,3,2,1,Menstrual
+79,29,2,1,3,4,2,3,Menstrual
+79,29,27,1,1,3,4,3,Late Luteal
+79,29,29,0,1,2,3,4,Late Luteal
+79,29,29,1,2,5,2,5,Late Luteal
+79,29,25,1,3,1,3,5,Late Luteal
+79,29,12,2,5,5,0,1,Follicular
+79,29,1,2,2,2,3,2,Menstrual
+80,30,5,2,4,5,0,0,Follicular
+80,30,14,2,5,3,0,0,Ovulation
+80,30,23,1,2,3,1,1,Early Luteal
+80,30,16,1,5,4,0,0,Ovulation
+80,30,16,1,4,4,0,0,Ovulation
+80,30,8,2,5,5,0,0,Follicular
+80,30,21,2,3,5,0,2,Early Luteal
+80,30,30,2,2,3,2,2,Late Luteal
+80,30,18,1,5,4,0,0,Ovulation
+80,30,5,0,2,4,0,0,Follicular
+80,30,19,2,3,2,2,2,Early Luteal
+80,30,15,2,5,4,0,0,Ovulation
+80,30,16,0,4,5,0,0,Ovulation
+80,30,19,0,4,3,2,2,Early Luteal
+80,30,18,2,5,4,0,0,Ovulation
+80,30,4,1,4,5,0,0,Follicular
+80,30,2,2,4,4,2,0,Menstrual
+80,30,17,1,5,5,0,0,Ovulation
+80,30,5,1,3,4,0,0,Follicular
+80,30,18,1,5,5,0,0,Ovulation
+81,29,20,2,4,2,2,3,Early Luteal
+81,29,5,2,5,4,0,0,Follicular
+81,29,19,1,4,4,2,2,Early Luteal
+81,29,1,0,1,3,3,1,Menstrual
+81,29,22,1,4,4,3,1,Early Luteal
+81,29,12,0,4,4,0,1,Follicular
+81,29,22,1,2,2,1,3,Early Luteal
+81,29,12,0,4,3,1,1,Follicular
+81,29,18,2,5,5,0,0,Ovulation
+81,29,21,1,4,4,3,1,Early Luteal
+81,29,26,1,2,2,5,3,Late Luteal
+81,29,1,2,2,2,1,1,Menstrual
+81,29,3,2,2,4,2,2,Menstrual
+81,29,6,1,3,3,1,1,Follicular
+81,29,9,2,4,4,1,0,Follicular
+81,29,22,2,3,1,2,2,Early Luteal
+81,29,8,2,5,3,1,0,Follicular
+81,29,7,1,4,5,1,1,Follicular
+81,29,12,2,4,5,1,0,Follicular
+81,29,26,1,2,2,3,5,Late Luteal
+82,27,16,1,4,4,0,0,Ovulation
+82,27,24,2,2,2,2,1,Late Luteal
+82,27,25,1,3,3,2,4,Late Luteal
+82,27,11,1,3,5,0,0,Follicular
+82,27,2,2,1,2,1,2,Menstrual
+82,27,21,0,2,3,2,1,Early Luteal
+82,27,5,0,1,3,0,2,Menstrual
+82,27,7,2,4,5,0,0,Follicular
+82,27,18,0,3,5,0,0,Ovulation
+82,27,18,2,4,4,0,0,Ovulation
+82,27,6,2,5,4,0,0,Follicular
+82,27,1,2,3,4,2,1,Menstrual
+82,27,10,1,4,4,0,0,Follicular
+82,27,14,2,4,5,0,0,Ovulation
+82,27,12,2,5,4,0,0,Follicular
+82,27,27,1,3,2,4,2,Late Luteal
+82,27,2,2,3,3,1,1,Menstrual
+82,27,13,1,4,4,0,0,Follicular
+82,27,10,2,3,4,0,0,Follicular
+82,27,16,2,3,5,0,0,Ovulation
+83,26,23,0,1,4,2,2,Late Luteal
+83,26,7,0,1,4,0,0,Follicular
+83,26,24,0,2,4,3,3,Late Luteal
+83,26,21,1,2,2,2,0,Early Luteal
+83,26,6,0,4,5,0,0,Follicular
+83,26,26,1,1,3,4,4,Late Luteal
+83,26,26,1,2,4,2,2,Late Luteal
+83,26,18,0,2,4,1,2,Early Luteal
+83,26,10,2,3,4,0,0,Follicular
+83,26,10,2,5,5,0,0,Follicular
+83,26,17,1,4,5,0,0,Ovulation
+83,26,26,2,2,2,4,4,Late Luteal
+83,26,4,2,3,4,0,2,Menstrual
+83,26,21,2,3,4,2,0,Early Luteal
+83,26,23,2,4,1,1,4,Late Luteal
+83,26,12,1,4,4,0,0,Follicular
+83,26,10,2,3,4,0,0,Follicular
+83,26,5,2,4,2,0,1,Menstrual
+83,26,22,2,1,3,3,1,Late Luteal
+83,26,2,2,1,2,2,2,Menstrual
+84,27,1,2,1,1,1,1,Menstrual
+84,27,25,0,1,1,1,2,Late Luteal
+84,27,16,1,5,3,0,0,Ovulation
+84,27,25,1,3,2,4,4,Late Luteal
+84,27,3,1,1,2,1,1,Menstrual
+84,27,8,1,4,5,0,0,Follicular
+84,27,17,2,4,4,0,0,Ovulation
+84,27,9,1,4,4,0,0,Follicular
+84,27,15,2,5,5,0,0,Ovulation
+84,27,23,2,2,3,2,2,Late Luteal
+84,27,24,1,2,1,3,4,Late Luteal
+84,27,10,0,2,5,0,0,Follicular
+84,27,23,0,1,4,1,3,Late Luteal
+84,27,22,1,3,3,0,0,Early Luteal
+84,27,21,1,4,3,2,2,Early Luteal
+84,27,12,2,5,4,0,0,Follicular
+84,27,15,1,4,5,0,0,Ovulation
+84,27,6,2,4,4,0,0,Follicular
+84,27,22,1,4,3,0,2,Early Luteal
+84,27,26,1,3,3,4,2,Late Luteal
+85,29,9,2,5,2,1,0,Follicular
+85,29,26,2,1,2,4,5,Late Luteal
+85,29,18,2,5,5,1,1,Ovulation
+85,29,1,1,1,3,3,3,Menstrual
+85,29,26,2,4,5,3,4,Late Luteal
+85,29,11,1,5,4,0,0,Follicular
+85,29,23,1,4,4,1,2,Early Luteal
+85,29,27,2,2,2,4,5,Late Luteal
+85,29,11,0,4,5,0,0,Follicular
+85,29,4,2,5,4,1,0,Follicular
+85,29,22,2,2,1,2,3,Early Luteal
+85,29,26,1,1,3,4,3,Late Luteal
+85,29,8,1,4,3,0,1,Follicular
+85,29,8,2,3,5,0,0,Follicular
+85,29,9,1,4,5,0,1,Follicular
+85,29,13,2,3,5,1,1,Follicular
+85,29,17,1,5,5,1,0,Ovulation
+85,29,26,2,3,1,3,3,Late Luteal
+85,29,16,0,4,5,0,0,Ovulation
+85,29,14,2,5,5,1,0,Ovulation
+86,27,21,0,2,4,3,1,Early Luteal
+86,27,9,1,5,4,0,1,Follicular
+86,27,24,1,2,4,2,3,Late Luteal
+86,27,25,0,2,1,3,5,Late Luteal
+86,27,6,2,3,3,1,0,Follicular
+86,27,24,2,1,4,4,2,Late Luteal
+86,27,22,1,4,4,1,3,Early Luteal
+86,27,18,1,4,4,0,1,Ovulation
+86,27,13,0,3,4,0,0,Follicular
+86,27,13,2,3,2,0,0,Follicular
+86,27,8,1,5,5,0,0,Follicular
+86,27,25,2,1,2,4,5,Late Luteal
+86,27,13,1,3,4,0,0,Follicular
+86,27,8,0,3,4,1,1,Follicular
+86,27,12,2,3,3,0,1,Follicular
+86,27,13,2,4,3,0,0,Follicular
+86,27,6,1,4,4,0,0,Follicular
+86,27,23,1,1,4,4,5,Late Luteal
+86,27,5,2,2,3,1,3,Menstrual
+86,27,6,2,5,3,1,1,Follicular
+87,28,5,2,4,3,1,0,Menstrual
+87,28,22,2,3,2,0,2,Early Luteal
+87,28,27,2,3,1,3,3,Late Luteal
+87,28,7,1,3,3,0,0,Follicular
+87,28,26,2,1,2,2,3,Late Luteal
+87,28,13,2,4,4,0,0,Follicular
+87,28,27,1,3,1,3,3,Late Luteal
+87,28,23,2,4,2,2,0,Early Luteal
+87,28,26,2,3,1,2,2,Late Luteal
+87,28,3,1,1,3,2,2,Menstrual
+87,28,22,0,1,4,0,2,Early Luteal
+87,28,25,1,1,2,1,3,Late Luteal
+87,28,18,1,4,5,0,0,Ovulation
+87,28,27,1,2,2,4,3,Late Luteal
+87,28,18,2,4,5,0,0,Ovulation
+87,28,4,2,1,3,2,1,Menstrual
+87,28,2,2,1,2,2,2,Menstrual
+87,28,13,2,4,4,0,0,Follicular
+87,28,7,1,4,3,0,0,Follicular
+87,28,22,2,4,3,1,1,Early Luteal
+88,29,14,0,2,5,1,0,Follicular
+88,29,29,2,1,2,2,4,Late Luteal
+88,29,17,0,4,3,1,0,Ovulation
+88,29,21,0,2,4,1,1,Early Luteal
+88,29,16,1,4,4,0,0,Ovulation
+88,29,6,2,2,4,1,2,Menstrual
+88,29,20,2,5,4,1,1,Ovulation
+88,29,14,0,2,5,0,1,Follicular
+88,29,29,0,2,2,2,4,Late Luteal
+88,29,29,1,1,1,5,3,Late Luteal
+88,29,17,1,5,4,0,0,Ovulation
+88,29,2,1,3,2,1,3,Menstrual
+88,29,25,0,1,4,5,3,Late Luteal
+88,29,14,2,5,5,0,0,Follicular
+88,29,27,1,3,1,4,3,Late Luteal
+88,29,7,0,1,3,3,2,Menstrual
+88,29,15,2,5,5,0,0,Follicular
+88,29,5,2,3,2,1,1,Menstrual
+88,29,3,1,2,2,2,3,Menstrual
+88,29,28,0,2,4,3,5,Late Luteal
+89,28,26,1,1,5,2,2,Late Luteal
+89,28,16,2,4,4,1,1,Ovulation
+89,28,21,2,3,2,3,2,Early Luteal
+89,28,23,0,1,4,3,3,Early Luteal
+89,28,19,2,3,4,1,3,Early Luteal
+89,28,9,1,3,5,1,0,Follicular
+89,28,14,1,3,4,0,0,Ovulation
+89,28,17,2,5,5,0,1,Ovulation
+89,28,3,2,2,1,2,1,Menstrual
+89,28,3,1,3,3,1,3,Menstrual
+89,28,11,0,3,3,0,1,Follicular
+89,28,17,2,5,4,0,1,Ovulation
+89,28,25,0,1,2,4,3,Late Luteal
+89,28,23,1,3,4,3,1,Early Luteal
+89,28,12,0,2,5,0,1,Follicular
+89,28,4,1,1,4,2,2,Menstrual
+89,28,25,0,1,3,2,3,Late Luteal
+89,28,17,2,5,5,1,1,Ovulation
+89,28,1,2,1,3,2,3,Menstrual
+89,28,7,2,5,4,1,0,Follicular
+90,28,22,2,4,2,2,3,Early Luteal
+90,28,22,1,4,1,2,3,Early Luteal
+90,28,1,2,1,3,2,3,Menstrual
+90,28,21,1,2,4,2,2,Early Luteal
+90,28,10,2,5,3,1,1,Follicular
+90,28,25,2,1,1,4,3,Late Luteal
+90,28,19,1,5,5,2,2,Ovulation
+90,28,15,1,4,5,1,1,Ovulation
+90,28,24,2,2,1,3,3,Late Luteal
+90,28,16,2,3,4,2,1,Ovulation
+90,28,7,1,3,3,2,2,Follicular
+90,28,15,1,5,5,2,1,Ovulation
+90,28,11,1,4,4,1,2,Follicular
+90,28,22,1,2,4,4,3,Early Luteal
+90,28,8,2,5,4,1,2,Follicular
+90,28,25,1,2,4,3,5,Late Luteal
+90,28,15,1,3,4,1,1,Ovulation
+90,28,4,1,3,2,4,3,Menstrual
+90,28,3,2,1,4,4,3,Menstrual
+90,28,6,2,1,3,4,2,Menstrual
+91,27,16,1,4,5,1,1,Ovulation
+91,27,6,0,4,4,1,1,Follicular
+91,27,26,2,3,1,3,2,Late Luteal
+91,27,7,1,4,2,1,1,Follicular
+91,27,17,0,4,4,1,0,Ovulation
+91,27,5,1,4,3,1,0,Follicular
+91,27,11,1,3,5,1,0,Follicular
+91,27,7,0,4,5,1,1,Follicular
+91,27,13,2,4,5,0,1,Ovulation
+91,27,24,2,1,4,4,3,Late Luteal
+91,27,7,1,4,5,0,1,Follicular
+91,27,22,1,2,1,1,3,Early Luteal
+91,27,9,2,5,5,0,1,Follicular
+91,27,12,1,3,5,1,0,Follicular
+91,27,21,1,2,2,2,3,Early Luteal
+91,27,10,1,5,4,0,1,Follicular
+91,27,14,2,3,4,0,1,Ovulation
+91,27,6,1,4,4,0,0,Follicular
+91,27,11,0,3,2,0,0,Follicular
+91,27,19,1,2,4,2,2,Early Luteal
+92,26,1,2,3,1,2,1,Menstrual
+92,26,1,2,1,3,2,1,Menstrual
+92,26,25,2,1,1,3,4,Late Luteal
+92,26,7,2,3,4,3,3,Menstrual
+92,26,20,1,3,4,1,3,Early Luteal
+92,26,23,2,3,1,5,4,Late Luteal
+92,26,22,1,1,3,3,2,Late Luteal
+92,26,12,1,4,4,0,0,Follicular
+92,26,21,2,2,2,2,1,Early Luteal
+92,26,2,0,1,4,2,3,Menstrual
+92,26,3,1,1,2,1,3,Menstrual
+92,26,17,2,5,5,1,0,Ovulation
+92,26,10,1,4,3,0,1,Follicular
+92,26,2,2,2,5,2,2,Menstrual
+92,26,12,2,4,5,0,0,Follicular
+92,26,9,0,3,5,1,0,Follicular
+92,26,3,0,1,3,1,2,Menstrual
+92,26,19,0,1,4,2,3,Early Luteal
+92,26,22,2,4,3,5,5,Late Luteal
+92,26,2,2,2,4,2,2,Menstrual
+93,26,3,2,1,2,2,3,Menstrual
+93,26,18,1,5,4,0,1,Ovulation
+93,26,8,2,4,5,1,1,Follicular
+93,26,21,1,3,2,3,2,Early Luteal
+93,26,24,2,3,2,3,3,Late Luteal
+93,26,17,1,4,5,1,1,Ovulation
+93,26,24,1,2,3,2,3,Late Luteal
+93,26,4,2,4,4,2,1,Menstrual
+93,26,9,1,4,3,1,1,Follicular
+93,26,17,2,4,5,0,1,Ovulation
+93,26,20,2,4,5,3,2,Early Luteal
+93,26,21,1,2,4,1,3,Early Luteal
+93,26,12,1,3,4,1,0,Follicular
+93,26,15,0,4,4,1,1,Ovulation
+93,26,7,2,4,5,1,1,Follicular
+93,26,9,2,3,5,1,1,Follicular
+93,26,4,0,1,4,1,3,Menstrual
+93,26,8,2,4,5,0,0,Follicular
+93,26,25,1,3,3,2,3,Late Luteal
+93,26,9,2,5,5,1,1,Follicular
+94,26,6,0,2,2,0,0,Follicular
+94,26,15,1,5,4,1,0,Ovulation
+94,26,12,1,4,4,0,0,Ovulation
+94,26,8,2,3,4,0,1,Follicular
+94,26,26,2,3,3,3,3,Late Luteal
+94,26,24,1,2,3,4,3,Late Luteal
+94,26,25,2,1,3,3,4,Late Luteal
+94,26,22,0,1,2,3,5,Late Luteal
+94,26,18,0,2,3,1,2,Early Luteal
+94,26,4,1,5,4,1,0,Follicular
+94,26,25,1,2,4,2,3,Late Luteal
+94,26,7,1,3,5,0,0,Follicular
+94,26,20,1,3,3,2,2,Early Luteal
+94,26,9,1,4,4,0,1,Follicular
+94,26,1,2,1,3,2,3,Menstrual
+94,26,21,2,3,2,3,2,Early Luteal
+94,26,15,1,5,5,1,1,Ovulation
+94,26,18,1,3,4,1,2,Early Luteal
+94,26,3,2,1,3,1,2,Menstrual
+94,26,14,2,5,5,1,1,Ovulation
+95,31,27,0,2,1,4,3,Late Luteal
+95,31,1,2,3,2,3,1,Menstrual
+95,31,21,0,2,3,1,3,Early Luteal
+95,31,22,2,2,2,1,1,Early Luteal
+95,31,22,1,3,4,1,1,Early Luteal
+95,31,10,0,2,5,0,1,Follicular
+95,31,28,1,4,1,4,4,Late Luteal
+95,31,20,2,4,3,0,0,Ovulation
+95,31,10,0,3,5,0,0,Follicular
+95,31,25,0,3,4,1,2,Early Luteal
+95,31,3,2,3,2,2,1,Menstrual
+95,31,24,0,3,2,3,3,Early Luteal
+95,31,1,2,2,2,2,2,Menstrual
+95,31,27,1,1,1,2,2,Late Luteal
+95,31,10,2,5,3,0,1,Follicular
+95,31,19,1,5,4,0,0,Ovulation
+95,31,3,1,2,4,3,3,Menstrual
+95,31,16,1,3,4,0,0,Ovulation
+95,31,20,1,5,3,1,1,Ovulation
+95,31,29,1,2,2,2,3,Late Luteal
+96,27,11,1,5,4,1,1,Follicular
+96,27,23,1,1,1,2,3,Late Luteal
+96,27,18,1,5,4,1,0,Ovulation
+96,27,17,1,5,4,0,0,Ovulation
+96,27,7,1,3,5,1,1,Follicular
+96,27,15,1,5,4,0,0,Ovulation
+96,27,2,2,2,4,3,3,Menstrual
+96,27,22,2,3,3,3,1,Early Luteal
+96,27,20,1,2,4,2,1,Early Luteal
+96,27,7,2,3,5,1,1,Follicular
+96,27,4,1,4,4,3,2,Menstrual
+96,27,9,2,2,5,0,0,Follicular
+96,27,3,1,1,4,1,2,Menstrual
+96,27,10,2,3,4,1,0,Follicular
+96,27,10,1,3,5,1,1,Follicular
+96,27,6,2,3,3,1,3,Menstrual
+96,27,8,1,4,3,0,0,Follicular
+96,27,11,2,4,3,1,1,Follicular
+96,27,2,2,4,2,2,1,Menstrual
+96,27,20,1,2,4,2,3,Early Luteal
+97,31,1,1,2,3,2,2,Menstrual
+97,31,13,1,5,5,1,0,Follicular
+97,31,10,1,5,5,1,0,Follicular
+97,31,31,0,2,3,2,2,Late Luteal
+97,31,26,1,2,3,3,1,Early Luteal
+97,31,7,2,4,2,0,1,Follicular
+97,31,21,2,2,2,3,2,Early Luteal
+97,31,5,0,1,4,3,3,Menstrual
+97,31,6,1,1,3,3,3,Menstrual
+97,31,14,1,4,3,0,0,Follicular
+97,31,8,1,4,3,0,1,Follicular
+97,31,5,2,1,3,1,3,Menstrual
+97,31,30,1,1,1,3,2,Late Luteal
+97,31,24,1,3,3,2,3,Early Luteal
+97,31,4,0,1,2,2,1,Menstrual
+97,31,11,2,3,2,0,1,Follicular
+97,31,26,0,2,2,3,1,Early Luteal
+97,31,20,1,4,4,0,0,Ovulation
+97,31,5,2,3,3,3,1,Menstrual
+97,31,2,1,1,2,2,2,Menstrual
+98,31,6,2,5,4,2,2,Follicular
+98,31,15,2,5,3,2,1,Ovulation
+98,31,9,1,5,5,2,2,Follicular
+98,31,9,1,3,4,1,1,Follicular
+98,31,11,1,4,5,1,2,Follicular
+98,31,4,0,2,4,2,1,Follicular
+98,31,5,1,3,3,1,2,Follicular
+98,31,12,1,4,3,1,1,Follicular
+98,31,31,1,1,5,5,5,Late Luteal
+98,31,1,1,1,3,3,4,Menstrual
+98,31,15,2,5,5,1,2,Ovulation
+98,31,16,0,3,4,2,1,Ovulation
+98,31,22,1,3,4,3,4,Early Luteal
+98,31,17,0,4,4,2,2,Ovulation
+98,31,20,1,1,2,2,2,Early Luteal
+98,31,26,1,2,1,2,3,Early Luteal
+98,31,5,1,3,3,2,2,Follicular
+98,31,24,2,4,3,3,4,Early Luteal
+98,31,23,1,4,2,2,3,Early Luteal
+98,31,31,2,4,1,5,5,Late Luteal
+99,30,29,2,2,2,3,4,Late Luteal
+99,30,15,2,5,3,1,1,Ovulation
+99,30,30,1,2,2,2,4,Late Luteal
+99,30,20,2,3,2,1,1,Early Luteal
+99,30,17,2,4,4,1,0,Ovulation
+99,30,27,2,1,3,5,4,Late Luteal
+99,30,24,2,2,3,2,1,Early Luteal
+99,30,5,0,3,5,1,1,Follicular
+99,30,18,1,4,5,0,1,Ovulation
+99,30,24,2,3,2,1,3,Early Luteal
+99,30,13,1,5,4,0,0,Follicular
+99,30,13,2,5,4,0,1,Follicular
+99,30,20,2,4,4,2,1,Early Luteal
+99,30,20,2,2,4,2,1,Early Luteal
+99,30,11,2,3,4,1,1,Follicular
+99,30,14,1,4,5,1,1,Ovulation
+99,30,24,1,2,3,2,1,Early Luteal
+99,30,11,1,4,4,0,0,Follicular
+99,30,21,1,4,3,2,2,Early Luteal
+99,30,11,2,5,5,0,0,Follicular
+100,26,11,2,4,4,0,1,Follicular
+100,26,17,2,4,4,1,0,Ovulation
+100,26,13,0,5,4,0,1,Ovulation
+100,26,15,2,4,4,1,1,Ovulation
+100,26,21,2,2,5,1,3,Early Luteal
+100,26,22,2,3,4,4,5,Late Luteal
+100,26,18,0,2,4,2,2,Early Luteal
+100,26,15,1,4,5,0,0,Ovulation
+100,26,16,1,5,5,1,0,Ovulation
+100,26,21,1,3,3,2,2,Early Luteal
+100,26,10,2,3,5,1,0,Follicular
+100,26,16,2,5,5,0,1,Ovulation
+100,26,14,2,3,4,1,0,Ovulation
+100,26,15,1,4,4,0,0,Ovulation
+100,26,15,2,5,5,0,1,Ovulation
+100,26,5,2,1,1,1,3,Menstrual
+100,26,15,1,5,5,0,1,Ovulation
+100,26,19,1,4,3,3,3,Early Luteal
+100,26,4,2,3,2,1,1,Menstrual
+100,26,9,2,4,5,0,0,Follicular
+101,28,3,0,3,2,0,1,Menstrual
+101,28,16,1,5,5,0,0,Ovulation
+101,28,4,1,3,4,0,0,Follicular
+101,28,10,2,3,3,0,0,Follicular
+101,28,17,2,5,5,0,0,Ovulation
+101,28,15,0,4,4,0,0,Ovulation
+101,28,26,2,1,5,4,4,Late Luteal
+101,28,6,2,2,3,0,0,Follicular
+101,28,16,1,4,5,0,0,Ovulation
+101,28,3,1,1,2,1,1,Menstrual
+101,28,16,2,5,4,0,0,Ovulation
+101,28,2,1,1,2,0,1,Menstrual
+101,28,17,2,5,5,0,0,Ovulation
+101,28,12,1,3,2,0,0,Follicular
+101,28,1,1,3,4,2,2,Menstrual
+101,28,20,2,2,2,2,0,Early Luteal
+101,28,2,2,4,5,1,2,Menstrual
+101,28,12,1,4,5,0,0,Follicular
+101,28,11,0,4,4,0,0,Follicular
+101,28,2,2,2,2,1,2,Menstrual
+102,27,12,1,4,4,2,2,Follicular
+102,27,1,1,2,1,4,4,Menstrual
+102,27,13,1,4,4,2,2,Ovulation
+102,27,19,0,2,5,3,2,Early Luteal
+102,27,10,1,5,3,2,2,Follicular
+102,27,3,2,3,3,4,3,Menstrual
+102,27,19,1,2,1,2,4,Early Luteal
+102,27,13,1,5,5,1,1,Ovulation
+102,27,6,2,3,5,2,2,Follicular
+102,27,10,1,3,4,2,2,Follicular
+102,27,19,1,1,3,3,4,Early Luteal
+102,27,11,1,5,2,1,2,Follicular
+102,27,21,1,3,5,4,4,Early Luteal
+102,27,1,1,1,2,3,3,Menstrual
+102,27,11,2,5,3,2,1,Follicular
+102,27,11,1,5,3,1,2,Follicular
+102,27,26,1,3,1,5,4,Late Luteal
+102,27,8,1,4,5,1,1,Follicular
+102,27,14,1,5,5,2,1,Ovulation
+102,27,22,2,3,3,4,4,Early Luteal
+103,28,20,1,2,2,2,1,Early Luteal
+103,28,6,2,2,3,2,1,Menstrual
+103,28,22,2,1,2,3,3,Early Luteal
+103,28,16,0,3,4,1,1,Ovulation
+103,28,19,2,4,5,1,0,Ovulation
+103,28,13,2,5,3,0,0,Follicular
+103,28,9,2,4,3,0,1,Follicular
+103,28,5,1,2,1,2,1,Menstrual
+103,28,5,0,2,4,3,3,Menstrual
+103,28,18,0,3,4,1,0,Ovulation
+103,28,20,1,5,2,1,2,Early Luteal
+103,28,26,0,2,1,3,5,Late Luteal
+103,28,11,2,3,4,1,1,Follicular
+103,28,22,2,3,2,2,3,Early Luteal
+103,28,23,2,4,3,3,1,Early Luteal
+103,28,5,2,2,1,3,1,Menstrual
+103,28,9,1,5,5,0,1,Follicular
+103,28,8,2,3,5,1,0,Follicular
+103,28,9,0,2,2,1,0,Follicular
+103,28,2,2,2,3,1,1,Menstrual
+104,30,18,1,4,3,0,0,Ovulation
+104,30,14,1,5,5,0,0,Follicular
+104,30,8,1,4,4,0,0,Follicular
+104,30,12,0,2,4,0,0,Follicular
+104,30,7,1,5,4,0,0,Follicular
+104,30,6,1,3,4,1,2,Menstrual
+104,30,27,2,2,3,4,4,Late Luteal
+104,30,4,2,2,2,1,2,Menstrual
+104,30,7,0,4,5,0,0,Follicular
+104,30,30,0,1,4,4,4,Late Luteal
+104,30,5,2,2,3,2,2,Menstrual
+104,30,30,2,4,1,3,3,Late Luteal
+104,30,3,1,2,2,2,0,Menstrual
+104,30,29,1,2,5,3,3,Late Luteal
+104,30,23,2,4,4,2,0,Early Luteal
+104,30,18,1,4,5,0,0,Ovulation
+104,30,17,0,3,4,0,0,Ovulation
+104,30,6,0,3,2,0,2,Menstrual
+104,30,25,2,4,4,0,2,Early Luteal
+104,30,4,2,1,3,2,2,Menstrual
+105,30,26,2,2,1,3,5,Late Luteal
+105,30,2,1,1,4,1,3,Menstrual
+105,30,1,1,1,2,3,2,Menstrual
+105,30,17,2,4,5,1,1,Ovulation
+105,30,8,0,3,5,0,0,Follicular
+105,30,4,0,4,5,0,1,Follicular
+105,30,24,2,3,4,3,2,Early Luteal
+105,30,26,1,2,3,4,4,Late Luteal
+105,30,22,1,4,4,3,3,Early Luteal
+105,30,3,2,2,4,2,3,Menstrual
+105,30,25,1,4,2,2,2,Early Luteal
+105,30,1,2,2,4,3,1,Menstrual
+105,30,1,2,1,2,1,3,Menstrual
+105,30,15,2,4,4,1,1,Ovulation
+105,30,18,1,5,5,0,0,Ovulation
+105,30,9,0,2,3,1,1,Follicular
+105,30,30,1,1,1,2,5,Late Luteal
+105,30,1,0,2,3,3,3,Menstrual
+105,30,1,1,2,4,2,2,Menstrual
+105,30,20,1,4,4,2,1,Early Luteal
+106,26,20,2,2,3,2,2,Early Luteal
+106,26,3,2,1,4,2,1,Menstrual
+106,26,9,1,2,4,1,1,Follicular
+106,26,12,1,5,5,0,0,Follicular
+106,26,14,1,5,5,0,0,Ovulation
+106,26,19,2,4,3,1,2,Early Luteal
+106,26,10,2,5,4,1,1,Follicular
+106,26,26,1,3,2,2,5,Late Luteal
+106,26,18,2,5,3,0,0,Ovulation
+106,26,17,1,5,4,0,1,Ovulation
+106,26,3,2,2,4,1,2,Menstrual
+106,26,7,0,2,4,1,0,Follicular
+106,26,17,2,4,5,0,1,Ovulation
+106,26,3,0,1,2,2,1,Menstrual
+106,26,15,1,4,5,1,1,Ovulation
+106,26,10,0,3,5,1,1,Follicular
+106,26,7,1,3,3,0,1,Follicular
+106,26,10,2,4,5,0,1,Follicular
+106,26,24,1,1,3,5,3,Late Luteal
+106,26,2,1,2,4,2,3,Menstrual
+107,29,13,1,3,5,0,0,Follicular
+107,29,2,2,2,2,0,0,Menstrual
+107,29,26,2,3,4,2,1,Late Luteal
+107,29,3,2,1,3,1,1,Menstrual
+107,29,22,1,3,2,2,2,Early Luteal
+107,29,27,0,3,2,2,1,Late Luteal
+107,29,15,2,5,5,0,0,Ovulation
+107,29,16,1,5,4,0,0,Ovulation
+107,29,17,0,4,4,0,0,Ovulation
+107,29,29,1,3,1,2,2,Late Luteal
+107,29,18,2,4,5,0,0,Ovulation
+107,29,26,0,1,4,4,2,Late Luteal
+107,29,9,2,5,5,0,0,Follicular
+107,29,1,2,2,3,0,2,Menstrual
+107,29,27,0,2,2,2,1,Late Luteal
+107,29,25,2,3,1,2,3,Late Luteal
+107,29,19,0,4,5,0,0,Ovulation
+107,29,17,2,5,4,0,0,Ovulation
+107,29,14,0,3,4,0,0,Follicular
+107,29,28,0,2,2,2,1,Late Luteal
+108,26,7,0,3,3,0,0,Follicular
+108,26,7,1,3,4,0,0,Follicular
+108,26,23,2,1,3,4,4,Late Luteal
+108,26,5,2,2,4,0,0,Follicular
+108,26,1,2,2,4,2,0,Menstrual
+108,26,23,2,1,4,4,1,Late Luteal
+108,26,5,1,3,4,0,0,Follicular
+108,26,23,0,1,1,1,2,Late Luteal
+108,26,22,2,2,4,1,4,Late Luteal
+108,26,10,1,5,5,0,0,Follicular
+108,26,23,2,1,3,4,1,Late Luteal
+108,26,22,1,2,3,3,4,Late Luteal
+108,26,15,0,2,4,0,0,Ovulation
+108,26,2,2,2,4,0,0,Menstrual
+108,26,25,2,1,1,2,1,Late Luteal
+108,26,14,0,3,4,0,0,Ovulation
+108,26,13,1,5,5,0,0,Ovulation
+108,26,25,1,2,1,1,1,Late Luteal
+108,26,13,1,5,4,0,0,Ovulation
+108,26,12,1,5,3,0,0,Follicular
+109,28,9,1,3,3,0,0,Follicular
+109,28,8,0,3,4,0,0,Follicular
+109,28,5,2,5,4,0,0,Follicular
+109,28,27,1,2,4,2,1,Late Luteal
+109,28,10,0,3,4,0,0,Follicular
+109,28,2,2,2,3,2,2,Menstrual
+109,28,10,1,3,4,0,0,Follicular
+109,28,22,2,5,2,2,1,Early Luteal
+109,28,8,2,5,3,0,0,Follicular
+109,28,9,1,5,3,0,0,Follicular
+109,28,2,1,1,1,2,2,Menstrual
+109,28,3,2,1,3,1,1,Menstrual
+109,28,15,2,5,4,0,0,Ovulation
+109,28,21,1,2,2,0,1,Early Luteal
+109,28,26,2,3,4,1,4,Late Luteal
+109,28,8,0,4,3,0,0,Follicular
+109,28,10,0,4,4,0,0,Follicular
+109,28,17,1,5,4,0,0,Ovulation
+109,28,27,1,3,2,2,4,Late Luteal
+109,28,10,2,3,4,0,0,Follicular
+110,27,13,0,3,4,0,1,Ovulation
+110,27,13,0,2,4,1,0,Ovulation
+110,27,6,1,5,4,1,1,Follicular
+110,27,1,2,1,4,2,1,Menstrual
+110,27,11,1,5,4,1,1,Follicular
+110,27,6,1,4,5,1,1,Follicular
+110,27,6,0,3,5,1,0,Follicular
+110,27,1,2,1,2,3,1,Menstrual
+110,27,4,2,1,5,2,2,Menstrual
+110,27,15,2,4,5,0,1,Ovulation
+110,27,2,2,1,3,3,3,Menstrual
+110,27,4,1,2,3,3,3,Menstrual
+110,27,17,2,5,4,0,1,Ovulation
+110,27,1,2,1,3,3,3,Menstrual
+110,27,22,2,2,4,1,3,Early Luteal
+110,27,13,2,4,4,0,0,Ovulation
+110,27,12,2,3,2,0,1,Follicular
+110,27,21,1,4,2,1,1,Early Luteal
+110,27,1,1,1,4,1,3,Menstrual
+110,27,14,1,5,5,1,0,Ovulation
+111,26,22,1,1,2,3,2,Late Luteal
+111,26,12,0,2,4,1,0,Follicular
+111,26,6,2,2,2,2,3,Menstrual
+111,26,10,2,4,5,1,0,Follicular
+111,26,15,1,5,4,1,1,Ovulation
+111,26,11,0,2,4,0,0,Follicular
+111,26,24,2,2,2,5,4,Late Luteal
+111,26,12,0,4,3,0,1,Follicular
+111,26,8,2,4,4,0,0,Follicular
+111,26,6,2,2,3,3,1,Menstrual
+111,26,25,2,1,2,4,2,Late Luteal
+111,26,7,2,2,2,3,1,Menstrual
+111,26,14,2,4,4,0,0,Ovulation
+111,26,1,2,2,4,3,3,Menstrual
+111,26,16,1,5,4,1,1,Ovulation
+111,26,14,1,4,5,1,0,Ovulation
+111,26,5,0,1,3,1,3,Menstrual
+111,26,3,2,3,2,2,1,Menstrual
+111,26,1,2,2,2,3,1,Menstrual
+111,26,2,2,3,4,3,2,Menstrual
+112,27,17,2,4,5,1,1,Ovulation
+112,27,7,2,4,4,1,1,Follicular
+112,27,7,1,3,4,1,1,Follicular
+112,27,24,0,1,2,5,5,Late Luteal
+112,27,5,1,3,3,1,2,Follicular
+112,27,2,2,3,2,4,4,Menstrual
+112,27,17,0,4,4,1,2,Ovulation
+112,27,20,0,2,3,2,2,Early Luteal
+112,27,21,2,3,2,3,4,Early Luteal
+112,27,11,2,4,5,1,2,Follicular
+112,27,27,1,1,4,5,4,Late Luteal
+112,27,2,1,2,4,2,4,Menstrual
+112,27,11,2,2,5,2,1,Follicular
+112,27,17,2,4,4,2,1,Ovulation
+112,27,18,2,2,3,4,2,Early Luteal
+112,27,9,0,4,4,2,1,Follicular
+112,27,2,1,1,4,3,3,Menstrual
+112,27,6,1,5,3,2,1,Follicular
+112,27,23,1,1,4,5,5,Late Luteal
+112,27,19,1,3,3,2,3,Early Luteal
+113,29,15,2,5,4,1,0,Ovulation
+113,29,23,2,2,4,1,3,Early Luteal
+113,29,5,1,4,3,1,1,Follicular
+113,29,12,2,4,3,1,0,Follicular
+113,29,19,2,4,4,1,2,Early Luteal
+113,29,21,1,4,2,1,1,Early Luteal
+113,29,29,2,1,1,4,2,Late Luteal
+113,29,22,0,2,3,3,1,Early Luteal
+113,29,20,0,3,3,2,3,Early Luteal
+113,29,4,2,2,1,1,3,Menstrual
+113,29,24,1,3,2,2,3,Early Luteal
+113,29,28,1,3,3,5,4,Late Luteal
+113,29,11,0,4,3,0,1,Follicular
+113,29,23,2,3,3,3,2,Early Luteal
+113,29,1,1,3,2,3,3,Menstrual
+113,29,14,2,5,4,0,1,Ovulation
+113,29,3,2,1,2,2,1,Menstrual
+113,29,27,1,3,3,5,3,Late Luteal
+113,29,5,0,3,5,0,0,Follicular
+113,29,17,2,4,5,1,1,Ovulation
+114,26,8,0,5,5,1,1,Follicular
+114,26,1,1,2,2,2,3,Menstrual
+114,26,2,2,1,3,2,2,Menstrual
+114,26,12,2,4,4,0,0,Follicular
+114,26,20,1,2,4,3,1,Early Luteal
+114,26,20,1,4,1,3,3,Early Luteal
+114,26,19,0,3,2,1,2,Early Luteal
+114,26,14,0,4,4,0,0,Ovulation
+114,26,9,1,4,3,0,0,Follicular
+114,26,24,2,1,3,5,4,Late Luteal
+114,26,24,1,4,2,2,5,Late Luteal
+114,26,8,1,3,4,0,1,Follicular
+114,26,13,1,3,5,0,0,Follicular
+114,26,1,1,2,4,1,3,Menstrual
+114,26,5,1,1,2,3,3,Menstrual
+114,26,21,2,3,3,1,3,Early Luteal
+114,26,22,1,2,1,4,5,Late Luteal
+114,26,12,0,3,5,0,0,Follicular
+114,26,10,0,2,4,1,1,Follicular
+114,26,17,1,4,4,1,0,Ovulation
+115,28,22,0,1,4,2,2,Early Luteal
+115,28,14,1,5,5,1,1,Ovulation
+115,28,11,0,3,5,0,1,Follicular
+115,28,27,0,2,2,3,5,Late Luteal
+115,28,9,1,3,5,1,1,Follicular
+115,28,15,2,5,4,0,1,Ovulation
+115,28,18,2,2,2,2,1,Early Luteal
+115,28,26,1,2,2,3,2,Late Luteal
+115,28,28,1,2,4,3,2,Late Luteal
+115,28,4,1,4,4,0,1,Follicular
+115,28,1,1,1,2,2,3,Menstrual
+115,28,13,2,5,5,0,1,Ovulation
+115,28,10,0,3,5,1,1,Follicular
+115,28,12,1,5,5,1,0,Follicular
+115,28,17,2,4,4,0,1,Ovulation
+115,28,23,1,2,5,1,1,Early Luteal
+115,28,27,2,3,4,2,3,Late Luteal
+115,28,27,2,2,2,5,3,Late Luteal
+115,28,4,0,4,5,1,1,Follicular
+115,28,18,0,3,1,1,1,Early Luteal
+116,29,27,2,2,3,3,4,Late Luteal
+116,29,29,1,3,4,4,2,Late Luteal
+116,29,15,1,4,4,0,0,Follicular
+116,29,19,1,4,4,0,0,Ovulation
+116,29,2,2,1,2,0,2,Menstrual
+116,29,9,1,3,5,0,0,Follicular
+116,29,18,1,5,4,0,0,Ovulation
+116,29,17,2,4,5,0,0,Ovulation
+116,29,15,1,4,3,0,0,Follicular
+116,29,17,0,5,5,0,0,Ovulation
+116,29,29,1,1,3,2,4,Late Luteal
+116,29,9,2,5,4,0,0,Follicular
+116,29,2,1,2,5,0,1,Menstrual
+116,29,9,1,4,2,0,0,Follicular
+116,29,7,2,1,3,2,1,Menstrual
+116,29,20,2,3,5,0,0,Ovulation
+116,29,16,1,5,5,0,0,Ovulation
+116,29,25,2,3,3,4,2,Late Luteal
+116,29,20,1,4,3,0,0,Ovulation
+116,29,2,1,3,4,2,0,Menstrual
+117,27,1,1,2,5,0,0,Menstrual
+117,27,14,1,5,5,0,0,Ovulation
+117,27,9,0,4,4,0,0,Follicular
+117,27,1,1,3,1,2,1,Menstrual
+117,27,11,1,5,3,0,0,Follicular
+117,27,13,1,3,2,0,0,Follicular
+117,27,6,1,3,2,0,2,Menstrual
+117,27,12,2,4,5,0,0,Follicular
+117,27,12,2,2,4,0,0,Follicular
+117,27,5,2,2,4,2,1,Menstrual
+117,27,24,1,1,4,2,1,Late Luteal
+117,27,27,1,2,5,4,2,Late Luteal
+117,27,16,1,5,5,0,0,Ovulation
+117,27,17,1,5,4,0,0,Ovulation
+117,27,26,2,1,1,1,2,Late Luteal
+117,27,18,1,5,4,0,0,Ovulation
+117,27,11,1,2,3,0,0,Follicular
+117,27,17,2,5,3,0,0,Ovulation
+117,27,22,1,2,3,0,2,Early Luteal
+117,27,15,2,4,5,0,0,Ovulation
+118,30,14,2,5,4,0,1,Ovulation
+118,30,12,2,4,3,1,0,Follicular
+118,30,6,1,4,3,1,0,Follicular
+118,30,2,0,1,3,3,3,Menstrual
+118,30,27,1,3,2,4,2,Late Luteal
+118,30,21,0,1,2,2,3,Early Luteal
+118,30,22,2,3,2,1,3,Early Luteal
+118,30,1,0,1,2,3,1,Menstrual
+118,30,7,1,3,3,1,0,Follicular
+118,30,22,2,2,4,2,2,Early Luteal
+118,30,19,0,3,4,3,3,Early Luteal
+118,30,23,1,3,2,1,2,Early Luteal
+118,30,29,2,2,3,2,4,Late Luteal
+118,30,4,1,3,3,1,1,Follicular
+118,30,19,2,2,4,1,3,Early Luteal
+118,30,10,2,3,4,1,0,Follicular
+118,30,22,1,4,4,2,3,Early Luteal
+118,30,30,1,2,4,4,2,Late Luteal
+118,30,8,2,5,4,0,1,Follicular
+118,30,16,1,4,4,0,0,Ovulation
+119,27,8,1,5,3,0,0,Follicular
+119,27,16,0,4,3,0,0,Ovulation
+119,27,8,1,3,3,0,0,Follicular
+119,27,15,2,4,4,0,0,Ovulation
+119,27,26,0,1,3,1,3,Late Luteal
+119,27,21,2,2,2,2,0,Early Luteal
+119,27,16,2,5,5,0,0,Ovulation
+119,27,10,1,4,4,0,0,Follicular
+119,27,26,0,2,2,4,2,Late Luteal
+119,27,1,2,1,2,1,2,Menstrual
+119,27,25,2,3,3,4,4,Late Luteal
+119,27,21,0,3,4,2,1,Early Luteal
+119,27,4,0,1,2,1,2,Menstrual
+119,27,9,0,4,5,0,0,Follicular
+119,27,8,1,3,3,0,0,Follicular
+119,27,9,1,2,3,0,0,Follicular
+119,27,7,1,4,5,1,2,Menstrual
+119,27,16,1,4,4,0,0,Ovulation
+119,27,13,1,5,3,0,0,Follicular
+119,27,23,0,3,1,2,2,Late Luteal
+120,28,7,1,4,5,1,1,Follicular
+120,28,2,2,3,2,3,1,Menstrual
+120,28,6,2,5,5,0,0,Follicular
+120,28,6,2,4,5,0,0,Follicular
+120,28,28,2,1,1,3,3,Late Luteal
+120,28,20,2,2,2,2,3,Early Luteal
+120,28,22,1,2,3,3,2,Early Luteal
+120,28,13,1,3,5,0,0,Follicular
+120,28,16,2,5,4,0,1,Ovulation
+120,28,14,1,4,5,0,1,Ovulation
+120,28,21,1,5,3,1,1,Early Luteal
+120,28,11,1,5,3,0,0,Follicular
+120,28,10,1,5,4,1,0,Follicular
+120,28,7,0,3,3,0,0,Follicular
+120,28,20,1,3,2,1,1,Early Luteal
+120,28,20,2,1,1,1,3,Early Luteal
+120,28,22,0,1,4,2,3,Early Luteal
+120,28,2,2,2,2,2,2,Menstrual
+120,28,11,2,5,4,1,0,Follicular
+120,28,2,1,1,4,1,1,Menstrual
+121,31,5,1,4,4,1,0,Follicular
+121,31,10,0,2,4,1,0,Follicular
+121,31,25,2,2,3,1,3,Early Luteal
+121,31,4,2,5,4,0,1,Follicular
+121,31,2,1,3,4,2,1,Menstrual
+121,31,8,1,5,5,0,0,Follicular
+121,31,22,2,4,3,3,1,Early Luteal
+121,31,14,1,4,5,0,1,Follicular
+121,31,25,1,2,4,2,1,Early Luteal
+121,31,6,2,3,4,0,0,Follicular
+121,31,26,1,3,4,1,1,Early Luteal
+121,31,12,2,4,4,0,0,Follicular
+121,31,22,2,3,2,1,3,Early Luteal
+121,31,28,2,1,1,2,2,Late Luteal
+121,31,14,0,3,5,1,0,Follicular
+121,31,6,2,4,2,0,1,Follicular
+121,31,11,1,5,4,0,1,Follicular
+121,31,9,2,4,4,1,0,Follicular
+121,31,11,2,4,5,1,0,Follicular
+121,31,24,2,2,3,1,3,Early Luteal
+122,29,24,2,3,3,1,2,Early Luteal
+122,29,10,1,5,3,1,0,Follicular
+122,29,18,1,3,5,1,1,Ovulation
+122,29,17,0,3,5,0,1,Ovulation
+122,29,8,0,3,5,0,0,Follicular
+122,29,17,2,4,4,1,1,Ovulation
+122,29,4,2,2,4,2,1,Menstrual
+122,29,2,1,1,2,3,2,Menstrual
+122,29,13,0,4,3,1,0,Follicular
+122,29,21,1,2,3,2,2,Early Luteal
+122,29,15,0,3,5,1,1,Follicular
+122,29,21,2,1,2,2,2,Early Luteal
+122,29,23,1,2,1,2,1,Early Luteal
+122,29,6,2,2,3,3,2,Menstrual
+122,29,29,2,1,2,2,4,Late Luteal
+122,29,28,1,2,1,5,5,Late Luteal
+122,29,18,1,5,5,0,0,Ovulation
+122,29,6,2,1,4,1,1,Menstrual
+122,29,18,1,5,5,1,0,Ovulation
+122,29,7,0,1,1,1,1,Menstrual
+123,28,6,1,1,3,3,1,Menstrual
+123,28,24,1,1,1,4,2,Late Luteal
+123,28,25,1,2,1,3,3,Late Luteal
+123,28,8,2,4,5,1,0,Follicular
+123,28,3,2,2,1,1,3,Menstrual
+123,28,2,1,1,1,3,3,Menstrual
+123,28,14,2,3,5,0,0,Follicular
+123,28,1,2,3,3,2,3,Menstrual
+123,28,14,2,2,4,1,1,Follicular
+123,28,17,2,4,5,0,1,Ovulation
+123,28,14,2,4,5,1,0,Follicular
+123,28,3,1,2,3,1,1,Menstrual
+123,28,26,2,3,4,5,4,Late Luteal
+123,28,23,1,2,4,1,3,Early Luteal
+123,28,5,1,3,3,1,3,Menstrual
+123,28,12,2,3,4,0,0,Follicular
+123,28,16,0,4,4,0,0,Ovulation
+123,28,8,0,4,3,0,0,Follicular
+123,28,24,2,2,2,4,4,Late Luteal
+123,28,26,2,1,1,5,4,Late Luteal
+124,30,8,0,4,5,0,0,Follicular
+124,30,13,2,3,3,0,0,Follicular
+124,30,11,1,4,4,0,0,Follicular
+124,30,28,2,2,3,2,1,Late Luteal
+124,30,17,2,5,4,0,0,Ovulation
+124,30,3,2,3,1,1,1,Menstrual
+124,30,1,1,2,2,1,1,Menstrual
+124,30,28,2,4,3,4,3,Late Luteal
+124,30,24,1,3,1,0,0,Early Luteal
+124,30,26,2,1,4,3,3,Late Luteal
+124,30,28,2,3,2,3,2,Late Luteal
+124,30,18,1,4,4,0,0,Ovulation
+124,30,20,2,3,5,0,0,Ovulation
+124,30,2,2,2,4,2,1,Menstrual
+124,30,19,1,4,5,0,0,Ovulation
+124,30,1,1,1,2,1,0,Menstrual
+124,30,3,2,1,2,0,2,Menstrual
+124,30,11,1,5,4,0,0,Follicular
+124,30,29,2,2,2,4,2,Late Luteal
+124,30,27,0,1,1,4,4,Late Luteal
+125,29,4,2,1,2,2,1,Menstrual
+125,29,2,2,3,2,2,1,Menstrual
+125,29,5,0,1,3,3,2,Menstrual
+125,29,24,2,3,2,2,3,Early Luteal
+125,29,20,0,1,3,2,1,Early Luteal
+125,29,15,1,5,5,0,0,Ovulation
+125,29,1,1,3,3,2,3,Menstrual
+125,29,14,0,3,4,0,0,Follicular
+125,29,9,0,4,5,1,1,Follicular
+125,29,29,2,1,2,2,5,Late Luteal
+125,29,7,2,5,5,0,0,Follicular
+125,29,21,1,2,4,1,3,Early Luteal
+125,29,14,0,2,3,1,1,Follicular
+125,29,13,1,5,4,1,1,Follicular
+125,29,13,1,4,3,0,1,Follicular
+125,29,21,1,3,1,2,2,Early Luteal
+125,29,10,1,3,5,1,1,Follicular
+125,29,29,2,2,3,3,2,Late Luteal
+125,29,9,1,5,5,1,1,Follicular
+125,29,9,1,5,3,0,0,Follicular
+126,28,2,1,3,2,3,3,Menstrual
+126,28,17,1,5,4,1,0,Ovulation
+126,28,5,2,2,4,3,1,Menstrual
+126,28,17,2,5,5,0,0,Ovulation
+126,28,7,2,4,4,0,0,Follicular
+126,28,21,1,2,4,3,2,Early Luteal
+126,28,5,1,2,2,2,3,Menstrual
+126,28,15,1,4,4,1,1,Ovulation
+126,28,1,0,1,2,3,1,Menstrual
+126,28,18,1,4,5,1,1,Ovulation
+126,28,1,1,3,4,1,1,Menstrual
+126,28,8,1,3,5,0,1,Follicular
+126,28,13,1,3,5,0,1,Follicular
+126,28,8,2,4,3,0,1,Follicular
+126,28,16,2,5,5,1,0,Ovulation
+126,28,5,2,1,4,1,1,Menstrual
+126,28,11,1,2,4,1,0,Follicular
+126,28,17,1,5,3,0,0,Ovulation
+126,28,25,1,2,3,4,4,Late Luteal
+126,28,22,1,4,2,3,1,Early Luteal
+127,29,22,1,4,2,1,2,Early Luteal
+127,29,10,1,4,3,1,0,Follicular
+127,29,17,1,4,4,0,0,Ovulation
+127,29,15,2,5,5,0,1,Ovulation
+127,29,12,1,4,4,0,0,Follicular
+127,29,14,1,5,4,1,1,Follicular
+127,29,26,2,1,4,5,5,Late Luteal
+127,29,14,0,3,3,1,1,Follicular
+127,29,27,1,2,5,3,3,Late Luteal
+127,29,10,2,5,2,0,0,Follicular
+127,29,15,0,2,5,1,1,Ovulation
+127,29,13,2,4,5,1,1,Follicular
+127,29,16,1,4,5,1,1,Ovulation
+127,29,1,2,3,4,1,2,Menstrual
+127,29,21,1,4,2,1,1,Early Luteal
+127,29,15,1,5,4,0,1,Ovulation
+127,29,28,0,1,2,5,2,Late Luteal
+127,29,21,2,1,2,1,1,Early Luteal
+127,29,4,0,1,3,1,2,Menstrual
+127,29,5,2,2,2,2,3,Menstrual
+128,27,16,2,4,5,1,1,Ovulation
+128,27,11,1,5,5,1,1,Follicular
+128,27,12,2,4,3,1,1,Follicular
+128,27,5,1,3,5,0,0,Follicular
+128,27,20,2,4,2,2,3,Early Luteal
+128,27,15,2,4,5,0,0,Ovulation
+128,27,23,2,2,2,5,3,Late Luteal
+128,27,5,1,3,5,1,1,Follicular
+128,27,1,0,3,5,1,2,Menstrual
+128,27,23,0,3,2,3,2,Late Luteal
+128,27,20,2,2,3,3,2,Early Luteal
+128,27,19,0,1,1,3,3,Early Luteal
+128,27,10,1,4,3,1,0,Follicular
+128,27,4,1,4,2,1,0,Follicular
+128,27,20,0,3,3,3,3,Early Luteal
+128,27,6,2,3,4,0,1,Follicular
+128,27,13,1,3,5,1,0,Ovulation
+128,27,7,2,4,3,0,0,Follicular
+128,27,13,1,4,3,0,1,Ovulation
+128,27,17,0,2,5,1,1,Ovulation
+129,29,23,1,4,4,2,2,Early Luteal
+129,29,4,1,2,3,1,1,Menstrual
+129,29,12,1,5,4,0,0,Follicular
+129,29,6,2,1,2,0,1,Menstrual
+129,29,5,2,2,2,2,2,Menstrual
+129,29,4,2,2,3,1,0,Menstrual
+129,29,13,1,4,3,0,0,Follicular
+129,29,7,1,1,1,2,0,Menstrual
+129,29,28,1,1,2,4,3,Late Luteal
+129,29,11,1,5,4,0,0,Follicular
+129,29,6,2,3,4,2,2,Menstrual
+129,29,17,1,5,4,0,0,Ovulation
+129,29,18,2,3,4,0,0,Ovulation
+129,29,22,2,5,2,0,1,Early Luteal
+129,29,3,2,3,1,2,1,Menstrual
+129,29,24,2,2,4,1,2,Early Luteal
+129,29,13,1,3,4,0,0,Follicular
+129,29,27,2,4,3,4,4,Late Luteal
+129,29,3,2,1,2,0,0,Menstrual
+129,29,13,1,3,5,0,0,Follicular
+130,27,4,0,1,2,2,1,Menstrual
+130,27,18,2,5,5,0,1,Ovulation
+130,27,13,1,4,5,0,0,Follicular
+130,27,3,2,2,3,1,3,Menstrual
+130,27,7,2,3,2,1,3,Menstrual
+130,27,8,1,4,3,0,1,Follicular
+130,27,22,1,3,3,2,3,Early Luteal
+130,27,1,1,3,4,2,2,Menstrual
+130,27,6,1,3,2,1,3,Menstrual
+130,27,16,2,5,5,1,0,Ovulation
+130,27,14,2,3,5,0,1,Follicular
+130,27,3,1,3,3,2,2,Menstrual
+130,27,18,0,4,5,1,1,Ovulation
+130,27,13,2,4,5,0,1,Follicular
+130,27,13,2,3,3,1,1,Follicular
+130,27,9,1,5,4,1,1,Follicular
+130,27,13,2,5,4,0,0,Follicular
+130,27,1,2,2,3,3,1,Menstrual
+130,27,8,1,3,3,0,0,Follicular
+130,27,21,1,2,3,1,2,Early Luteal
+131,27,21,1,2,4,1,1,Early Luteal
+131,27,18,2,2,4,1,2,Early Luteal
+131,27,18,0,4,2,0,2,Early Luteal
+131,27,24,0,2,3,2,4,Late Luteal
+131,27,26,2,3,3,1,3,Late Luteal
+131,27,17,2,5,4,0,0,Ovulation
+131,27,7,1,4,4,0,0,Follicular
+131,27,25,0,3,2,1,2,Late Luteal
+131,27,22,1,4,4,1,2,Early Luteal
+131,27,7,2,2,4,0,0,Follicular
+131,27,26,2,3,4,1,3,Late Luteal
+131,27,25,2,3,3,1,1,Late Luteal
+131,27,24,2,1,3,1,2,Late Luteal
+131,27,19,2,3,3,0,1,Early Luteal
+131,27,25,2,3,4,3,1,Late Luteal
+131,27,9,2,5,5,0,0,Follicular
+131,27,1,0,1,4,2,1,Menstrual
+131,27,26,2,3,1,4,3,Late Luteal
+131,27,10,2,4,5,0,0,Follicular
+131,27,9,2,5,3,0,0,Follicular
+132,30,14,0,4,4,1,1,Follicular
+132,30,5,1,1,3,1,1,Menstrual
+132,30,23,0,2,2,1,3,Early Luteal
+132,30,15,1,4,5,1,0,Ovulation
+132,30,23,2,3,1,3,1,Early Luteal
+132,30,2,1,3,2,3,3,Menstrual
+132,30,10,2,5,3,1,1,Follicular
+132,30,20,0,2,4,2,2,Early Luteal
+132,30,20,1,1,3,2,1,Early Luteal
+132,30,17,2,5,4,1,1,Ovulation
+132,30,4,1,2,4,1,1,Menstrual
+132,30,29,0,1,1,5,5,Late Luteal
+132,30,8,0,4,5,1,1,Follicular
+132,30,18,0,3,4,1,1,Ovulation
+132,30,20,2,2,2,2,2,Early Luteal
+132,30,20,2,2,2,3,3,Early Luteal
+132,30,6,2,3,4,0,0,Follicular
+132,30,25,0,3,3,2,1,Early Luteal
+132,30,26,2,3,4,2,3,Late Luteal
+132,30,17,2,5,4,0,1,Ovulation
+133,27,10,1,5,5,0,0,Follicular
+133,27,27,1,3,2,2,2,Late Luteal
+133,27,2,0,1,3,1,3,Menstrual
+133,27,15,2,5,4,0,0,Ovulation
+133,27,5,1,2,3,1,3,Menstrual
+133,27,19,0,4,4,0,1,Ovulation
+133,27,10,2,5,3,0,0,Follicular
+133,27,21,1,4,4,2,1,Early Luteal
+133,27,16,2,4,5,1,0,Ovulation
+133,27,25,2,2,3,3,3,Late Luteal
+133,27,17,1,5,5,0,1,Ovulation
+133,27,23,1,3,4,2,4,Late Luteal
+133,27,13,0,4,3,0,1,Follicular
+133,27,18,2,4,5,0,1,Ovulation
+133,27,1,1,2,3,2,2,Menstrual
+133,27,21,2,3,3,2,2,Early Luteal
+133,27,21,2,3,2,3,3,Early Luteal
+133,27,17,0,3,5,1,0,Ovulation
+133,27,22,1,4,4,2,2,Early Luteal
+133,27,10,2,5,2,1,1,Follicular
+134,26,24,1,2,2,1,2,Late Luteal
+134,26,15,1,5,4,0,0,Ovulation
+134,26,22,1,1,1,4,1,Late Luteal
+134,26,23,2,3,4,2,4,Late Luteal
+134,26,8,1,5,4,0,0,Follicular
+134,26,7,2,3,4,1,2,Menstrual
+134,26,2,1,2,4,1,0,Menstrual
+134,26,6,1,1,3,0,0,Menstrual
+134,26,17,1,3,4,0,0,Ovulation
+134,26,13,2,5,3,0,0,Follicular
+134,26,3,2,1,2,1,2,Menstrual
+134,26,6,1,1,4,1,2,Menstrual
+134,26,15,0,3,5,0,0,Ovulation
+134,26,11,1,4,5,0,0,Follicular
+134,26,25,1,1,2,3,4,Late Luteal
+134,26,6,2,3,2,2,1,Menstrual
+134,26,22,1,2,4,2,4,Late Luteal
+134,26,23,1,3,3,1,1,Late Luteal
+134,26,9,2,3,5,0,0,Follicular
+134,26,10,2,5,4,0,0,Follicular
+135,28,12,1,3,3,1,0,Follicular
+135,28,21,2,3,3,2,2,Early Luteal
+135,28,21,0,2,2,2,2,Early Luteal
+135,28,16,2,5,3,0,1,Ovulation
+135,28,24,1,1,3,5,2,Late Luteal
+135,28,28,1,2,5,4,2,Late Luteal
+135,28,3,1,1,4,2,3,Menstrual
+135,28,2,0,3,3,2,2,Menstrual
+135,28,15,2,3,4,1,0,Ovulation
+135,28,28,2,1,1,2,5,Late Luteal
+135,28,25,2,3,2,4,5,Late Luteal
+135,28,3,1,3,4,3,1,Menstrual
+135,28,20,1,2,4,3,2,Early Luteal
+135,28,4,2,1,2,2,2,Menstrual
+135,28,14,2,4,4,0,0,Ovulation
+135,28,4,1,3,2,2,2,Menstrual
+135,28,7,1,3,4,0,1,Follicular
+135,28,28,1,1,3,5,5,Late Luteal
+135,28,27,2,4,1,2,5,Late Luteal
+135,28,10,2,4,3,0,0,Follicular
+136,28,22,2,2,3,2,3,Early Luteal
+136,28,4,0,1,2,3,3,Menstrual
+136,28,12,2,5,2,0,1,Follicular
+136,28,2,1,1,3,3,1,Menstrual
+136,28,2,2,4,4,3,2,Menstrual
+136,28,25,1,4,1,5,5,Late Luteal
+136,28,17,2,4,4,1,0,Ovulation
+136,28,23,1,3,1,1,1,Early Luteal
+136,28,28,1,1,3,4,2,Late Luteal
+136,28,13,0,3,5,0,0,Follicular
+136,28,28,1,2,1,2,3,Late Luteal
+136,28,20,2,1,2,2,3,Early Luteal
+136,28,22,2,4,3,3,2,Early Luteal
+136,28,12,1,5,5,0,1,Follicular
+136,28,11,2,3,3,1,0,Follicular
+136,28,23,2,2,2,1,2,Early Luteal
+136,28,25,0,1,3,4,2,Late Luteal
+136,28,19,1,3,3,1,2,Early Luteal
+136,28,12,1,4,4,0,1,Follicular
+136,28,3,2,3,1,1,2,Menstrual
+137,27,8,1,5,4,0,1,Follicular
+137,27,13,1,5,4,0,0,Follicular
+137,27,25,0,1,3,3,4,Late Luteal
+137,27,4,0,2,2,3,2,Menstrual
+137,27,9,1,5,2,1,0,Follicular
+137,27,22,2,2,4,3,3,Early Luteal
+137,27,9,2,3,4,1,1,Follicular
+137,27,8,1,5,4,0,0,Follicular
+137,27,14,0,3,5,1,1,Ovulation
+137,27,20,1,4,2,1,1,Early Luteal
+137,27,21,0,3,1,1,3,Early Luteal
+137,27,7,0,5,4,1,1,Follicular
+137,27,26,1,3,2,2,5,Late Luteal
+137,27,6,2,1,5,2,1,Menstrual
+137,27,16,1,5,5,1,1,Ovulation
+137,27,14,1,4,4,1,0,Ovulation
+137,27,19,2,2,4,3,3,Early Luteal
+137,27,3,1,3,3,2,2,Menstrual
+137,27,1,0,1,1,2,3,Menstrual
+137,27,18,2,4,4,0,1,Ovulation
+138,28,5,0,1,5,2,2,Follicular
+138,28,12,1,3,4,1,1,Follicular
+138,28,19,0,1,3,2,4,Early Luteal
+138,28,2,2,2,3,2,4,Menstrual
+138,28,25,1,1,3,5,5,Late Luteal
+138,28,25,2,2,1,3,5,Late Luteal
+138,28,20,2,2,5,4,3,Early Luteal
+138,28,21,1,4,3,2,2,Early Luteal
+138,28,5,2,3,5,1,2,Follicular
+138,28,9,1,5,3,1,2,Follicular
+138,28,11,1,5,3,2,2,Follicular
+138,28,7,1,5,2,1,2,Follicular
+138,28,1,0,2,1,2,3,Menstrual
+138,28,1,2,1,4,2,4,Menstrual
+138,28,23,2,2,4,3,2,Early Luteal
+138,28,23,0,1,2,4,4,Early Luteal
+138,28,14,0,3,5,2,1,Ovulation
+138,28,20,0,3,3,4,3,Early Luteal
+138,28,15,0,3,4,1,1,Ovulation
+138,28,27,2,2,5,5,3,Late Luteal
+139,26,25,2,2,1,3,3,Late Luteal
+139,26,19,0,2,3,1,2,Early Luteal
+139,26,9,1,3,4,0,0,Follicular
+139,26,7,1,3,2,0,0,Follicular
+139,26,19,2,4,3,1,1,Early Luteal
+139,26,16,0,4,5,0,0,Ovulation
+139,26,11,2,4,5,0,0,Follicular
+139,26,19,1,4,3,1,0,Early Luteal
+139,26,20,1,1,3,0,1,Early Luteal
+139,26,3,2,2,3,0,0,Menstrual
+139,26,13,0,3,5,0,0,Ovulation
+139,26,15,1,5,5,0,0,Ovulation
+139,26,10,0,5,5,0,0,Follicular
+139,26,15,1,4,4,0,0,Ovulation
+139,26,14,1,5,5,0,0,Ovulation
+139,26,12,0,3,5,0,0,Follicular
+139,26,21,1,3,3,0,0,Early Luteal
+139,26,20,1,3,4,2,2,Early Luteal
+139,26,6,2,3,5,0,0,Follicular
+139,26,22,0,1,1,3,1,Late Luteal
+140,27,20,2,3,5,2,1,Early Luteal
+140,27,22,2,4,2,3,1,Early Luteal
+140,27,17,0,3,5,0,0,Ovulation
+140,27,23,1,3,4,4,3,Late Luteal
+140,27,18,2,4,4,1,1,Early Luteal
+140,27,21,2,4,4,1,1,Early Luteal
+140,27,16,2,4,3,1,0,Ovulation
+140,27,18,0,2,3,3,3,Early Luteal
+140,27,27,1,2,1,5,5,Late Luteal
+140,27,2,2,3,3,1,3,Menstrual
+140,27,13,1,4,5,1,0,Ovulation
+140,27,3,1,2,3,1,2,Menstrual
+140,27,13,1,4,5,1,1,Ovulation
+140,27,4,0,3,3,0,0,Follicular
+140,27,7,2,4,5,0,1,Follicular
+140,27,20,1,2,4,3,1,Early Luteal
+140,27,10,1,3,3,1,1,Follicular
+140,27,16,0,4,4,0,0,Ovulation
+140,27,1,2,2,3,3,3,Menstrual
+140,27,19,2,3,5,2,3,Early Luteal
+141,30,29,0,1,1,5,4,Late Luteal
+141,30,26,2,1,2,5,4,Late Luteal
+141,30,12,0,5,4,2,2,Follicular
+141,30,12,0,3,3,2,2,Follicular
+141,30,6,1,4,5,2,1,Follicular
+141,30,25,1,4,4,4,4,Early Luteal
+141,30,25,2,2,3,3,4,Early Luteal
+141,30,11,2,3,2,2,2,Follicular
+141,30,4,2,2,2,4,2,Menstrual
+141,30,6,1,3,3,2,1,Follicular
+141,30,13,2,4,5,2,2,Follicular
+141,30,18,1,5,4,2,1,Ovulation
+141,30,14,0,3,5,2,1,Follicular
+141,30,24,1,3,3,3,2,Early Luteal
+141,30,12,2,5,3,2,1,Follicular
+141,30,2,2,2,2,4,2,Menstrual
+141,30,15,2,4,5,1,1,Ovulation
+141,30,10,0,3,4,2,1,Follicular
+141,30,21,0,2,4,4,2,Early Luteal
+141,30,22,2,4,4,3,4,Early Luteal
+142,29,8,0,2,5,0,0,Follicular
+142,29,27,2,1,1,2,2,Late Luteal
+142,29,10,2,3,4,0,0,Follicular
+142,29,17,1,5,5,0,0,Ovulation
+142,29,17,2,4,4,0,0,Ovulation
+142,29,1,2,2,4,0,0,Menstrual
+142,29,23,2,4,1,1,2,Early Luteal
+142,29,23,1,4,3,1,2,Early Luteal
+142,29,22,1,4,2,2,2,Early Luteal
+142,29,25,2,1,1,2,4,Late Luteal
+142,29,15,2,3,3,0,0,Follicular
+142,29,4,2,1,4,2,0,Menstrual
+142,29,1,1,1,3,2,2,Menstrual
+142,29,1,2,2,2,1,0,Menstrual
+142,29,16,1,4,3,0,0,Ovulation
+142,29,25,2,2,2,4,3,Late Luteal
+142,29,28,1,3,2,3,4,Late Luteal
+142,29,17,2,4,3,0,0,Ovulation
+142,29,13,1,5,5,0,0,Follicular
+142,29,22,2,4,3,2,1,Early Luteal
+143,26,5,1,2,2,1,2,Menstrual
+143,26,4,0,1,4,1,1,Menstrual
+143,26,10,1,3,3,0,0,Follicular
+143,26,12,0,3,4,0,0,Follicular
+143,26,9,1,2,4,0,0,Follicular
+143,26,12,0,3,5,0,0,Follicular
+143,26,23,1,3,1,2,2,Late Luteal
+143,26,11,2,3,3,0,0,Follicular
+143,26,1,0,1,2,1,0,Menstrual
+143,26,21,2,2,1,0,1,Early Luteal
+143,26,25,1,2,5,3,2,Late Luteal
+143,26,18,1,5,4,0,0,Ovulation
+143,26,15,2,5,4,0,0,Ovulation
+143,26,21,2,3,2,2,0,Early Luteal
+143,26,20,1,3,4,2,1,Early Luteal
+143,26,12,2,4,3,0,0,Follicular
+143,26,21,1,3,2,0,1,Early Luteal
+143,26,7,2,2,3,1,1,Menstrual
+143,26,19,2,2,5,2,1,Early Luteal
+143,26,9,2,4,3,0,0,Follicular
+144,31,12,1,4,4,0,0,Follicular
+144,31,20,2,5,3,1,0,Ovulation
+144,31,22,0,1,3,2,3,Early Luteal
+144,31,18,1,4,5,1,0,Ovulation
+144,31,28,0,3,3,2,2,Late Luteal
+144,31,2,0,3,3,3,2,Menstrual
+144,31,16,2,4,4,1,0,Ovulation
+144,31,25,1,4,3,1,3,Early Luteal
+144,31,26,2,3,4,2,3,Early Luteal
+144,31,16,2,5,4,1,0,Ovulation
+144,31,19,2,3,4,1,0,Ovulation
+144,31,20,2,4,5,1,0,Ovulation
+144,31,27,2,2,2,4,5,Late Luteal
+144,31,29,2,1,2,2,4,Late Luteal
+144,31,20,2,4,4,1,1,Ovulation
+144,31,19,2,5,4,1,1,Ovulation
+144,31,24,1,1,3,2,2,Early Luteal
+144,31,13,2,5,5,1,1,Follicular
+144,31,2,1,3,3,3,2,Menstrual
+144,31,26,2,3,3,1,1,Early Luteal
+145,27,21,1,4,1,1,3,Early Luteal
+145,27,17,1,4,4,0,0,Ovulation
+145,27,21,2,3,2,2,3,Early Luteal
+145,27,26,0,1,2,4,5,Late Luteal
+145,27,20,1,2,2,1,3,Early Luteal
+145,27,1,1,2,2,3,1,Menstrual
+145,27,7,0,4,5,0,0,Follicular
+145,27,5,2,3,4,1,1,Menstrual
+145,27,17,0,4,4,0,1,Ovulation
+145,27,23,1,1,2,4,4,Late Luteal
+145,27,14,0,3,5,1,1,Ovulation
+145,27,6,2,1,3,3,3,Menstrual
+145,27,13,2,3,2,0,1,Follicular
+145,27,14,2,5,5,1,1,Ovulation
+145,27,4,1,2,3,1,1,Menstrual
+145,27,25,2,1,3,2,2,Late Luteal
+145,27,16,2,4,5,1,1,Ovulation
+145,27,17,1,5,5,1,0,Ovulation
+145,27,15,1,3,5,1,1,Ovulation
+145,27,25,2,4,2,4,3,Late Luteal
+146,30,3,2,3,5,2,2,Menstrual
+146,30,8,2,5,3,0,0,Follicular
+146,30,12,0,3,3,1,0,Follicular
+146,30,16,1,4,4,0,0,Ovulation
+146,30,15,1,3,5,1,0,Follicular
+146,30,5,1,1,4,3,3,Menstrual
+146,30,6,0,1,3,1,1,Menstrual
+146,30,4,2,2,2,2,3,Menstrual
+146,30,11,1,5,5,1,1,Follicular
+146,30,13,0,3,4,1,0,Follicular
+146,30,17,0,4,5,1,1,Ovulation
+146,30,26,0,1,4,2,2,Late Luteal
+146,30,1,2,3,4,3,2,Menstrual
+146,30,11,1,4,3,0,1,Follicular
+146,30,22,2,2,2,1,3,Early Luteal
+146,30,28,1,2,3,5,3,Late Luteal
+146,30,16,2,4,5,1,1,Ovulation
+146,30,16,1,4,4,1,0,Ovulation
+146,30,27,0,1,3,2,4,Late Luteal
+146,30,28,1,2,1,4,5,Late Luteal
+147,29,23,2,4,3,1,3,Early Luteal
+147,29,15,1,4,4,1,1,Ovulation
+147,29,26,1,1,4,4,2,Late Luteal
+147,29,10,1,4,5,1,0,Follicular
+147,29,17,2,5,5,1,0,Ovulation
+147,29,20,2,4,3,3,2,Early Luteal
+147,29,17,1,5,4,0,0,Ovulation
+147,29,11,2,4,3,0,1,Follicular
+147,29,15,0,4,3,1,1,Ovulation
+147,29,4,0,4,3,1,0,Follicular
+147,29,22,1,4,3,1,3,Early Luteal
+147,29,3,1,2,3,3,1,Menstrual
+147,29,19,1,1,4,1,2,Early Luteal
+147,29,28,2,1,4,2,4,Late Luteal
+147,29,7,1,4,3,0,0,Follicular
+147,29,5,2,5,4,0,0,Follicular
+147,29,6,2,3,5,1,0,Follicular
+147,29,25,1,2,2,5,4,Late Luteal
+147,29,5,1,4,5,0,1,Follicular
+147,29,9,2,3,5,1,0,Follicular
+148,29,15,2,3,5,0,0,Follicular
+148,29,5,1,4,3,0,2,Menstrual
+148,29,10,1,3,5,0,0,Follicular
+148,29,1,0,2,2,1,1,Menstrual
+148,29,15,2,3,3,0,0,Follicular
+148,29,4,1,1,1,1,1,Menstrual
+148,29,13,0,4,3,0,0,Follicular
+148,29,27,1,2,4,3,3,Late Luteal
+148,29,24,1,2,4,1,0,Early Luteal
+148,29,12,1,4,3,0,0,Follicular
+148,29,20,0,4,3,0,0,Ovulation
+148,29,23,2,1,4,2,1,Early Luteal
+148,29,20,1,4,4,0,0,Ovulation
+148,29,20,2,5,5,0,0,Ovulation
+148,29,5,0,2,2,2,1,Menstrual
+148,29,15,0,4,5,0,0,Follicular
+148,29,16,2,4,4,0,0,Ovulation
+148,29,13,1,4,5,0,0,Follicular
+148,29,23,1,3,2,1,2,Early Luteal
+148,29,15,0,4,5,0,0,Follicular
+149,28,21,2,3,4,2,2,Early Luteal
+149,28,3,2,2,3,3,3,Menstrual
+149,28,16,2,4,4,0,1,Ovulation
+149,28,9,0,2,2,1,0,Follicular
+149,28,3,1,1,4,3,1,Menstrual
+149,28,5,1,1,4,2,1,Menstrual
+149,28,19,1,4,4,1,0,Ovulation
+149,28,27,1,1,4,3,4,Late Luteal
+149,28,1,1,2,3,2,1,Menstrual
+149,28,4,1,2,3,3,2,Menstrual
+149,28,19,1,4,5,0,0,Ovulation
+149,28,6,2,1,4,3,1,Menstrual
+149,28,26,1,3,1,2,5,Late Luteal
+149,28,22,0,3,2,3,2,Early Luteal
+149,28,11,2,3,5,1,1,Follicular
+149,28,27,2,2,3,2,3,Late Luteal
+149,28,15,2,4,4,1,1,Ovulation
+149,28,17,1,5,4,0,0,Ovulation
+149,28,5,0,1,1,3,3,Menstrual
+149,28,22,2,2,2,3,2,Early Luteal
+150,30,30,1,2,2,2,3,Late Luteal
+150,30,8,1,4,3,1,0,Follicular
+150,30,28,2,1,2,3,3,Late Luteal
+150,30,20,2,4,5,0,0,Ovulation
+150,30,26,1,3,1,4,4,Late Luteal
+150,30,1,1,1,3,3,1,Menstrual
+150,30,12,2,4,3,0,0,Follicular
+150,30,13,2,5,4,1,1,Follicular
+150,30,30,1,2,4,5,4,Late Luteal
+150,30,23,1,4,4,3,1,Early Luteal
+150,30,17,2,4,4,0,1,Ovulation
+150,30,17,0,3,5,0,1,Ovulation
+150,30,8,0,5,4,1,1,Follicular
+150,30,22,1,4,2,2,1,Early Luteal
+150,30,6,1,1,3,2,2,Menstrual
+150,30,23,2,2,2,1,2,Early Luteal
+150,30,13,2,2,2,1,0,Follicular
+150,30,6,0,1,3,1,3,Menstrual
+150,30,24,1,3,3,3,2,Early Luteal
+150,30,10,2,3,3,1,1,Follicular
+151,28,17,2,5,5,0,0,Ovulation
+151,28,6,1,2,3,0,1,Menstrual
+151,28,20,0,2,5,1,1,Early Luteal
+151,28,4,1,1,2,0,1,Menstrual
+151,28,10,1,5,3,0,0,Follicular
+151,28,22,1,4,3,1,2,Early Luteal
+151,28,28,2,1,3,3,3,Late Luteal
+151,28,27,2,2,1,4,3,Late Luteal
+151,28,6,2,3,3,0,2,Menstrual
+151,28,5,1,2,4,1,1,Menstrual
+151,28,23,0,1,3,1,0,Early Luteal
+151,28,16,0,3,5,0,0,Ovulation
+151,28,16,1,5,3,0,0,Ovulation
+151,28,18,1,4,5,0,0,Ovulation
+151,28,24,1,2,3,3,1,Late Luteal
+151,28,22,1,2,3,1,2,Early Luteal
+151,28,7,1,1,2,2,1,Menstrual
+151,28,7,2,1,3,0,0,Menstrual
+151,28,23,2,2,4,0,0,Early Luteal
+151,28,10,2,3,4,0,0,Follicular
+152,26,24,1,2,1,3,3,Late Luteal
+152,26,18,2,3,2,2,1,Early Luteal
+152,26,23,1,2,2,4,4,Late Luteal
+152,26,5,2,5,5,0,0,Follicular
+152,26,4,2,2,2,3,3,Menstrual
+152,26,13,1,5,3,1,1,Ovulation
+152,26,26,0,1,1,4,3,Late Luteal
+152,26,21,1,3,4,1,2,Early Luteal
+152,26,11,1,4,5,0,0,Follicular
+152,26,19,1,4,3,2,3,Early Luteal
+152,26,22,1,1,1,5,2,Late Luteal
+152,26,6,2,4,5,1,0,Follicular
+152,26,6,2,3,5,1,0,Follicular
+152,26,10,1,5,2,0,0,Follicular
+152,26,4,1,4,4,1,3,Menstrual
+152,26,5,2,4,5,1,0,Follicular
+152,26,4,1,3,4,3,2,Menstrual
+152,26,25,0,2,3,2,5,Late Luteal
+152,26,13,1,4,3,1,1,Ovulation
+152,26,5,1,5,5,1,0,Follicular
+153,27,14,1,5,4,0,1,Ovulation
+153,27,24,2,1,1,2,2,Late Luteal
+153,27,13,2,4,3,0,1,Follicular
+153,27,13,1,4,3,0,0,Follicular
+153,27,12,2,4,3,1,0,Follicular
+153,27,24,2,2,1,3,2,Late Luteal
+153,27,3,1,3,4,1,2,Menstrual
+153,27,3,2,1,3,1,1,Menstrual
+153,27,3,0,1,4,1,2,Menstrual
+153,27,7,0,4,5,1,0,Follicular
+153,27,13,1,5,3,0,1,Follicular
+153,27,24,1,1,3,5,4,Late Luteal
+153,27,12,1,4,5,0,1,Follicular
+153,27,1,1,2,4,2,2,Menstrual
+153,27,27,1,1,3,5,2,Late Luteal
+153,27,1,0,1,2,1,1,Menstrual
+153,27,9,1,5,3,1,1,Follicular
+153,27,13,2,5,4,0,1,Follicular
+153,27,14,2,5,4,0,1,Ovulation
+153,27,27,2,3,4,3,5,Late Luteal
+154,27,4,2,4,4,0,0,Menstrual
+154,27,22,1,4,2,2,1,Early Luteal
+154,27,17,2,5,4,0,0,Ovulation
+154,27,27,0,2,5,1,4,Late Luteal
+154,27,23,2,3,3,1,4,Late Luteal
+154,27,23,2,1,5,3,4,Late Luteal
+154,27,1,2,2,1,2,1,Menstrual
+154,27,3,2,4,4,2,1,Menstrual
+154,27,11,1,5,3,0,0,Follicular
+154,27,1,2,1,4,1,1,Menstrual
+154,27,2,2,2,4,2,1,Menstrual
+154,27,10,1,4,3,0,0,Follicular
+154,27,18,2,4,5,0,0,Ovulation
+154,27,14,1,5,4,0,0,Ovulation
+154,27,25,2,1,3,2,3,Late Luteal
+154,27,7,0,1,5,0,0,Follicular
+154,27,14,2,5,5,0,0,Ovulation
+154,27,27,1,2,2,1,1,Late Luteal
+154,27,25,2,1,4,1,3,Late Luteal
+154,27,14,2,5,4,0,0,Ovulation
+155,31,13,2,4,3,1,2,Follicular
+155,31,6,2,5,5,2,2,Follicular
+155,31,10,2,4,5,1,2,Follicular
+155,31,20,2,4,4,2,2,Ovulation
+155,31,2,0,1,4,4,3,Menstrual
+155,31,2,1,1,2,3,4,Menstrual
+155,31,31,2,3,2,3,5,Late Luteal
+155,31,17,0,4,4,2,2,Ovulation
+155,31,17,0,4,3,1,1,Ovulation
+155,31,24,1,4,2,3,4,Early Luteal
+155,31,31,2,2,4,5,4,Late Luteal
+155,31,27,2,3,4,5,4,Late Luteal
+155,31,3,1,3,2,3,4,Menstrual
+155,31,2,1,3,4,3,2,Menstrual
+155,31,23,0,1,4,2,2,Early Luteal
+155,31,20,1,3,4,2,1,Ovulation
+155,31,7,1,3,4,1,2,Follicular
+155,31,7,2,4,4,1,2,Follicular
+155,31,27,2,3,4,3,5,Late Luteal
+155,31,6,1,4,2,2,1,Follicular
+156,26,14,1,5,4,0,0,Ovulation
+156,26,22,0,2,3,1,1,Late Luteal
+156,26,21,2,3,4,2,2,Early Luteal
+156,26,9,1,4,4,0,0,Follicular
+156,26,7,1,5,3,0,0,Follicular
+156,26,15,2,4,5,0,0,Ovulation
+156,26,26,0,2,4,4,3,Late Luteal
+156,26,9,2,5,3,0,0,Follicular
+156,26,6,2,4,3,0,0,Follicular
+156,26,9,1,5,5,0,0,Follicular
+156,26,10,0,3,3,0,0,Follicular
+156,26,19,2,3,2,1,2,Early Luteal
+156,26,21,2,3,2,0,1,Early Luteal
+156,26,2,1,3,4,0,2,Menstrual
+156,26,24,2,1,3,2,2,Late Luteal
+156,26,9,1,3,3,0,0,Follicular
+156,26,15,1,4,4,0,0,Ovulation
+156,26,12,2,4,2,0,0,Follicular
+156,26,6,2,4,3,0,0,Follicular
+156,26,23,1,1,5,2,3,Late Luteal
+157,31,29,2,2,1,4,1,Late Luteal
+157,31,8,0,3,5,0,0,Follicular
+157,31,2,1,2,4,1,2,Menstrual
+157,31,8,0,2,5,0,0,Follicular
+157,31,28,1,3,1,4,4,Late Luteal
+157,31,17,0,4,5,0,0,Ovulation
+157,31,5,2,2,3,0,2,Menstrual
+157,31,4,1,2,4,0,0,Menstrual
+157,31,2,0,1,3,0,1,Menstrual
+157,31,25,0,1,3,1,1,Early Luteal
+157,31,28,0,3,2,4,1,Late Luteal
+157,31,18,1,5,4,0,0,Ovulation
+157,31,30,1,3,3,2,3,Late Luteal
+157,31,10,2,3,5,0,0,Follicular
+157,31,26,1,4,4,0,0,Early Luteal
+157,31,20,2,4,4,0,0,Ovulation
+157,31,11,2,5,3,0,0,Follicular
+157,31,25,2,4,4,0,1,Early Luteal
+157,31,3,2,1,2,1,1,Menstrual
+157,31,14,2,4,2,0,0,Follicular
+158,29,6,0,2,3,0,0,Follicular
+158,29,28,2,1,3,4,3,Late Luteal
+158,29,11,1,3,4,0,1,Follicular
+158,29,23,1,4,5,2,2,Early Luteal
+158,29,2,2,1,4,1,3,Menstrual
+158,29,20,0,3,3,3,2,Early Luteal
+158,29,21,1,4,4,3,2,Early Luteal
+158,29,25,1,1,2,2,2,Late Luteal
+158,29,5,2,3,4,0,1,Follicular
+158,29,2,2,3,4,1,1,Menstrual
+158,29,29,1,1,3,4,5,Late Luteal
+158,29,17,1,5,4,0,0,Ovulation
+158,29,9,2,3,4,0,0,Follicular
+158,29,13,1,4,5,0,0,Follicular
+158,29,29,2,1,3,5,5,Late Luteal
+158,29,12,0,4,3,0,0,Follicular
+158,29,28,1,3,3,2,2,Late Luteal
+158,29,11,1,4,4,1,0,Follicular
+158,29,23,2,3,3,3,1,Early Luteal
+158,29,7,1,4,2,1,0,Follicular
+159,27,13,1,4,4,0,1,Follicular
+159,27,8,1,4,4,0,1,Follicular
+159,27,9,1,4,3,1,1,Follicular
+159,27,1,0,2,5,1,2,Menstrual
+159,27,20,2,3,4,2,1,Early Luteal
+159,27,20,1,3,3,1,3,Early Luteal
+159,27,11,2,5,4,1,0,Follicular
+159,27,12,1,5,4,0,0,Follicular
+159,27,11,2,3,3,1,0,Follicular
+159,27,15,2,4,3,1,1,Ovulation
+159,27,11,2,3,4,1,0,Follicular
+159,27,2,2,1,4,3,3,Menstrual
+159,27,25,2,2,3,3,4,Late Luteal
+159,27,1,2,2,3,2,3,Menstrual
+159,27,18,2,4,5,0,1,Ovulation
+159,27,1,2,1,3,1,2,Menstrual
+159,27,26,0,1,2,4,4,Late Luteal
+159,27,2,2,3,2,2,1,Menstrual
+159,27,7,0,1,3,1,1,Menstrual
+159,27,19,0,4,5,1,1,Ovulation
+160,28,15,0,4,5,0,0,Ovulation
+160,28,13,1,3,3,0,0,Follicular
+160,28,18,1,5,4,0,0,Ovulation
+160,28,17,1,5,4,0,0,Ovulation
+160,28,27,1,3,1,3,2,Late Luteal
+160,28,27,1,2,4,4,2,Late Luteal
+160,28,10,0,3,2,0,0,Follicular
+160,28,19,2,5,3,0,0,Ovulation
+160,28,22,1,2,2,1,1,Early Luteal
+160,28,12,1,5,3,0,0,Follicular
+160,28,5,1,4,3,0,1,Menstrual
+160,28,6,2,2,3,2,1,Menstrual
+160,28,23,0,2,2,0,1,Early Luteal
+160,28,23,2,4,4,2,1,Early Luteal
+160,28,21,1,3,3,2,1,Early Luteal
+160,28,22,1,3,3,1,2,Early Luteal
+160,28,7,2,1,2,2,2,Menstrual
+160,28,1,0,1,2,0,0,Menstrual
+160,28,11,2,4,5,0,0,Follicular
+160,28,11,2,4,5,0,0,Follicular
+161,31,3,1,3,4,1,3,Menstrual
+161,31,21,0,4,4,2,3,Early Luteal
+161,31,8,2,3,3,1,1,Follicular
+161,31,12,1,3,4,1,1,Follicular
+161,31,24,2,5,3,3,2,Early Luteal
+161,31,5,1,1,2,3,1,Menstrual
+161,31,24,0,3,4,2,3,Early Luteal
+161,31,21,2,3,4,2,3,Early Luteal
+161,31,20,2,5,4,0,1,Ovulation
+161,31,18,2,4,4,1,1,Ovulation
+161,31,31,1,4,3,4,3,Late Luteal
+161,31,4,0,1,4,3,2,Menstrual
+161,31,13,1,4,5,0,0,Follicular
+161,31,7,2,4,3,0,0,Follicular
+161,31,28,2,2,3,3,3,Late Luteal
+161,31,27,1,3,2,4,3,Late Luteal
+161,31,11,1,4,5,1,1,Follicular
+161,31,25,2,3,4,3,3,Early Luteal
+161,31,22,2,4,2,3,1,Early Luteal
+161,31,19,1,4,4,1,0,Ovulation
+162,30,6,0,2,4,2,1,Menstrual
+162,30,5,2,4,3,3,3,Menstrual
+162,30,5,2,2,2,3,1,Menstrual
+162,30,2,1,1,3,2,2,Menstrual
+162,30,27,1,4,5,5,4,Late Luteal
+162,30,28,2,3,3,2,5,Late Luteal
+162,30,27,2,3,1,5,5,Late Luteal
+162,30,8,1,4,5,0,1,Follicular
+162,30,9,2,3,4,1,0,Follicular
+162,30,2,0,1,5,3,3,Menstrual
+162,30,14,2,4,4,0,0,Follicular
+162,30,2,1,3,2,3,1,Menstrual
+162,30,12,0,5,3,0,0,Follicular
+162,30,3,2,3,2,2,2,Menstrual
+162,30,12,1,3,4,1,0,Follicular
+162,30,8,0,3,4,1,0,Follicular
+162,30,19,1,5,5,1,1,Ovulation
+162,30,30,2,1,4,5,3,Late Luteal
+162,30,28,0,1,2,4,2,Late Luteal
+162,30,7,1,1,2,1,1,Menstrual
+163,29,28,2,3,4,4,4,Late Luteal
+163,29,26,2,1,2,4,3,Late Luteal
+163,29,28,1,3,4,2,3,Late Luteal
+163,29,12,1,4,5,1,0,Follicular
+163,29,26,2,1,3,2,3,Late Luteal
+163,29,18,1,5,4,0,0,Ovulation
+163,29,5,2,4,3,0,0,Follicular
+163,29,17,2,3,5,0,0,Ovulation
+163,29,24,1,2,3,1,2,Early Luteal
+163,29,27,2,3,4,5,3,Late Luteal
+163,29,4,1,5,5,0,1,Follicular
+163,29,20,0,1,3,3,2,Early Luteal
+163,29,19,2,2,3,1,3,Early Luteal
+163,29,18,0,4,5,0,0,Ovulation
+163,29,27,2,3,1,3,5,Late Luteal
+163,29,28,0,2,2,4,4,Late Luteal
+163,29,22,2,4,4,1,3,Early Luteal
+163,29,27,2,3,1,5,2,Late Luteal
+163,29,1,1,1,4,1,1,Menstrual
+163,29,3,2,3,2,2,2,Menstrual
+164,29,2,1,2,4,4,4,Menstrual
+164,29,7,2,4,4,2,2,Follicular
+164,29,9,1,5,5,2,2,Follicular
+164,29,10,2,3,4,1,2,Follicular
+164,29,21,1,4,4,2,3,Early Luteal
+164,29,7,2,3,4,2,2,Follicular
+164,29,4,2,1,4,3,3,Menstrual
+164,29,27,1,1,4,5,3,Late Luteal
+164,29,11,1,4,4,2,2,Follicular
+164,29,4,1,3,3,4,3,Menstrual
+164,29,23,0,2,2,3,4,Early Luteal
+164,29,12,2,2,2,1,1,Follicular
+164,29,5,0,2,4,1,1,Follicular
+164,29,4,1,1,3,4,4,Menstrual
+164,29,18,2,3,5,2,1,Ovulation
+164,29,14,2,5,5,1,2,Ovulation
+164,29,3,2,2,4,3,4,Menstrual
+164,29,25,1,2,3,5,5,Late Luteal
+164,29,12,2,4,3,2,1,Follicular
+164,29,21,2,2,4,4,4,Early Luteal
+165,28,17,0,4,4,0,0,Ovulation
+165,28,10,2,4,4,0,0,Follicular
+165,28,18,0,3,4,0,2,Early Luteal
+165,28,3,2,1,4,0,2,Menstrual
+165,28,3,2,2,3,0,0,Menstrual
+165,28,12,1,4,5,0,0,Follicular
+165,28,12,0,3,4,0,0,Follicular
+165,28,13,0,3,4,0,0,Ovulation
+165,28,5,0,4,4,0,0,Follicular
+165,28,24,2,3,2,1,2,Late Luteal
+165,28,6,1,4,5,0,0,Follicular
+165,28,4,0,4,5,0,0,Follicular
+165,28,27,2,3,2,4,1,Late Luteal
+165,28,13,2,4,3,0,0,Ovulation
+165,28,20,2,1,4,2,2,Early Luteal
+165,28,28,1,3,4,2,1,Late Luteal
+165,28,13,1,5,4,0,0,Ovulation
+165,28,25,1,1,2,3,1,Late Luteal
+165,28,7,0,4,4,0,0,Follicular
+165,28,14,2,5,4,0,0,Ovulation
+166,26,20,2,4,4,1,0,Early Luteal
+166,26,23,1,3,3,3,4,Late Luteal
+166,26,1,1,3,2,1,0,Menstrual
+166,26,16,2,5,4,0,0,Ovulation
+166,26,12,1,3,4,0,0,Follicular
+166,26,1,1,1,4,1,0,Menstrual
+166,26,8,2,4,3,0,0,Follicular
+166,26,4,1,1,2,1,2,Menstrual
+166,26,23,1,1,2,1,2,Late Luteal
+166,26,19,2,1,4,1,0,Early Luteal
+166,26,8,1,4,3,0,0,Follicular
+166,26,25,2,3,1,4,3,Late Luteal
+166,26,11,0,4,3,0,0,Follicular
+166,26,13,2,4,3,0,0,Follicular
+166,26,22,2,1,2,1,4,Late Luteal
+166,26,25,2,2,2,4,2,Late Luteal
+166,26,9,0,4,5,0,0,Follicular
+166,26,3,2,1,1,0,2,Menstrual
+166,26,8,1,3,3,0,0,Follicular
+166,26,24,2,1,1,2,1,Late Luteal
+167,28,3,2,1,2,0,1,Menstrual
+167,28,20,0,1,3,1,0,Early Luteal
+167,28,20,2,2,3,2,0,Early Luteal
+167,28,8,2,4,3,0,0,Follicular
+167,28,21,2,4,3,0,1,Early Luteal
+167,28,27,2,3,1,2,1,Late Luteal
+167,28,4,2,3,1,1,2,Menstrual
+167,28,5,1,5,4,0,0,Follicular
+167,28,5,0,2,4,0,0,Follicular
+167,28,18,1,4,4,0,0,Ovulation
+167,28,7,2,3,5,0,0,Follicular
+167,28,27,2,2,1,4,4,Late Luteal
+167,28,14,0,3,4,0,0,Ovulation
+167,28,28,2,1,1,2,3,Late Luteal
+167,28,15,1,3,5,0,0,Ovulation
+167,28,28,1,2,1,1,4,Late Luteal
+167,28,7,2,3,5,0,0,Follicular
+167,28,28,1,1,1,4,4,Late Luteal
+167,28,22,2,3,3,0,1,Early Luteal
+167,28,22,0,1,3,2,2,Early Luteal
+168,30,10,1,5,3,0,0,Follicular
+168,30,7,1,5,3,0,0,Follicular
+168,30,12,1,5,4,0,0,Follicular
+168,30,24,2,2,4,2,0,Early Luteal
+168,30,14,1,4,3,0,0,Follicular
+168,30,10,2,4,5,0,0,Follicular
+168,30,20,1,2,3,1,0,Early Luteal
+168,30,9,0,2,3,0,0,Follicular
+168,30,30,1,2,4,1,2,Late Luteal
+168,30,21,2,5,5,1,2,Early Luteal
+168,30,27,1,3,3,2,1,Late Luteal
+168,30,18,2,5,3,0,0,Ovulation
+168,30,28,0,1,2,1,4,Late Luteal
+168,30,21,0,1,4,1,1,Early Luteal
+168,30,28,1,4,4,3,4,Late Luteal
+168,30,10,1,2,3,0,0,Follicular
+168,30,4,1,1,4,2,2,Menstrual
+168,30,22,1,4,3,2,1,Early Luteal
+168,30,11,1,5,3,0,0,Follicular
+168,30,29,2,4,4,3,1,Late Luteal
+169,30,4,1,5,3,0,0,Follicular
+169,30,30,1,4,2,2,4,Late Luteal
+169,30,9,1,3,3,0,0,Follicular
+169,30,7,2,3,4,0,1,Follicular
+169,30,18,2,4,4,0,0,Ovulation
+169,30,7,2,4,5,1,1,Follicular
+169,30,9,1,5,4,0,0,Follicular
+169,30,6,0,3,4,0,1,Follicular
+169,30,26,1,2,3,2,4,Late Luteal
+169,30,13,2,4,5,0,1,Follicular
+169,30,28,2,2,2,2,3,Late Luteal
+169,30,15,1,5,4,1,1,Ovulation
+169,30,15,1,4,5,1,1,Ovulation
+169,30,5,2,4,4,1,1,Follicular
+169,30,11,2,5,5,1,1,Follicular
+169,30,24,1,3,4,3,2,Early Luteal
+169,30,22,2,5,4,3,1,Early Luteal
+169,30,16,1,4,4,0,1,Ovulation
+169,30,21,1,2,4,1,1,Early Luteal
+169,30,4,2,4,2,0,1,Follicular
+170,26,13,1,5,4,0,0,Follicular
+170,26,1,1,2,2,3,1,Menstrual
+170,26,4,1,2,4,3,1,Menstrual
+170,26,8,2,5,3,1,1,Follicular
+170,26,22,2,2,1,2,2,Late Luteal
+170,26,10,1,5,4,0,0,Follicular
+170,26,12,1,4,5,1,0,Follicular
+170,26,12,1,4,4,0,0,Follicular
+170,26,5,0,1,2,1,3,Menstrual
+170,26,5,0,1,3,3,1,Menstrual
+170,26,7,1,5,5,1,0,Follicular
+170,26,25,0,1,1,3,5,Late Luteal
+170,26,18,1,4,5,0,1,Ovulation
+170,26,15,2,5,5,1,0,Ovulation
+170,26,17,1,4,4,0,0,Ovulation
+170,26,22,1,1,1,2,3,Late Luteal
+170,26,8,1,4,2,0,0,Follicular
+170,26,5,2,1,2,2,3,Menstrual
+170,26,1,1,3,3,3,1,Menstrual
+170,26,24,1,3,4,4,3,Late Luteal
+171,27,16,2,4,5,1,1,Ovulation
+171,27,21,0,2,3,2,1,Early Luteal
+171,27,18,1,4,3,2,1,Early Luteal
+171,27,26,1,4,2,4,3,Late Luteal
+171,27,2,1,2,2,2,2,Menstrual
+171,27,22,2,2,4,1,2,Early Luteal
+171,27,17,1,4,4,1,0,Ovulation
+171,27,22,1,2,4,3,1,Early Luteal
+171,27,3,1,1,3,1,1,Menstrual
+171,27,15,0,4,4,1,0,Ovulation
+171,27,5,2,5,5,0,1,Follicular
+171,27,23,1,1,3,3,2,Late Luteal
+171,27,4,2,2,4,2,2,Menstrual
+171,27,17,1,4,5,1,0,Ovulation
+171,27,4,0,1,2,1,3,Menstrual
+171,27,7,2,4,2,0,1,Follicular
+171,27,20,0,3,3,3,3,Early Luteal
+171,27,12,2,3,5,0,1,Follicular
+171,27,25,1,1,4,4,4,Late Luteal
+171,27,19,2,3,2,2,1,Early Luteal
+172,30,5,1,3,2,2,3,Menstrual
+172,30,19,1,5,5,0,0,Ovulation
+172,30,7,2,3,4,0,0,Follicular
+172,30,1,1,2,3,1,3,Menstrual
+172,30,9,2,5,5,1,0,Follicular
+172,30,26,2,1,2,4,4,Late Luteal
+172,30,22,2,1,3,2,2,Early Luteal
+172,30,14,0,4,4,0,0,Follicular
+172,30,14,2,3,5,1,0,Follicular
+172,30,16,2,5,5,1,1,Ovulation
+172,30,12,2,4,5,1,0,Follicular
+172,30,30,1,3,3,4,2,Late Luteal
+172,30,6,2,3,4,3,3,Menstrual
+172,30,13,0,3,3,0,1,Follicular
+172,30,10,1,5,5,1,0,Follicular
+172,30,27,2,4,2,3,4,Late Luteal
+172,30,15,2,3,5,1,1,Follicular
+172,30,8,1,4,3,0,0,Follicular
+172,30,21,0,2,3,3,1,Early Luteal
+172,30,24,2,2,4,3,1,Early Luteal
+173,30,27,2,3,4,1,3,Late Luteal
+173,30,11,2,3,3,0,0,Follicular
+173,30,23,0,2,2,0,1,Early Luteal
+173,30,1,0,1,2,0,0,Menstrual
+173,30,12,2,5,4,0,0,Follicular
+173,30,9,2,5,4,0,0,Follicular
+173,30,22,2,3,2,1,1,Early Luteal
+173,30,12,2,4,4,0,0,Follicular
+173,30,21,2,5,3,1,0,Early Luteal
+173,30,25,0,1,5,1,1,Early Luteal
+173,30,12,2,3,3,0,0,Follicular
+173,30,26,0,1,2,3,1,Late Luteal
+173,30,19,2,3,5,0,0,Ovulation
+173,30,21,2,2,2,1,1,Early Luteal
+173,30,17,1,4,5,0,0,Ovulation
+173,30,11,2,4,3,0,0,Follicular
+173,30,9,2,4,3,0,0,Follicular
+173,30,7,2,5,5,0,0,Follicular
+173,30,25,1,2,3,1,2,Early Luteal
+173,30,14,2,5,5,0,0,Follicular
+174,28,27,1,2,3,2,5,Late Luteal
+174,28,26,0,2,4,4,4,Late Luteal
+174,28,22,2,3,2,3,2,Early Luteal
+174,28,6,2,2,4,3,1,Menstrual
+174,28,26,2,4,2,3,4,Late Luteal
+174,28,14,0,3,3,1,1,Follicular
+174,28,3,2,1,2,2,3,Menstrual
+174,28,8,1,5,4,1,1,Follicular
+174,28,25,1,1,4,4,2,Late Luteal
+174,28,15,0,4,4,1,0,Ovulation
+174,28,24,0,1,2,2,3,Late Luteal
+174,28,13,0,2,3,0,0,Follicular
+174,28,7,1,2,4,1,1,Menstrual
+174,28,4,2,1,2,2,1,Menstrual
+174,28,6,2,2,2,1,3,Menstrual
+174,28,28,2,2,2,3,2,Late Luteal
+174,28,17,2,5,4,1,1,Ovulation
+174,28,1,1,2,4,1,1,Menstrual
+174,28,8,0,2,4,0,0,Follicular
+174,28,17,1,4,4,1,1,Ovulation
+175,31,27,1,3,2,2,2,Late Luteal
+175,31,28,2,2,4,5,3,Late Luteal
+175,31,6,0,2,2,1,1,Menstrual
+175,31,19,2,5,4,1,1,Ovulation
+175,31,1,2,3,2,3,1,Menstrual
+175,31,9,0,5,3,1,1,Follicular
+175,31,20,2,4,3,1,0,Ovulation
+175,31,20,1,3,5,1,1,Ovulation
+175,31,28,2,3,3,3,5,Late Luteal
+175,31,16,0,4,4,1,1,Ovulation
+175,31,9,1,4,5,1,1,Follicular
+175,31,7,1,5,4,0,0,Follicular
+175,31,11,1,3,5,1,0,Follicular
+175,31,26,1,3,4,3,3,Early Luteal
+175,31,19,0,3,4,1,0,Ovulation
+175,31,9,1,3,5,1,1,Follicular
+175,31,2,0,1,4,3,3,Menstrual
+175,31,25,2,3,4,1,3,Early Luteal
+175,31,31,1,1,3,2,5,Late Luteal
+175,31,11,1,3,3,0,1,Follicular
+176,30,30,2,3,2,5,2,Late Luteal
+176,30,23,0,3,4,2,1,Early Luteal
+176,30,11,1,4,5,1,1,Follicular
+176,30,27,1,4,4,5,4,Late Luteal
+176,30,28,1,1,4,3,2,Late Luteal
+176,30,13,2,5,4,1,1,Follicular
+176,30,24,2,4,4,1,1,Early Luteal
+176,30,2,2,2,3,2,2,Menstrual
+176,30,14,1,5,5,0,1,Follicular
+176,30,9,2,5,4,1,0,Follicular
+176,30,23,2,4,3,1,2,Early Luteal
+176,30,24,2,3,1,2,1,Early Luteal
+176,30,20,1,5,5,0,0,Ovulation
+176,30,15,1,4,4,0,0,Follicular
+176,30,27,2,2,3,2,2,Late Luteal
+176,30,19,1,4,4,1,0,Ovulation
+176,30,7,2,1,3,2,3,Menstrual
+176,30,10,2,5,2,1,0,Follicular
+176,30,4,0,1,2,3,1,Menstrual
+176,30,18,1,4,5,1,0,Ovulation
+177,27,13,1,3,5,1,0,Follicular
+177,27,22,1,4,2,1,1,Early Luteal
+177,27,12,2,5,3,0,1,Follicular
+177,27,14,2,4,5,0,0,Ovulation
+177,27,3,0,1,2,2,1,Menstrual
+177,27,18,2,4,5,0,0,Ovulation
+177,27,23,2,3,4,2,4,Late Luteal
+177,27,21,1,2,3,1,2,Early Luteal
+177,27,15,2,4,4,1,0,Ovulation
+177,27,2,2,1,2,1,2,Menstrual
+177,27,26,2,1,4,4,3,Late Luteal
+177,27,6,1,4,3,0,0,Follicular
+177,27,1,2,3,3,1,1,Menstrual
+177,27,19,0,2,2,2,3,Early Luteal
+177,27,6,2,5,5,0,1,Follicular
+177,27,26,1,3,2,5,4,Late Luteal
+177,27,24,2,1,2,5,2,Late Luteal
+177,27,27,1,3,2,4,5,Late Luteal
+177,27,1,1,3,3,3,3,Menstrual
+177,27,26,0,1,2,5,4,Late Luteal
+178,26,26,1,2,3,4,5,Late Luteal
+178,26,13,1,4,3,0,1,Follicular
+178,26,9,1,4,4,1,0,Follicular
+178,26,6,2,4,2,1,3,Menstrual
+178,26,18,1,5,4,0,0,Ovulation
+178,26,9,2,4,4,1,1,Follicular
+178,26,15,0,3,5,0,1,Ovulation
+178,26,3,2,3,4,3,3,Menstrual
+178,26,21,2,2,3,3,2,Early Luteal
+178,26,3,2,1,4,1,1,Menstrual
+178,26,12,1,4,4,1,1,Follicular
+178,26,9,1,3,5,0,1,Follicular
+178,26,20,1,4,3,3,3,Early Luteal
+178,26,17,1,4,4,0,0,Ovulation
+178,26,9,0,3,4,1,1,Follicular
+178,26,24,2,3,2,2,4,Late Luteal
+178,26,4,1,1,3,2,2,Menstrual
+178,26,18,2,3,4,1,0,Ovulation
+178,26,2,1,1,3,3,3,Menstrual
+178,26,14,2,5,4,1,0,Ovulation
+179,31,6,2,5,5,0,0,Follicular
+179,31,13,1,4,5,0,0,Follicular
+179,31,5,2,3,5,0,0,Follicular
+179,31,20,1,5,4,0,0,Early Luteal
+179,31,31,0,1,2,1,4,Late Luteal
+179,31,27,1,2,1,3,2,Late Luteal
+179,31,23,2,3,2,2,1,Early Luteal
+179,31,18,2,4,5,0,0,Ovulation
+179,31,10,0,4,4,0,0,Follicular
+179,31,22,2,3,2,1,0,Early Luteal
+179,31,22,1,2,2,1,0,Early Luteal
+179,31,13,2,5,5,0,0,Follicular
+179,31,13,1,5,3,0,0,Follicular
+179,31,29,1,2,4,1,3,Late Luteal
+179,31,7,1,5,3,0,0,Follicular
+179,31,15,0,5,5,0,0,Ovulation
+179,31,13,2,4,5,0,0,Follicular
+179,31,15,2,5,5,0,0,Ovulation
+179,31,14,2,3,4,0,0,Follicular
+179,31,12,1,2,5,0,0,Follicular
+180,28,14,2,5,5,1,1,Ovulation
+180,28,22,1,3,4,4,3,Early Luteal
+180,28,17,2,4,5,1,2,Ovulation
+180,28,22,2,4,3,3,3,Early Luteal
+180,28,11,1,4,4,1,1,Follicular
+180,28,21,2,5,2,3,2,Early Luteal
+180,28,18,1,4,2,3,3,Early Luteal
+180,28,13,2,5,5,1,2,Ovulation
+180,28,26,2,4,3,3,5,Late Luteal
+180,28,19,2,4,2,4,2,Early Luteal
+180,28,3,2,2,4,2,4,Menstrual
+180,28,15,1,4,4,2,1,Ovulation
+180,28,27,0,1,2,4,4,Late Luteal
+180,28,1,0,1,2,2,4,Menstrual
+180,28,8,0,1,3,1,1,Follicular
+180,28,5,1,3,5,2,1,Follicular
+180,28,22,2,2,2,4,4,Early Luteal
+180,28,8,1,4,3,1,2,Follicular
+180,28,26,2,2,1,4,5,Late Luteal
+180,28,20,0,2,4,3,4,Early Luteal
+181,28,14,0,3,4,0,0,Ovulation
+181,28,1,1,1,1,3,1,Menstrual
+181,28,23,1,3,3,2,3,Early Luteal
+181,28,15,1,4,5,1,1,Ovulation
+181,28,21,2,4,5,2,3,Early Luteal
+181,28,24,1,1,3,2,3,Late Luteal
+181,28,7,1,3,2,1,0,Follicular
+181,28,28,0,1,3,5,4,Late Luteal
+181,28,20,1,5,2,3,2,Early Luteal
+181,28,3,1,4,2,1,3,Menstrual
+181,28,19,2,2,4,1,2,Early Luteal
+181,28,5,1,3,5,1,0,Follicular
+181,28,22,1,2,3,1,1,Early Luteal
+181,28,22,0,1,3,2,3,Early Luteal
+181,28,25,2,3,3,2,5,Late Luteal
+181,28,27,1,2,2,4,4,Late Luteal
+181,28,18,1,3,4,3,1,Early Luteal
+181,28,11,2,4,4,0,0,Follicular
+181,28,16,0,5,5,1,1,Ovulation
+181,28,2,1,1,4,3,3,Menstrual
+182,30,15,1,4,5,1,0,Ovulation
+182,30,10,0,2,5,0,0,Follicular
+182,30,3,1,3,3,3,3,Menstrual
+182,30,6,1,3,5,1,1,Follicular
+182,30,3,0,1,4,2,3,Menstrual
+182,30,2,2,2,2,2,3,Menstrual
+182,30,26,1,2,3,2,3,Late Luteal
+182,30,8,2,3,4,0,0,Follicular
+182,30,23,2,4,2,1,3,Early Luteal
+182,30,16,2,4,5,0,1,Ovulation
+182,30,23,1,2,2,2,3,Early Luteal
+182,30,4,1,3,3,1,1,Menstrual
+182,30,6,2,4,3,0,1,Follicular
+182,30,19,0,4,3,1,0,Ovulation
+182,30,10,2,5,5,0,1,Follicular
+182,30,9,1,5,4,0,0,Follicular
+182,30,28,1,1,1,4,2,Late Luteal
+182,30,16,0,3,4,1,0,Ovulation
+182,30,6,0,4,5,1,0,Follicular
+182,30,12,1,5,5,1,1,Follicular
+183,26,1,1,3,3,1,2,Menstrual
+183,26,25,2,2,3,2,4,Late Luteal
+183,26,11,1,5,3,1,1,Follicular
+183,26,18,0,4,2,2,1,Early Luteal
+183,26,11,2,5,4,1,1,Follicular
+183,26,23,2,1,5,5,3,Late Luteal
+183,26,20,2,4,2,3,3,Early Luteal
+183,26,21,1,5,3,2,2,Early Luteal
+183,26,19,2,4,4,1,2,Early Luteal
+183,26,23,1,4,2,2,2,Late Luteal
+183,26,9,0,3,5,0,0,Follicular
+183,26,4,0,3,5,0,0,Follicular
+183,26,25,2,1,1,4,2,Late Luteal
+183,26,17,2,1,3,2,2,Early Luteal
+183,26,4,1,2,4,1,1,Follicular
+183,26,14,0,4,3,1,0,Ovulation
+183,26,9,1,3,3,1,1,Follicular
+183,26,19,0,1,1,1,1,Early Luteal
+183,26,23,0,1,2,3,4,Late Luteal
+183,26,25,1,1,3,2,2,Late Luteal
+184,29,15,1,5,4,0,1,Ovulation
+184,29,17,0,4,5,1,1,Ovulation
+184,29,5,0,1,2,3,3,Menstrual
+184,29,15,0,3,4,1,0,Ovulation
+184,29,13,1,4,5,0,1,Follicular
+184,29,26,1,2,1,4,5,Late Luteal
+184,29,15,2,4,5,1,0,Ovulation
+184,29,26,1,1,3,5,2,Late Luteal
+184,29,23,0,1,4,1,1,Early Luteal
+184,29,20,1,2,3,1,2,Early Luteal
+184,29,23,1,4,3,3,1,Early Luteal
+184,29,6,1,1,3,2,3,Menstrual
+184,29,2,1,2,4,1,3,Menstrual
+184,29,8,1,3,5,0,0,Follicular
+184,29,25,0,3,1,5,4,Late Luteal
+184,29,1,1,2,4,2,1,Menstrual
+184,29,26,1,2,1,4,2,Late Luteal
+184,29,23,1,4,4,1,1,Early Luteal
+184,29,4,1,1,5,1,1,Menstrual
+184,29,29,2,1,3,4,5,Late Luteal
+185,31,21,0,4,2,1,1,Early Luteal
+185,31,31,2,2,2,2,3,Late Luteal
+185,31,19,2,5,5,0,1,Ovulation
+185,31,14,1,5,4,0,1,Follicular
+185,31,24,1,3,1,2,1,Early Luteal
+185,31,28,0,1,3,3,3,Late Luteal
+185,31,16,2,5,5,0,1,Ovulation
+185,31,26,1,4,2,1,3,Early Luteal
+185,31,4,2,1,4,1,3,Menstrual
+185,31,21,1,2,4,1,1,Early Luteal
+185,31,24,1,4,4,2,2,Early Luteal
+185,31,28,1,2,2,2,3,Late Luteal
+185,31,22,1,3,2,2,1,Early Luteal
+185,31,8,0,2,3,0,1,Follicular
+185,31,28,2,3,2,2,5,Late Luteal
+185,31,23,1,3,1,2,2,Early Luteal
+185,31,4,2,1,4,3,2,Menstrual
+185,31,8,1,4,3,0,1,Follicular
+185,31,2,0,1,2,3,2,Menstrual
+185,31,6,0,1,2,2,3,Menstrual
+186,30,28,0,2,1,4,2,Late Luteal
+186,30,14,1,3,3,0,0,Follicular
+186,30,3,2,3,3,1,3,Menstrual
+186,30,26,0,1,3,3,3,Late Luteal
+186,30,3,1,3,4,3,3,Menstrual
+186,30,13,1,4,3,1,0,Follicular
+186,30,28,1,2,2,4,3,Late Luteal
+186,30,22,2,3,2,3,3,Early Luteal
+186,30,8,1,4,5,1,1,Follicular
+186,30,29,1,2,4,5,4,Late Luteal
+186,30,18,0,3,4,0,1,Ovulation
+186,30,28,2,3,4,2,3,Late Luteal
+186,30,8,1,4,3,1,0,Follicular
+186,30,15,2,5,4,1,0,Ovulation
+186,30,16,1,5,3,1,0,Ovulation
+186,30,12,2,4,4,0,1,Follicular
+186,30,16,2,4,5,1,0,Ovulation
+186,30,13,0,4,5,0,0,Follicular
+186,30,7,1,4,3,0,1,Follicular
+186,30,10,1,5,4,0,1,Follicular
+187,30,26,2,3,2,2,4,Late Luteal
+187,30,9,1,5,5,0,0,Follicular
+187,30,13,2,5,4,1,0,Follicular
+187,30,5,0,3,3,0,0,Follicular
+187,30,23,2,3,3,2,2,Early Luteal
+187,30,6,1,5,4,1,1,Follicular
+187,30,18,0,3,4,1,0,Ovulation
+187,30,22,2,1,3,1,3,Early Luteal
+187,30,16,2,5,5,1,1,Ovulation
+187,30,4,2,1,2,2,3,Menstrual
+187,30,29,0,2,1,3,2,Late Luteal
+187,30,20,2,4,3,1,2,Early Luteal
+187,30,11,2,3,3,1,1,Follicular
+187,30,3,1,2,3,2,1,Menstrual
+187,30,29,2,2,1,4,5,Late Luteal
+187,30,15,2,5,5,1,0,Ovulation
+187,30,16,1,5,4,1,0,Ovulation
+187,30,6,2,5,5,1,1,Follicular
+187,30,7,2,2,5,1,1,Follicular
+187,30,4,1,2,3,2,1,Menstrual
+188,27,1,0,1,3,1,2,Menstrual
+188,27,20,1,1,5,2,2,Early Luteal
+188,27,27,1,1,5,4,2,Late Luteal
+188,27,14,2,5,4,0,0,Ovulation
+188,27,10,1,5,4,0,0,Follicular
+188,27,1,1,2,4,1,0,Menstrual
+188,27,15,2,4,5,0,0,Ovulation
+188,27,12,2,4,3,0,0,Follicular
+188,27,8,1,2,5,0,0,Follicular
+188,27,14,2,3,5,0,0,Ovulation
+188,27,12,2,5,3,0,0,Follicular
+188,27,10,1,3,5,0,0,Follicular
+188,27,5,2,3,4,0,0,Follicular
+188,27,6,2,4,4,0,0,Follicular
+188,27,14,1,4,4,0,0,Ovulation
+188,27,14,2,4,5,0,0,Ovulation
+188,27,22,0,1,2,1,2,Early Luteal
+188,27,22,2,2,5,2,1,Early Luteal
+188,27,5,1,4,5,0,0,Follicular
+188,27,17,2,4,4,0,0,Ovulation
+189,30,24,1,2,3,3,3,Early Luteal
+189,30,7,1,3,4,1,0,Follicular
+189,30,15,1,4,4,0,1,Ovulation
+189,30,10,1,4,5,0,0,Follicular
+189,30,23,2,3,3,2,3,Early Luteal
+189,30,23,1,3,4,1,2,Early Luteal
+189,30,16,2,3,4,0,1,Ovulation
+189,30,17,0,2,4,1,0,Ovulation
+189,30,9,1,5,5,0,1,Follicular
+189,30,3,2,3,1,1,1,Menstrual
+189,30,9,2,4,3,1,1,Follicular
+189,30,20,2,2,2,1,3,Early Luteal
+189,30,13,2,5,4,0,0,Follicular
+189,30,21,2,3,3,2,3,Early Luteal
+189,30,19,0,2,4,1,2,Early Luteal
+189,30,15,0,3,5,0,1,Ovulation
+189,30,26,1,2,1,4,2,Late Luteal
+189,30,1,2,2,5,1,1,Menstrual
+189,30,23,2,3,3,3,1,Early Luteal
+189,30,17,1,5,5,1,1,Ovulation
+190,26,25,1,1,2,3,3,Late Luteal
+190,26,23,2,3,4,4,4,Late Luteal
+190,26,3,0,2,3,4,2,Menstrual
+190,26,10,1,4,3,1,1,Follicular
+190,26,12,2,3,4,1,1,Follicular
+190,26,24,2,1,1,5,5,Late Luteal
+190,26,4,1,2,2,2,4,Menstrual
+190,26,26,2,1,1,5,4,Late Luteal
+190,26,26,1,1,4,5,3,Late Luteal
+190,26,11,0,4,5,2,2,Follicular
+190,26,18,2,3,2,3,3,Early Luteal
+190,26,7,2,3,4,2,2,Follicular
+190,26,2,2,1,2,2,4,Menstrual
+190,26,25,2,1,2,5,5,Late Luteal
+190,26,10,2,5,4,2,1,Follicular
+190,26,4,1,2,1,3,4,Menstrual
+190,26,25,1,4,1,4,5,Late Luteal
+190,26,16,1,4,4,1,1,Ovulation
+190,26,16,0,4,5,2,1,Ovulation
+190,26,14,2,4,5,2,2,Ovulation
+191,27,8,2,5,5,0,0,Follicular
+191,27,14,1,4,5,0,0,Ovulation
+191,27,27,2,3,3,4,2,Late Luteal
+191,27,12,1,3,5,0,0,Follicular
+191,27,15,1,4,5,0,0,Ovulation
+191,27,11,2,3,3,0,0,Follicular
+191,27,27,1,2,1,1,1,Late Luteal
+191,27,12,1,5,4,0,0,Follicular
+191,27,18,1,5,4,0,0,Ovulation
+191,27,8,1,4,4,0,0,Follicular
+191,27,8,1,4,4,0,0,Follicular
+191,27,19,0,3,3,1,1,Early Luteal
+191,27,16,2,5,4,0,0,Ovulation
+191,27,23,1,2,2,2,1,Late Luteal
+191,27,7,1,3,3,0,0,Follicular
+191,27,17,1,4,4,0,0,Ovulation
+191,27,9,2,3,5,0,0,Follicular
+191,27,24,0,2,2,1,2,Late Luteal
+191,27,24,1,2,2,1,1,Late Luteal
+191,27,10,1,4,3,0,0,Follicular
+192,27,18,0,2,4,1,1,Ovulation
+192,27,14,1,5,5,1,2,Ovulation
+192,27,12,2,3,4,2,1,Follicular
+192,27,23,1,3,1,5,3,Late Luteal
+192,27,24,2,1,4,5,3,Late Luteal
+192,27,12,1,5,5,2,1,Follicular
+192,27,17,0,5,4,2,2,Ovulation
+192,27,2,2,2,3,4,2,Menstrual
+192,27,16,0,5,4,2,1,Ovulation
+192,27,5,2,1,2,4,4,Menstrual
+192,27,5,2,2,3,3,2,Menstrual
+192,27,21,0,3,2,2,3,Early Luteal
+192,27,3,2,2,4,2,2,Menstrual
+192,27,7,1,4,3,1,2,Follicular
+192,27,6,0,1,4,4,2,Menstrual
+192,27,13,1,4,5,1,2,Follicular
+192,27,26,1,1,4,5,5,Late Luteal
+192,27,16,1,5,4,1,1,Ovulation
+192,27,16,2,4,5,1,2,Ovulation
+192,27,16,1,4,4,1,2,Ovulation
+193,30,24,2,4,2,3,4,Early Luteal
+193,30,23,1,2,2,2,2,Early Luteal
+193,30,30,2,2,2,5,5,Late Luteal
+193,30,20,2,4,3,3,4,Early Luteal
+193,30,19,1,5,5,2,2,Ovulation
+193,30,3,2,1,3,3,2,Menstrual
+193,30,20,1,3,2,2,2,Early Luteal
+193,30,16,1,5,4,1,1,Ovulation
+193,30,3,2,3,5,3,2,Menstrual
+193,30,4,1,2,4,2,3,Menstrual
+193,30,21,1,2,1,4,3,Early Luteal
+193,30,11,1,3,4,1,2,Follicular
+193,30,30,2,1,3,4,5,Late Luteal
+193,30,22,2,4,3,3,3,Early Luteal
+193,30,19,1,4,4,1,1,Ovulation
+193,30,14,1,4,4,1,2,Follicular
+193,30,12,1,4,3,2,1,Follicular
+193,30,30,0,1,4,5,4,Late Luteal
+193,30,25,0,2,3,3,2,Early Luteal
+193,30,22,1,4,4,2,3,Early Luteal
+194,31,18,1,4,5,0,0,Ovulation
+194,31,3,2,3,3,3,1,Menstrual
+194,31,28,0,1,4,5,3,Late Luteal
+194,31,6,1,4,4,0,0,Follicular
+194,31,30,1,4,3,3,3,Late Luteal
+194,31,7,0,4,3,0,1,Follicular
+194,31,12,2,3,3,1,0,Follicular
+194,31,8,1,3,3,0,0,Follicular
+194,31,5,1,3,2,2,2,Menstrual
+194,31,26,1,3,4,1,2,Early Luteal
+194,31,2,1,2,1,3,3,Menstrual
+194,31,27,1,3,2,2,3,Late Luteal
+194,31,10,2,3,4,0,0,Follicular
+194,31,27,1,4,4,3,2,Late Luteal
+194,31,3,1,3,3,2,2,Menstrual
+194,31,19,2,4,4,1,1,Ovulation
+194,31,31,2,4,2,5,3,Late Luteal
+194,31,30,0,1,2,5,5,Late Luteal
+194,31,6,1,4,4,1,1,Follicular
+194,31,9,2,2,4,1,1,Follicular
+195,30,15,1,5,4,1,2,Ovulation
+195,30,30,0,1,3,4,3,Late Luteal
+195,30,14,1,4,4,2,2,Follicular
+195,30,10,2,3,4,2,2,Follicular
+195,30,24,2,3,4,4,3,Early Luteal
+195,30,8,2,4,3,1,1,Follicular
+195,30,9,2,4,5,2,2,Follicular
+195,30,13,2,3,4,2,2,Follicular
+195,30,7,2,3,3,2,1,Follicular
+195,30,5,2,1,3,3,3,Menstrual
+195,30,5,1,3,4,4,2,Menstrual
+195,30,17,1,5,5,1,2,Ovulation
+195,30,12,1,3,2,2,2,Follicular
+195,30,30,1,1,5,5,5,Late Luteal
+195,30,15,2,5,3,2,1,Ovulation
+195,30,9,2,4,3,2,2,Follicular
+195,30,23,1,3,3,4,4,Early Luteal
+195,30,2,0,1,3,4,2,Menstrual
+195,30,23,2,2,4,3,3,Early Luteal
+195,30,1,2,3,4,2,2,Menstrual
+196,27,16,1,5,4,1,0,Ovulation
+196,27,27,2,1,4,4,2,Late Luteal
+196,27,13,1,5,4,1,0,Ovulation
+196,27,6,2,5,3,1,1,Follicular
+196,27,19,2,2,4,3,1,Early Luteal
+196,27,2,2,3,4,1,1,Menstrual
+196,27,15,2,5,5,0,1,Ovulation
+196,27,18,2,4,2,1,2,Early Luteal
+196,27,2,1,1,3,3,1,Menstrual
+196,27,18,2,4,2,1,3,Early Luteal
+196,27,13,2,5,4,0,0,Ovulation
+196,27,1,1,1,4,3,3,Menstrual
+196,27,17,2,4,5,1,0,Ovulation
+196,27,24,0,1,3,2,5,Late Luteal
+196,27,13,1,4,4,1,1,Ovulation
+196,27,6,2,4,4,1,0,Follicular
+196,27,14,2,3,5,0,0,Ovulation
+196,27,27,0,1,1,5,5,Late Luteal
+196,27,11,1,3,3,0,0,Follicular
+196,27,6,1,4,3,0,0,Follicular
+197,26,15,2,4,4,2,2,Ovulation
+197,26,5,1,3,3,2,1,Follicular
+197,26,9,0,4,5,2,2,Follicular
+197,26,16,2,5,4,2,2,Ovulation
+197,26,20,2,3,3,4,3,Early Luteal
+197,26,17,2,4,3,3,4,Early Luteal
+197,26,4,1,4,4,2,1,Follicular
+197,26,8,2,3,3,2,1,Follicular
+197,26,1,1,3,5,4,3,Menstrual
+197,26,11,2,4,3,1,2,Follicular
+197,26,13,1,4,5,1,1,Ovulation
+197,26,3,1,3,3,2,2,Menstrual
+197,26,25,1,1,5,5,4,Late Luteal
+197,26,6,2,4,4,2,2,Follicular
+197,26,25,2,3,4,5,3,Late Luteal
+197,26,7,2,3,4,2,1,Follicular
+197,26,1,2,2,4,3,2,Menstrual
+197,26,2,2,3,3,2,4,Menstrual
+197,26,18,1,4,1,3,3,Early Luteal
+197,26,19,1,4,4,4,4,Early Luteal
+198,29,26,0,2,3,3,3,Late Luteal
+198,29,8,0,2,3,2,2,Follicular
+198,29,3,2,2,2,4,3,Menstrual
+198,29,8,1,4,4,1,2,Follicular
+198,29,2,1,1,3,3,4,Menstrual
+198,29,27,1,1,4,5,4,Late Luteal
+198,29,21,2,3,2,2,2,Early Luteal
+198,29,9,2,5,2,2,2,Follicular
+198,29,26,1,2,2,4,4,Late Luteal
+198,29,12,1,3,5,1,2,Follicular
+198,29,21,1,2,2,2,4,Early Luteal
+198,29,24,2,4,4,4,4,Early Luteal
+198,29,2,0,2,2,3,3,Menstrual
+198,29,14,0,4,3,2,2,Follicular
+198,29,11,2,4,4,1,1,Follicular
+198,29,28,2,3,3,3,3,Late Luteal
+198,29,14,2,4,4,2,1,Follicular
+198,29,19,2,4,5,1,1,Ovulation
+198,29,5,2,3,5,4,2,Menstrual
+198,29,26,0,2,2,5,4,Late Luteal
+199,29,23,1,5,2,1,2,Early Luteal
+199,29,2,2,2,5,0,0,Menstrual
+199,29,23,1,3,3,1,0,Early Luteal
+199,29,1,0,1,2,1,2,Menstrual
+199,29,20,0,3,3,2,2,Early Luteal
+199,29,2,2,1,3,2,0,Menstrual
+199,29,29,2,2,2,3,3,Late Luteal
+199,29,23,2,2,3,1,2,Early Luteal
+199,29,6,2,3,3,0,0,Follicular
+199,29,16,2,4,5,0,0,Ovulation
+199,29,29,2,3,3,2,2,Late Luteal
+199,29,3,2,3,2,1,2,Menstrual
+199,29,15,2,5,5,0,0,Ovulation
+199,29,18,1,4,5,0,0,Ovulation
+199,29,15,0,3,5,0,0,Ovulation
+199,29,8,0,3,4,0,0,Follicular
+199,29,15,1,4,5,0,0,Ovulation
+199,29,24,1,3,3,0,0,Early Luteal
+199,29,21,1,3,2,0,1,Early Luteal
+199,29,20,0,1,2,0,2,Early Luteal
+200,31,31,2,2,4,5,3,Late Luteal
+200,31,2,2,2,1,3,2,Menstrual
+200,31,16,0,3,4,2,2,Follicular
+200,31,8,1,4,5,2,2,Follicular
+200,31,16,1,4,5,1,2,Follicular
+200,31,14,1,4,3,2,1,Follicular
+200,31,18,1,5,5,1,2,Ovulation
+200,31,12,1,3,4,2,1,Follicular
+200,31,27,2,1,3,5,5,Late Luteal
+200,31,9,0,4,5,1,1,Follicular
+200,31,24,0,3,3,4,4,Early Luteal
+200,31,9,1,5,2,1,1,Follicular
+200,31,14,0,3,3,1,2,Follicular
+200,31,30,1,3,2,3,4,Late Luteal
+200,31,8,1,4,4,1,1,Follicular
+200,31,10,2,5,5,2,1,Follicular
+200,31,25,2,4,3,3,3,Early Luteal
+200,31,20,1,4,4,2,1,Ovulation
+200,31,4,2,2,4,3,2,Menstrual
+200,31,26,0,3,1,3,4,Early Luteal
+201,30,5,1,2,3,2,2,Menstrual
+201,30,25,2,4,2,2,2,Early Luteal
+201,30,14,2,5,4,0,0,Follicular
+201,30,18,2,4,4,0,0,Ovulation
+201,30,18,0,4,4,0,0,Ovulation
+201,30,13,0,1,3,0,0,Follicular
+201,30,10,1,4,3,0,0,Follicular
+201,30,20,2,1,4,2,2,Early Luteal
+201,30,19,2,5,4,0,0,Ovulation
+201,30,22,2,4,2,1,1,Early Luteal
+201,30,27,1,2,3,4,2,Late Luteal
+201,30,17,0,5,4,0,0,Ovulation
+201,30,3,1,1,4,2,0,Menstrual
+201,30,4,1,2,4,2,1,Menstrual
+201,30,12,0,4,5,0,0,Follicular
+201,30,9,1,3,4,0,0,Follicular
+201,30,29,1,3,2,3,1,Late Luteal
+201,30,22,2,4,4,0,2,Early Luteal
+201,30,15,1,5,3,0,0,Ovulation
+201,30,6,0,2,4,0,0,Follicular
+202,28,1,2,3,1,2,2,Menstrual
+202,28,9,1,4,4,2,2,Follicular
+202,28,19,2,2,3,4,4,Early Luteal
+202,28,11,2,4,4,1,1,Follicular
+202,28,9,2,3,5,2,2,Follicular
+202,28,16,1,5,4,2,1,Ovulation
+202,28,24,1,3,3,4,3,Late Luteal
+202,28,12,0,1,5,2,2,Follicular
+202,28,28,2,1,2,4,5,Late Luteal
+202,28,27,2,1,1,5,5,Late Luteal
+202,28,21,1,3,1,2,2,Early Luteal
+202,28,6,1,4,5,2,2,Follicular
+202,28,3,2,1,4,2,2,Menstrual
+202,28,22,0,2,4,3,2,Early Luteal
+202,28,9,2,5,3,1,1,Follicular
+202,28,3,2,3,2,3,3,Menstrual
+202,28,10,2,4,3,2,2,Follicular
+202,28,1,2,1,3,2,3,Menstrual
+202,28,28,0,1,1,5,3,Late Luteal
+202,28,10,1,2,3,1,1,Follicular
+203,28,26,2,2,1,3,2,Late Luteal
+203,28,17,0,3,4,0,0,Ovulation
+203,28,10,0,2,2,0,1,Follicular
+203,28,10,2,5,3,1,0,Follicular
+203,28,11,1,5,5,1,0,Follicular
+203,28,13,1,3,5,1,0,Follicular
+203,28,13,0,3,5,1,0,Follicular
+203,28,18,0,3,5,0,1,Ovulation
+203,28,18,1,5,5,0,0,Ovulation
+203,28,12,0,3,4,0,0,Follicular
+203,28,16,2,5,5,1,0,Ovulation
+203,28,2,1,3,2,3,3,Menstrual
+203,28,2,1,2,5,3,1,Menstrual
+203,28,28,0,1,2,5,2,Late Luteal
+203,28,10,1,4,4,1,0,Follicular
+203,28,22,1,3,3,3,2,Early Luteal
+203,28,28,2,3,2,3,3,Late Luteal
+203,28,3,1,1,3,1,3,Menstrual
+203,28,12,1,4,5,0,1,Follicular
+203,28,15,1,5,4,1,0,Ovulation
+204,26,10,0,3,3,0,0,Follicular
+204,26,10,2,3,5,0,0,Follicular
+204,26,17,1,5,5,0,0,Ovulation
+204,26,19,0,3,1,1,2,Early Luteal
+204,26,14,0,3,5,0,0,Ovulation
+204,26,15,1,5,5,0,0,Ovulation
+204,26,13,1,4,5,0,0,Follicular
+204,26,22,0,1,1,1,2,Late Luteal
+204,26,1,0,1,2,1,1,Menstrual
+204,26,9,0,1,3,0,0,Follicular
+204,26,16,2,4,5,0,0,Ovulation
+204,26,21,2,2,5,1,1,Early Luteal
+204,26,8,0,2,3,0,0,Follicular
+204,26,6,1,3,3,1,1,Menstrual
+204,26,15,2,4,5,0,0,Ovulation
+204,26,23,2,4,2,1,1,Late Luteal
+204,26,14,1,5,4,0,0,Ovulation
+204,26,4,0,1,3,0,2,Menstrual
+204,26,13,2,3,5,0,0,Follicular
+204,26,11,1,2,4,0,0,Follicular
+205,29,4,2,5,4,1,1,Follicular
+205,29,20,1,4,3,2,3,Early Luteal
+205,29,20,1,2,3,3,1,Early Luteal
+205,29,3,0,1,3,1,2,Menstrual
+205,29,25,0,1,1,5,3,Late Luteal
+205,29,4,1,4,4,0,1,Follicular
+205,29,29,1,2,3,4,3,Late Luteal
+205,29,15,2,5,4,1,1,Ovulation
+205,29,6,1,5,5,0,0,Follicular
+205,29,21,1,3,5,3,2,Early Luteal
+205,29,6,2,4,3,1,1,Follicular
+205,29,27,1,1,2,4,3,Late Luteal
+205,29,25,1,2,1,4,5,Late Luteal
+205,29,25,2,2,1,5,4,Late Luteal
+205,29,11,2,2,4,1,0,Follicular
+205,29,3,0,2,4,1,3,Menstrual
+205,29,29,1,2,3,5,3,Late Luteal
+205,29,14,1,4,5,0,1,Ovulation
+205,29,2,2,1,3,3,2,Menstrual
+205,29,2,1,1,4,2,1,Menstrual
+206,27,17,2,5,5,0,0,Ovulation
+206,27,13,2,3,5,1,1,Follicular
+206,27,12,0,4,2,1,0,Follicular
+206,27,3,1,3,2,3,2,Menstrual
+206,27,26,2,1,1,5,3,Late Luteal
+206,27,12,1,5,4,0,1,Follicular
+206,27,3,2,1,2,1,3,Menstrual
+206,27,18,0,3,5,0,0,Ovulation
+206,27,10,1,3,4,1,1,Follicular
+206,27,18,2,4,5,0,1,Ovulation
+206,27,19,1,4,4,3,1,Early Luteal
+206,27,10,1,4,5,1,0,Follicular
+206,27,27,0,1,4,4,2,Late Luteal
+206,27,16,1,5,4,1,0,Ovulation
+206,27,2,1,1,2,3,2,Menstrual
+206,27,17,0,3,3,0,0,Ovulation
+206,27,12,1,4,4,0,0,Follicular
+206,27,2,2,3,4,2,3,Menstrual
+206,27,15,0,3,3,0,1,Ovulation
+206,27,12,0,4,3,1,1,Follicular
+207,30,25,1,3,3,3,2,Early Luteal
+207,30,10,0,4,4,1,1,Follicular
+207,30,30,1,2,3,4,2,Late Luteal
+207,30,19,1,2,2,2,3,Early Luteal
+207,30,3,1,2,2,2,3,Menstrual
+207,30,6,0,3,4,0,0,Follicular
+207,30,19,2,2,2,2,2,Early Luteal
+207,30,24,0,2,3,1,2,Early Luteal
+207,30,24,2,3,4,1,3,Early Luteal
+207,30,30,0,2,3,5,2,Late Luteal
+207,30,29,2,1,1,4,2,Late Luteal
+207,30,11,0,5,3,0,0,Follicular
+207,30,5,0,1,4,0,1,Follicular
+207,30,14,1,5,5,0,1,Ovulation
+207,30,23,1,2,4,2,3,Early Luteal
+207,30,26,2,1,3,2,2,Late Luteal
+207,30,19,2,5,3,1,2,Early Luteal
+207,30,27,2,4,2,5,5,Late Luteal
+207,30,15,0,3,5,0,1,Ovulation
+207,30,19,2,2,4,1,2,Early Luteal
+208,28,24,1,3,1,3,5,Late Luteal
+208,28,14,2,4,4,1,1,Ovulation
+208,28,20,1,2,3,1,3,Early Luteal
+208,28,18,2,5,4,1,0,Ovulation
+208,28,7,1,4,3,0,1,Follicular
+208,28,10,1,3,2,1,0,Follicular
+208,28,23,0,3,3,1,3,Early Luteal
+208,28,14,2,5,4,0,1,Ovulation
+208,28,10,1,3,3,0,1,Follicular
+208,28,10,0,3,3,1,1,Follicular
+208,28,21,2,2,2,1,3,Early Luteal
+208,28,2,2,3,4,2,2,Menstrual
+208,28,26,2,3,1,3,3,Late Luteal
+208,28,11,0,2,4,1,1,Follicular
+208,28,22,1,2,2,2,2,Early Luteal
+208,28,15,1,5,5,0,0,Ovulation
+208,28,7,2,4,3,1,1,Follicular
+208,28,27,2,1,2,4,2,Late Luteal
+208,28,10,0,5,4,0,0,Follicular
+208,28,7,2,4,5,0,1,Follicular
+209,31,5,2,4,4,0,0,Follicular
+209,31,9,2,5,5,0,0,Follicular
+209,31,17,1,4,5,0,0,Ovulation
+209,31,23,1,3,3,1,0,Early Luteal
+209,31,2,0,1,3,0,2,Menstrual
+209,31,15,2,4,5,0,0,Ovulation
+209,31,10,2,3,5,0,0,Follicular
+209,31,7,1,5,5,0,0,Follicular
+209,31,9,0,2,3,0,0,Follicular
+209,31,31,0,2,1,4,3,Late Luteal
+209,31,16,2,5,4,0,0,Ovulation
+209,31,4,2,2,2,1,2,Menstrual
+209,31,2,2,2,4,2,1,Menstrual
+209,31,27,1,1,4,3,4,Late Luteal
+209,31,22,0,3,1,2,0,Early Luteal
+209,31,5,2,3,5,0,0,Follicular
+209,31,1,0,1,3,2,1,Menstrual
+209,31,25,0,3,3,0,2,Early Luteal
+209,31,28,0,1,3,2,3,Late Luteal
+209,31,2,1,2,2,2,1,Menstrual
+210,26,17,1,4,5,0,0,Ovulation
+210,26,24,0,1,3,1,3,Late Luteal
+210,26,23,1,1,3,2,2,Late Luteal
+210,26,2,1,3,4,0,0,Menstrual
+210,26,10,2,3,4,0,0,Follicular
+210,26,7,0,2,4,0,0,Follicular
+210,26,24,1,3,2,4,2,Late Luteal
+210,26,8,2,4,4,0,0,Follicular
+210,26,21,0,2,3,0,2,Early Luteal
+210,26,13,2,5,5,0,0,Ovulation
+210,26,18,1,2,4,1,0,Early Luteal
+210,26,16,2,5,4,0,0,Ovulation
+210,26,4,0,1,1,0,0,Menstrual
+210,26,21,0,1,2,2,2,Early Luteal
+210,26,8,2,5,5,0,0,Follicular
+210,26,19,1,5,2,1,1,Early Luteal
+210,26,23,2,3,1,3,4,Late Luteal
+210,26,21,2,5,2,1,1,Early Luteal
+210,26,3,1,3,3,1,1,Menstrual
+210,26,11,0,3,5,0,0,Follicular
+211,30,14,1,4,5,0,0,Follicular
+211,30,2,2,1,3,3,2,Menstrual
+211,30,1,2,4,1,1,3,Menstrual
+211,30,29,2,1,2,3,5,Late Luteal
+211,30,6,1,5,2,0,0,Follicular
+211,30,7,2,5,3,0,0,Follicular
+211,30,23,1,2,3,2,3,Early Luteal
+211,30,27,2,2,2,5,5,Late Luteal
+211,30,7,0,3,3,0,1,Follicular
+211,30,17,2,5,4,1,0,Ovulation
+211,30,21,2,2,2,3,3,Early Luteal
+211,30,17,2,4,5,1,1,Ovulation
+211,30,20,1,3,3,3,2,Early Luteal
+211,30,16,0,3,4,0,1,Ovulation
+211,30,29,1,2,4,3,3,Late Luteal
+211,30,22,0,1,2,2,1,Early Luteal
+211,30,30,2,2,4,2,3,Late Luteal
+211,30,30,0,2,3,5,5,Late Luteal
+211,30,15,2,5,5,1,1,Ovulation
+211,30,20,0,2,5,2,2,Early Luteal
+212,26,4,0,2,3,2,0,Menstrual
+212,26,9,1,5,3,0,0,Follicular
+212,26,19,1,3,3,2,2,Early Luteal
+212,26,20,1,2,4,1,0,Early Luteal
+212,26,1,2,2,2,1,0,Menstrual
+212,26,5,1,1,4,1,1,Menstrual
+212,26,13,2,3,5,0,0,Follicular
+212,26,18,1,4,4,0,0,Ovulation
+212,26,10,1,5,4,0,0,Follicular
+212,26,6,2,3,3,2,1,Menstrual
+212,26,24,0,1,1,3,4,Late Luteal
+212,26,12,0,4,4,0,0,Follicular
+212,26,12,1,5,4,0,0,Follicular
+212,26,10,0,3,2,0,0,Follicular
+212,26,3,2,3,2,0,1,Menstrual
+212,26,19,1,2,2,0,2,Early Luteal
+212,26,20,1,2,2,0,2,Early Luteal
+212,26,6,2,2,2,0,2,Menstrual
+212,26,12,2,4,4,0,0,Follicular
+212,26,1,1,4,2,2,1,Menstrual
+213,27,7,2,5,4,0,0,Follicular
+213,27,14,1,5,5,0,0,Ovulation
+213,27,10,2,5,3,0,0,Follicular
+213,27,26,0,1,4,3,4,Late Luteal
+213,27,22,1,4,2,2,0,Early Luteal
+213,27,26,2,1,1,4,4,Late Luteal
+213,27,19,1,2,2,2,1,Early Luteal
+213,27,14,1,3,4,0,0,Ovulation
+213,27,24,2,1,3,3,4,Late Luteal
+213,27,25,1,2,1,3,2,Late Luteal
+213,27,15,1,4,5,0,0,Ovulation
+213,27,5,1,1,3,2,2,Menstrual
+213,27,5,2,2,5,0,0,Menstrual
+213,27,27,1,3,2,4,3,Late Luteal
+213,27,18,2,5,5,0,0,Ovulation
+213,27,7,1,5,5,0,0,Follicular
+213,27,19,0,1,4,0,0,Early Luteal
+213,27,27,1,1,3,1,3,Late Luteal
+213,27,24,2,1,3,2,2,Late Luteal
+213,27,23,1,1,3,1,1,Late Luteal
+214,29,12,0,2,5,0,0,Follicular
+214,29,6,2,1,2,3,2,Menstrual
+214,29,26,2,2,4,5,3,Late Luteal
+214,29,24,2,3,2,3,2,Early Luteal
+214,29,22,1,4,4,2,2,Early Luteal
+214,29,4,1,3,4,3,3,Menstrual
+214,29,19,1,5,5,0,1,Ovulation
+214,29,9,1,3,4,0,1,Follicular
+214,29,7,1,1,4,2,1,Menstrual
+214,29,4,2,3,2,2,3,Menstrual
+214,29,12,1,5,2,1,1,Follicular
+214,29,16,1,5,5,0,1,Ovulation
+214,29,28,1,3,3,4,3,Late Luteal
+214,29,10,1,5,4,0,1,Follicular
+214,29,22,1,2,4,2,1,Early Luteal
+214,29,13,1,4,5,0,1,Follicular
+214,29,7,2,2,1,2,3,Menstrual
+214,29,22,1,3,4,2,3,Early Luteal
+214,29,2,1,1,2,2,1,Menstrual
+214,29,24,2,3,2,2,1,Early Luteal
+215,27,22,1,3,4,3,1,Early Luteal
+215,27,5,1,1,4,1,3,Menstrual
+215,27,19,1,3,2,2,3,Early Luteal
+215,27,3,0,1,2,3,3,Menstrual
+215,27,8,2,5,5,0,1,Follicular
+215,27,7,1,4,5,0,0,Follicular
+215,27,26,1,2,1,4,5,Late Luteal
+215,27,8,1,5,5,0,1,Follicular
+215,27,13,1,4,5,1,1,Follicular
+215,27,24,1,2,4,3,2,Late Luteal
+215,27,18,1,3,5,0,0,Ovulation
+215,27,22,1,2,4,2,1,Early Luteal
+215,27,2,1,4,2,1,2,Menstrual
+215,27,13,0,2,4,0,0,Follicular
+215,27,22,0,3,4,2,3,Early Luteal
+215,27,13,1,3,3,1,0,Follicular
+215,27,8,2,5,5,1,0,Follicular
+215,27,14,1,5,5,0,1,Ovulation
+215,27,9,2,4,3,1,0,Follicular
+215,27,16,2,4,5,0,1,Ovulation
+216,28,10,2,4,4,0,1,Follicular
+216,28,7,2,3,4,1,0,Follicular
+216,28,13,1,3,2,0,1,Follicular
+216,28,15,2,4,4,0,1,Ovulation
+216,28,13,0,3,4,1,0,Follicular
+216,28,15,1,5,5,1,0,Ovulation
+216,28,2,1,1,2,3,2,Menstrual
+216,28,15,1,4,5,0,0,Ovulation
+216,28,3,1,2,4,1,3,Menstrual
+216,28,6,1,3,4,1,1,Menstrual
+216,28,5,0,1,4,3,1,Menstrual
+216,28,19,1,3,4,1,0,Ovulation
+216,28,7,1,4,5,0,0,Follicular
+216,28,16,0,3,4,0,1,Ovulation
+216,28,24,0,1,3,2,2,Late Luteal
+216,28,7,1,4,3,0,1,Follicular
+216,28,3,1,2,5,1,1,Menstrual
+216,28,10,1,4,4,1,1,Follicular
+216,28,5,1,2,3,3,2,Menstrual
+216,28,15,1,5,4,1,1,Ovulation
+217,30,29,0,1,1,3,4,Late Luteal
+217,30,20,1,2,5,1,1,Early Luteal
+217,30,15,2,3,5,1,0,Ovulation
+217,30,10,1,2,5,1,0,Follicular
+217,30,28,2,2,1,4,4,Late Luteal
+217,30,13,2,4,3,0,1,Follicular
+217,30,17,1,4,5,0,1,Ovulation
+217,30,22,1,5,2,2,3,Early Luteal
+217,30,30,1,3,1,3,5,Late Luteal
+217,30,4,0,2,5,1,1,Follicular
+217,30,17,1,5,5,1,1,Ovulation
+217,30,13,1,5,5,1,1,Follicular
+217,30,17,1,4,4,0,0,Ovulation
+217,30,28,2,1,1,5,3,Late Luteal
+217,30,6,0,3,2,1,1,Follicular
+217,30,17,0,3,5,0,1,Ovulation
+217,30,25,2,4,2,1,1,Early Luteal
+217,30,23,1,3,3,2,1,Early Luteal
+217,30,1,2,1,2,1,2,Menstrual
+217,30,3,1,1,2,1,2,Menstrual
+218,29,11,2,4,4,0,1,Follicular
+218,29,1,2,3,3,2,3,Menstrual
+218,29,1,2,2,3,2,3,Menstrual
+218,29,21,1,4,3,1,2,Early Luteal
+218,29,8,2,5,2,0,1,Follicular
+218,29,23,0,1,2,2,1,Early Luteal
+218,29,27,0,1,4,5,4,Late Luteal
+218,29,27,2,3,1,4,5,Late Luteal
+218,29,18,2,3,4,0,1,Ovulation
+218,29,3,1,3,5,1,3,Menstrual
+218,29,13,0,3,5,1,0,Follicular
+218,29,9,2,5,5,0,0,Follicular
+218,29,9,2,5,5,1,0,Follicular
+218,29,14,1,3,5,1,0,Follicular
+218,29,6,2,3,4,0,0,Follicular
+218,29,26,1,1,4,5,5,Late Luteal
+218,29,27,0,1,3,2,4,Late Luteal
+218,29,20,2,5,3,2,1,Early Luteal
+218,29,13,1,4,4,1,0,Follicular
+218,29,3,2,1,4,1,3,Menstrual
+219,28,21,1,4,4,2,2,Early Luteal
+219,28,18,1,4,4,1,2,Ovulation
+219,28,5,1,1,3,3,2,Menstrual
+219,28,4,0,1,3,4,2,Menstrual
+219,28,7,1,2,5,1,2,Follicular
+219,28,20,1,2,4,4,2,Early Luteal
+219,28,25,2,3,3,5,5,Late Luteal
+219,28,20,2,2,3,4,2,Early Luteal
+219,28,4,1,1,4,4,3,Menstrual
+219,28,13,1,4,5,2,2,Follicular
+219,28,10,0,2,3,1,2,Follicular
+219,28,12,2,4,4,1,1,Follicular
+219,28,3,2,2,4,3,4,Menstrual
+219,28,24,1,3,2,4,5,Late Luteal
+219,28,16,0,2,4,1,1,Ovulation
+219,28,28,1,1,3,4,4,Late Luteal
+219,28,21,0,3,3,3,4,Early Luteal
+219,28,25,2,3,1,3,5,Late Luteal
+219,28,2,2,4,3,2,4,Menstrual
+219,28,14,1,5,3,2,2,Follicular
+220,27,16,2,5,3,1,0,Ovulation
+220,27,20,0,1,3,2,2,Early Luteal
+220,27,2,2,4,3,2,1,Menstrual
+220,27,16,2,5,5,1,0,Ovulation
+220,27,17,1,4,4,1,1,Ovulation
+220,27,4,2,2,4,1,3,Menstrual
+220,27,24,1,1,4,3,5,Late Luteal
+220,27,19,1,4,3,1,1,Early Luteal
+220,27,17,2,5,5,0,1,Ovulation
+220,27,10,0,4,3,1,0,Follicular
+220,27,8,0,1,3,0,1,Follicular
+220,27,10,2,4,4,0,0,Follicular
+220,27,15,2,3,5,0,0,Ovulation
+220,27,9,1,3,2,1,1,Follicular
+220,27,5,1,5,4,0,1,Follicular
+220,27,2,2,2,5,3,2,Menstrual
+220,27,16,2,4,3,1,0,Ovulation
+220,27,26,1,1,4,3,4,Late Luteal
+220,27,8,1,3,3,0,0,Follicular
+220,27,18,2,5,3,2,2,Early Luteal
+221,30,7,2,3,4,1,0,Follicular
+221,30,5,2,1,3,2,2,Menstrual
+221,30,8,1,3,4,0,1,Follicular
+221,30,30,1,1,2,2,5,Late Luteal
+221,30,30,1,1,5,2,3,Late Luteal
+221,30,29,2,1,2,5,2,Late Luteal
+221,30,19,0,4,4,0,1,Ovulation
+221,30,4,2,2,2,2,2,Menstrual
+221,30,25,1,3,4,2,2,Early Luteal
+221,30,8,1,4,3,0,0,Follicular
+221,30,14,0,2,3,0,1,Follicular
+221,30,18,1,5,4,0,0,Ovulation
+221,30,1,2,1,3,1,3,Menstrual
+221,30,7,1,3,4,1,0,Follicular
+221,30,21,2,3,4,1,3,Early Luteal
+221,30,3,2,3,3,3,1,Menstrual
+221,30,19,1,5,5,1,1,Ovulation
+221,30,14,1,4,5,0,0,Follicular
+221,30,16,1,5,4,0,1,Ovulation
+221,30,27,1,2,2,5,2,Late Luteal
+222,31,22,2,2,5,3,2,Early Luteal
+222,31,25,2,2,3,2,1,Early Luteal
+222,31,20,0,1,5,1,3,Early Luteal
+222,31,10,2,2,3,1,0,Follicular
+222,31,17,1,4,3,0,1,Ovulation
+222,31,6,2,4,5,0,0,Follicular
+222,31,25,1,3,2,2,3,Early Luteal
+222,31,3,1,1,4,1,1,Menstrual
+222,31,25,2,4,3,1,2,Early Luteal
+222,31,30,2,3,3,3,2,Late Luteal
+222,31,28,1,3,3,3,4,Late Luteal
+222,31,28,2,2,1,2,5,Late Luteal
+222,31,28,1,1,2,4,5,Late Luteal
+222,31,18,2,5,3,1,1,Ovulation
+222,31,26,1,4,3,3,2,Early Luteal
+222,31,15,2,5,4,0,1,Ovulation
+222,31,11,1,3,4,0,0,Follicular
+222,31,17,1,4,5,1,1,Ovulation
+222,31,29,0,2,1,5,5,Late Luteal
+222,31,23,1,3,2,3,2,Early Luteal
+223,26,8,2,4,3,0,0,Follicular
+223,26,4,1,3,5,1,2,Menstrual
+223,26,18,0,3,4,2,2,Early Luteal
+223,26,3,2,1,2,2,3,Menstrual
+223,26,8,1,5,5,1,0,Follicular
+223,26,1,2,2,3,2,3,Menstrual
+223,26,9,0,4,3,1,0,Follicular
+223,26,3,0,2,4,2,1,Menstrual
+223,26,5,2,4,5,0,0,Follicular
+223,26,26,2,4,4,5,3,Late Luteal
+223,26,10,0,2,4,0,0,Follicular
+223,26,19,2,2,3,3,1,Early Luteal
+223,26,18,1,4,5,2,3,Early Luteal
+223,26,3,2,1,2,1,2,Menstrual
+223,26,5,1,5,4,0,1,Follicular
+223,26,14,0,4,5,0,1,Ovulation
+223,26,14,2,4,5,0,1,Ovulation
+223,26,10,2,4,3,1,1,Follicular
+223,26,20,1,3,5,1,2,Early Luteal
+223,26,13,1,4,5,0,1,Ovulation
+224,26,15,2,4,5,0,0,Ovulation
+224,26,5,0,3,4,0,0,Follicular
+224,26,10,1,3,5,0,0,Follicular
+224,26,2,1,1,4,1,1,Menstrual
+224,26,4,0,2,5,0,0,Follicular
+224,26,6,1,3,3,0,0,Follicular
+224,26,5,2,4,4,0,0,Follicular
+224,26,18,2,5,3,0,0,Early Luteal
+224,26,7,1,5,4,0,0,Follicular
+224,26,4,2,3,5,0,0,Follicular
+224,26,24,1,1,4,1,4,Late Luteal
+224,26,10,1,3,3,0,0,Follicular
+224,26,14,1,5,4,0,0,Ovulation
+224,26,12,1,3,5,0,0,Ovulation
+224,26,5,0,3,4,0,0,Follicular
+224,26,3,1,2,2,2,0,Menstrual
+224,26,7,2,4,5,0,0,Follicular
+224,26,13,1,5,5,0,0,Ovulation
+224,26,9,2,4,5,0,0,Follicular
+224,26,22,0,3,1,1,2,Late Luteal
+225,28,23,0,3,3,1,1,Early Luteal
+225,28,15,2,4,4,0,0,Ovulation
+225,28,11,2,5,3,0,0,Follicular
+225,28,1,0,1,4,1,2,Menstrual
+225,28,22,0,1,4,2,0,Early Luteal
+225,28,7,0,1,2,2,1,Menstrual
+225,28,5,2,1,3,2,2,Menstrual
+225,28,18,1,3,4,0,0,Ovulation
+225,28,16,2,4,4,0,0,Ovulation
+225,28,2,1,2,2,1,0,Menstrual
+225,28,16,1,5,5,0,0,Ovulation
+225,28,12,1,5,3,0,0,Follicular
+225,28,9,0,4,4,0,0,Follicular
+225,28,15,2,5,5,0,0,Ovulation
+225,28,7,1,3,2,1,1,Menstrual
+225,28,4,0,1,4,2,0,Menstrual
+225,28,9,2,4,2,0,0,Follicular
+225,28,6,1,2,1,0,2,Menstrual
+225,28,1,2,2,2,0,0,Menstrual
+225,28,15,2,4,4,0,0,Ovulation
+226,30,9,1,5,5,0,0,Follicular
+226,30,2,2,3,2,2,2,Menstrual
+226,30,12,1,4,5,1,0,Follicular
+226,30,1,2,1,2,2,3,Menstrual
+226,30,6,2,2,4,3,1,Menstrual
+226,30,6,2,3,4,3,2,Menstrual
+226,30,11,0,2,4,1,1,Follicular
+226,30,9,0,3,4,0,0,Follicular
+226,30,7,1,5,2,1,0,Follicular
+226,30,19,2,5,4,1,0,Ovulation
+226,30,7,1,2,5,1,0,Follicular
+226,30,21,0,2,3,1,2,Early Luteal
+226,30,3,0,2,3,2,1,Menstrual
+226,30,11,0,5,4,1,1,Follicular
+226,30,15,2,4,3,1,0,Follicular
+226,30,27,1,2,1,4,5,Late Luteal
+226,30,26,1,1,3,5,2,Late Luteal
+226,30,5,1,1,3,1,1,Menstrual
+226,30,13,2,3,3,1,1,Follicular
+226,30,15,2,4,5,1,0,Follicular
+227,30,22,2,2,2,3,1,Early Luteal
+227,30,11,1,5,3,0,0,Follicular
+227,30,19,1,3,3,0,1,Ovulation
+227,30,7,1,2,3,1,3,Menstrual
+227,30,8,0,4,2,1,0,Follicular
+227,30,2,2,2,5,1,2,Menstrual
+227,30,14,2,4,4,1,1,Follicular
+227,30,24,1,2,3,3,1,Early Luteal
+227,30,29,0,1,4,2,2,Late Luteal
+227,30,7,1,1,2,1,3,Menstrual
+227,30,17,1,4,4,0,1,Ovulation
+227,30,23,2,4,4,3,2,Early Luteal
+227,30,6,2,2,2,2,1,Menstrual
+227,30,21,0,2,4,1,1,Early Luteal
+227,30,20,2,4,4,1,1,Ovulation
+227,30,14,2,4,5,0,0,Follicular
+227,30,19,2,5,5,0,1,Ovulation
+227,30,15,2,4,4,1,1,Follicular
+227,30,4,0,1,4,1,2,Menstrual
+227,30,23,2,1,4,3,3,Early Luteal
+228,30,27,1,3,2,2,3,Late Luteal
+228,30,15,1,4,5,0,0,Ovulation
+228,30,6,2,4,5,0,0,Follicular
+228,30,15,0,2,5,0,0,Ovulation
+228,30,23,2,2,3,0,0,Early Luteal
+228,30,6,0,4,2,0,0,Follicular
+228,30,12,1,5,5,0,0,Follicular
+228,30,21,0,4,5,0,2,Early Luteal
+228,30,13,2,5,3,0,0,Follicular
+228,30,23,2,2,4,2,1,Early Luteal
+228,30,3,2,1,3,0,1,Menstrual
+228,30,19,2,5,5,0,0,Ovulation
+228,30,16,1,4,4,0,0,Ovulation
+228,30,5,1,5,3,0,0,Follicular
+228,30,6,0,3,4,0,0,Follicular
+228,30,5,2,4,4,0,0,Follicular
+228,30,7,1,4,4,0,0,Follicular
+228,30,29,2,3,3,4,2,Late Luteal
+228,30,25,2,4,2,0,2,Early Luteal
+228,30,10,2,5,4,0,0,Follicular
+229,28,9,0,5,3,1,2,Follicular
+229,28,6,1,3,4,3,2,Menstrual
+229,28,13,0,4,4,2,1,Follicular
+229,28,7,0,4,3,1,2,Follicular
+229,28,8,1,3,3,2,1,Follicular
+229,28,21,2,3,1,3,4,Early Luteal
+229,28,13,1,5,3,1,2,Follicular
+229,28,3,2,1,3,2,4,Menstrual
+229,28,14,2,5,5,1,1,Follicular
+229,28,20,2,2,2,4,3,Early Luteal
+229,28,15,1,5,3,1,1,Ovulation
+229,28,11,2,5,3,2,2,Follicular
+229,28,28,1,2,2,5,5,Late Luteal
+229,28,18,2,5,4,1,2,Ovulation
+229,28,24,1,3,1,5,5,Late Luteal
+229,28,2,0,2,2,4,4,Menstrual
+229,28,2,2,2,3,4,4,Menstrual
+229,28,23,2,3,4,4,2,Early Luteal
+229,28,5,0,1,4,2,4,Menstrual
+229,28,15,1,4,4,2,1,Ovulation
+230,28,24,1,1,2,3,4,Late Luteal
+230,28,15,1,4,3,0,0,Ovulation
+230,28,12,1,5,5,0,0,Follicular
+230,28,12,2,3,4,0,0,Follicular
+230,28,2,1,1,4,1,1,Menstrual
+230,28,27,1,2,3,2,3,Late Luteal
+230,28,3,1,2,3,0,1,Menstrual
+230,28,13,1,3,5,0,0,Follicular
+230,28,11,1,3,5,0,0,Follicular
+230,28,12,1,3,4,0,0,Follicular
+230,28,8,1,3,5,0,0,Follicular
+230,28,13,2,4,3,0,0,Follicular
+230,28,20,1,3,3,1,2,Early Luteal
+230,28,6,0,1,4,2,2,Menstrual
+230,28,19,2,5,4,0,0,Ovulation
+230,28,13,1,5,3,0,0,Follicular
+230,28,6,2,2,4,2,0,Menstrual
+230,28,12,2,5,4,0,0,Follicular
+230,28,13,1,3,4,0,0,Follicular
+230,28,9,1,3,4,0,0,Follicular
+231,29,21,0,1,3,3,3,Early Luteal
+231,29,8,2,5,5,0,1,Follicular
+231,29,1,2,3,3,1,3,Menstrual
+231,29,27,2,2,2,2,4,Late Luteal
+231,29,4,2,3,1,3,3,Menstrual
+231,29,14,1,5,4,1,1,Follicular
+231,29,22,2,4,4,3,1,Early Luteal
+231,29,14,1,5,5,1,1,Follicular
+231,29,9,2,3,3,1,1,Follicular
+231,29,12,2,5,5,1,1,Follicular
+231,29,22,2,2,3,1,3,Early Luteal
+231,29,5,2,3,3,1,1,Menstrual
+231,29,2,1,1,3,1,2,Menstrual
+231,29,29,1,1,4,3,5,Late Luteal
+231,29,16,1,5,5,0,0,Ovulation
+231,29,23,1,4,4,1,1,Early Luteal
+231,29,12,2,3,5,1,0,Follicular
+231,29,8,1,4,4,0,0,Follicular
+231,29,23,2,4,4,3,1,Early Luteal
+231,29,28,2,2,3,4,2,Late Luteal
+232,29,18,1,5,5,0,1,Ovulation
+232,29,16,2,4,4,0,0,Ovulation
+232,29,26,2,2,4,2,5,Late Luteal
+232,29,8,1,5,4,1,0,Follicular
+232,29,2,0,3,3,1,3,Menstrual
+232,29,3,2,2,2,3,3,Menstrual
+232,29,20,2,4,4,3,1,Early Luteal
+232,29,14,2,5,4,1,1,Follicular
+232,29,2,1,1,4,3,1,Menstrual
+232,29,15,1,5,4,1,1,Ovulation
+232,29,11,1,3,5,1,1,Follicular
+232,29,5,2,2,3,1,2,Menstrual
+232,29,25,1,3,1,2,2,Late Luteal
+232,29,7,1,4,4,0,0,Follicular
+232,29,11,1,5,2,1,0,Follicular
+232,29,2,1,2,3,2,3,Menstrual
+232,29,20,1,2,2,2,3,Early Luteal
+232,29,4,1,2,4,1,2,Menstrual
+232,29,23,1,1,3,3,2,Early Luteal
+232,29,16,2,5,5,0,0,Ovulation
+233,29,15,2,5,5,2,1,Ovulation
+233,29,8,1,4,4,1,2,Follicular
+233,29,21,2,3,3,3,2,Early Luteal
+233,29,5,1,5,4,2,1,Follicular
+233,29,27,1,2,2,5,4,Late Luteal
+233,29,27,1,1,1,3,5,Late Luteal
+233,29,25,1,1,1,3,4,Late Luteal
+233,29,19,0,1,2,4,3,Early Luteal
+233,29,14,0,5,5,1,1,Ovulation
+233,29,14,2,5,5,1,2,Ovulation
+233,29,1,1,4,4,4,4,Menstrual
+233,29,16,1,5,3,1,2,Ovulation
+233,29,1,0,2,3,3,4,Menstrual
+233,29,1,2,3,4,2,4,Menstrual
+233,29,11,1,3,3,2,2,Follicular
+233,29,3,1,2,4,4,3,Menstrual
+233,29,7,1,4,3,2,1,Follicular
+233,29,17,1,3,4,2,1,Ovulation
+233,29,25,1,2,5,4,3,Late Luteal
+233,29,4,2,4,4,2,2,Follicular
+234,27,20,2,4,3,3,4,Early Luteal
+234,27,5,1,1,3,2,3,Menstrual
+234,27,17,2,4,5,1,1,Ovulation
+234,27,11,2,4,4,1,2,Follicular
+234,27,24,1,1,4,3,4,Late Luteal
+234,27,24,2,3,4,5,4,Late Luteal
+234,27,27,1,3,4,5,5,Late Luteal
+234,27,21,1,4,2,2,3,Early Luteal
+234,27,6,1,2,4,3,3,Menstrual
+234,27,18,2,4,4,1,2,Ovulation
+234,27,6,1,2,4,2,2,Menstrual
+234,27,17,2,4,5,1,2,Ovulation
+234,27,15,2,5,3,2,1,Ovulation
+234,27,15,1,5,5,2,2,Ovulation
+234,27,24,2,3,4,4,5,Late Luteal
+234,27,6,2,1,5,4,3,Menstrual
+234,27,11,2,5,4,1,1,Follicular
+234,27,22,1,3,2,4,2,Early Luteal
+234,27,1,1,2,2,4,2,Menstrual
+234,27,27,1,1,4,5,5,Late Luteal
+235,26,14,1,4,5,0,0,Ovulation
+235,26,26,0,1,4,1,2,Late Luteal
+235,26,7,0,2,4,0,0,Follicular
+235,26,11,0,2,5,0,0,Follicular
+235,26,8,2,5,5,0,0,Follicular
+235,26,2,2,3,2,0,2,Menstrual
+235,26,23,1,2,3,3,1,Late Luteal
+235,26,9,2,3,5,0,0,Follicular
+235,26,22,2,3,2,4,1,Late Luteal
+235,26,10,1,5,5,0,0,Follicular
+235,26,10,1,5,5,0,0,Follicular
+235,26,6,1,1,2,2,1,Menstrual
+235,26,11,2,4,3,0,0,Follicular
+235,26,26,1,3,1,1,4,Late Luteal
+235,26,9,1,4,5,0,0,Follicular
+235,26,26,2,3,2,4,2,Late Luteal
+235,26,19,0,3,2,1,0,Early Luteal
+235,26,13,1,5,5,0,0,Follicular
+235,26,23,2,2,3,3,2,Late Luteal
+235,26,26,2,1,3,3,1,Late Luteal
+236,31,6,2,5,3,1,1,Follicular
+236,31,8,2,3,4,1,0,Follicular
+236,31,9,2,3,4,0,1,Follicular
+236,31,19,0,4,5,1,1,Ovulation
+236,31,21,2,2,2,1,3,Early Luteal
+236,31,18,0,2,5,1,1,Ovulation
+236,31,21,1,2,3,3,3,Early Luteal
+236,31,12,0,2,2,1,1,Follicular
+236,31,9,2,2,4,1,0,Follicular
+236,31,1,2,1,4,1,3,Menstrual
+236,31,9,0,4,3,0,0,Follicular
+236,31,2,2,1,2,3,2,Menstrual
+236,31,27,0,2,2,5,3,Late Luteal
+236,31,25,0,3,2,3,2,Early Luteal
+236,31,8,2,5,4,0,0,Follicular
+236,31,22,1,1,3,1,3,Early Luteal
+236,31,27,2,3,4,4,3,Late Luteal
+236,31,16,0,3,4,1,0,Ovulation
+236,31,7,2,3,3,0,1,Follicular
+236,31,17,2,5,4,1,1,Ovulation
+237,30,3,0,1,2,2,2,Menstrual
+237,30,8,2,3,3,1,1,Follicular
+237,30,19,1,4,4,0,1,Ovulation
+237,30,12,0,4,2,0,0,Follicular
+237,30,26,1,2,3,4,4,Late Luteal
+237,30,22,1,5,2,2,2,Early Luteal
+237,30,11,0,3,3,1,0,Follicular
+237,30,8,2,4,5,1,0,Follicular
+237,30,7,1,5,5,1,1,Follicular
+237,30,25,1,4,3,2,1,Early Luteal
+237,30,13,1,5,3,0,0,Follicular
+237,30,28,2,1,4,2,4,Late Luteal
+237,30,15,2,5,4,1,0,Ovulation
+237,30,16,1,5,5,0,0,Ovulation
+237,30,1,2,2,4,1,2,Menstrual
+237,30,12,0,2,5,1,1,Follicular
+237,30,2,1,3,4,2,2,Menstrual
+237,30,16,1,4,5,0,0,Ovulation
+237,30,27,2,3,3,4,4,Late Luteal
+237,30,10,1,5,3,0,1,Follicular
+238,31,31,1,3,1,2,2,Late Luteal
+238,31,14,1,5,4,0,0,Follicular
+238,31,15,1,5,4,1,1,Ovulation
+238,31,9,2,5,3,1,1,Follicular
+238,31,15,2,5,5,0,1,Ovulation
+238,31,29,2,2,4,3,4,Late Luteal
+238,31,19,0,4,5,1,0,Ovulation
+238,31,5,2,2,4,1,1,Follicular
+238,31,9,1,5,4,0,1,Follicular
+238,31,16,2,5,4,1,0,Ovulation
+238,31,6,1,5,4,0,0,Follicular
+238,31,11,0,2,3,1,1,Follicular
+238,31,7,1,4,4,0,0,Follicular
+238,31,15,2,4,5,0,1,Ovulation
+238,31,25,2,4,4,2,1,Early Luteal
+238,31,16,0,4,4,1,1,Ovulation
+238,31,4,0,2,4,1,3,Menstrual
+238,31,18,1,4,4,0,1,Ovulation
+238,31,10,1,5,4,0,0,Follicular
+238,31,25,0,3,4,3,3,Early Luteal
+239,28,8,0,4,4,1,0,Follicular
+239,28,21,2,2,5,3,2,Early Luteal
+239,28,15,1,5,5,0,0,Ovulation
+239,28,19,2,5,4,1,1,Ovulation
+239,28,21,0,4,2,2,3,Early Luteal
+239,28,17,2,5,5,1,0,Ovulation
+239,28,8,1,5,4,1,0,Follicular
+239,28,22,2,5,3,3,1,Early Luteal
+239,28,3,2,3,2,1,3,Menstrual
+239,28,1,2,3,2,1,2,Menstrual
+239,28,27,2,4,1,5,4,Late Luteal
+239,28,17,1,4,4,1,1,Ovulation
+239,28,19,1,5,4,1,1,Ovulation
+239,28,3,0,3,2,1,3,Menstrual
+239,28,24,0,1,4,4,3,Late Luteal
+239,28,7,0,2,1,3,3,Menstrual
+239,28,10,1,5,5,1,0,Follicular
+239,28,3,0,1,1,1,1,Menstrual
+239,28,8,1,3,5,0,0,Follicular
+239,28,22,2,2,2,2,3,Early Luteal
+240,26,3,2,4,5,3,2,Menstrual
+240,26,15,0,4,5,0,0,Ovulation
+240,26,16,1,4,5,0,1,Ovulation
+240,26,22,1,3,1,2,4,Late Luteal
+240,26,1,2,2,3,2,2,Menstrual
+240,26,3,1,1,2,2,1,Menstrual
+240,26,23,0,1,3,4,2,Late Luteal
+240,26,23,0,1,1,4,5,Late Luteal
+240,26,7,1,5,5,1,1,Follicular
+240,26,12,2,5,3,1,0,Follicular
+240,26,16,2,3,5,0,0,Ovulation
+240,26,24,1,1,4,3,3,Late Luteal
+240,26,21,2,2,4,3,1,Early Luteal
+240,26,24,2,2,2,3,2,Late Luteal
+240,26,7,0,3,3,1,1,Follicular
+240,26,20,1,3,4,1,1,Early Luteal
+240,26,22,1,1,2,4,5,Late Luteal
+240,26,15,0,3,5,0,1,Ovulation
+240,26,12,2,4,4,0,1,Follicular
+240,26,14,0,4,5,0,0,Ovulation
+241,27,18,2,3,4,3,2,Early Luteal
+241,27,6,2,3,3,1,1,Follicular
+241,27,12,0,3,3,2,2,Follicular
+241,27,18,1,4,3,2,3,Early Luteal
+241,27,19,1,4,3,2,4,Early Luteal
+241,27,25,2,3,3,4,4,Late Luteal
+241,27,25,1,2,1,5,4,Late Luteal
+241,27,8,1,3,5,1,2,Follicular
+241,27,15,1,3,4,2,2,Ovulation
+241,27,4,2,5,5,1,2,Follicular
+241,27,7,2,4,3,1,2,Follicular
+241,27,1,2,2,3,3,2,Menstrual
+241,27,10,2,5,4,1,2,Follicular
+241,27,20,1,5,3,2,4,Early Luteal
+241,27,4,1,4,3,1,1,Follicular
+241,27,19,2,3,4,2,4,Early Luteal
+241,27,9,2,5,5,1,1,Follicular
+241,27,4,0,3,3,2,2,Follicular
+241,27,11,1,4,3,1,1,Follicular
+241,27,26,2,1,3,4,5,Late Luteal
+242,29,16,1,5,5,2,2,Ovulation
+242,29,29,1,1,3,5,4,Late Luteal
+242,29,3,2,2,3,4,4,Menstrual
+242,29,28,2,2,4,4,5,Late Luteal
+242,29,12,2,3,4,2,1,Follicular
+242,29,17,2,4,4,2,2,Ovulation
+242,29,2,1,2,3,2,3,Menstrual
+242,29,12,1,5,5,2,2,Follicular
+242,29,23,1,3,4,2,4,Early Luteal
+242,29,28,0,2,4,5,3,Late Luteal
+242,29,23,0,4,2,4,2,Early Luteal
+242,29,2,2,4,2,2,3,Menstrual
+242,29,9,2,5,3,1,2,Follicular
+242,29,26,2,3,4,5,4,Late Luteal
+242,29,23,1,3,4,2,2,Early Luteal
+242,29,21,2,3,3,2,3,Early Luteal
+242,29,4,2,2,3,3,3,Menstrual
+242,29,28,2,1,4,5,5,Late Luteal
+242,29,8,1,5,3,2,2,Follicular
+242,29,10,1,4,3,1,2,Follicular
+243,28,23,1,1,4,2,2,Early Luteal
+243,28,11,1,3,4,1,2,Follicular
+243,28,2,2,1,3,4,3,Menstrual
+243,28,4,0,2,4,3,4,Menstrual
+243,28,21,0,1,3,2,3,Early Luteal
+243,28,13,1,4,3,1,2,Follicular
+243,28,5,2,3,3,4,4,Menstrual
+243,28,20,0,2,2,3,4,Early Luteal
+243,28,18,1,5,5,1,1,Ovulation
+243,28,27,0,2,1,4,4,Late Luteal
+243,28,13,2,5,4,1,1,Follicular
+243,28,24,0,1,3,4,5,Late Luteal
+243,28,5,1,2,2,4,2,Menstrual
+243,28,8,0,3,3,2,1,Follicular
+243,28,8,1,4,5,1,2,Follicular
+243,28,17,0,4,4,1,2,Ovulation
+243,28,20,1,1,4,3,2,Early Luteal
+243,28,8,1,3,3,1,2,Follicular
+243,28,6,0,2,3,3,2,Menstrual
+243,28,17,2,4,5,2,1,Ovulation
+244,27,5,0,3,4,1,0,Follicular
+244,27,6,2,3,5,0,1,Follicular
+244,27,11,2,4,3,0,0,Follicular
+244,27,21,0,2,5,1,2,Early Luteal
+244,27,10,2,4,4,0,1,Follicular
+244,27,2,2,2,3,1,2,Menstrual
+244,27,15,1,4,5,1,0,Ovulation
+244,27,24,1,1,3,5,4,Late Luteal
+244,27,3,2,2,2,2,1,Menstrual
+244,27,17,0,3,4,1,0,Ovulation
+244,27,8,0,3,2,0,1,Follicular
+244,27,8,1,2,5,0,1,Follicular
+244,27,24,2,2,4,5,3,Late Luteal
+244,27,21,0,2,4,3,2,Early Luteal
+244,27,20,0,3,3,1,1,Early Luteal
+244,27,1,1,3,3,2,2,Menstrual
+244,27,26,2,1,2,2,4,Late Luteal
+244,27,5,2,5,4,0,0,Follicular
+244,27,9,2,5,5,0,0,Follicular
+244,27,19,0,1,4,2,1,Early Luteal
+245,30,17,1,4,4,2,2,Ovulation
+245,30,2,2,1,3,4,4,Menstrual
+245,30,3,0,1,4,3,4,Menstrual
+245,30,30,2,3,2,3,3,Late Luteal
+245,30,11,0,2,4,2,1,Follicular
+245,30,15,2,2,4,2,2,Follicular
+245,30,3,1,3,4,4,2,Menstrual
+245,30,15,1,3,4,1,2,Follicular
+245,30,28,1,2,3,5,5,Late Luteal
+245,30,25,0,3,2,4,2,Early Luteal
+245,30,24,0,2,4,2,2,Early Luteal
+245,30,16,2,5,5,1,1,Ovulation
+245,30,18,2,4,5,1,2,Ovulation
+245,30,5,2,2,2,3,2,Menstrual
+245,30,5,0,1,3,4,2,Menstrual
+245,30,25,1,4,3,4,4,Early Luteal
+245,30,22,1,4,2,4,4,Early Luteal
+245,30,26,1,3,1,4,3,Late Luteal
+245,30,13,2,3,4,1,2,Follicular
+245,30,13,2,5,4,1,1,Follicular
+246,31,21,1,2,4,3,2,Early Luteal
+246,31,27,1,2,2,3,3,Late Luteal
+246,31,21,0,2,5,3,3,Early Luteal
+246,31,20,2,4,4,0,0,Ovulation
+246,31,22,1,2,3,1,3,Early Luteal
+246,31,12,1,4,3,1,0,Follicular
+246,31,29,1,2,1,5,5,Late Luteal
+246,31,9,1,4,3,1,0,Follicular
+246,31,7,2,3,4,0,0,Follicular
+246,31,17,1,3,5,1,1,Ovulation
+246,31,20,1,5,3,1,0,Ovulation
+246,31,23,2,2,4,1,1,Early Luteal
+246,31,10,0,3,5,0,1,Follicular
+246,31,24,2,4,3,1,1,Early Luteal
+246,31,9,2,5,5,0,1,Follicular
+246,31,21,2,5,2,1,2,Early Luteal
+246,31,11,1,4,4,0,1,Follicular
+246,31,30,2,1,2,4,3,Late Luteal
+246,31,20,2,4,5,0,1,Ovulation
+246,31,24,1,3,2,2,2,Early Luteal
+247,30,26,2,2,4,1,2,Late Luteal
+247,30,25,1,2,2,2,0,Early Luteal
+247,30,3,1,3,3,0,2,Menstrual
+247,30,20,2,3,2,2,0,Early Luteal
+247,30,2,2,2,2,1,2,Menstrual
+247,30,27,2,3,3,2,4,Late Luteal
+247,30,8,2,3,4,0,0,Follicular
+247,30,28,1,2,4,4,3,Late Luteal
+247,30,7,1,4,3,0,0,Follicular
+247,30,10,1,3,3,0,0,Follicular
+247,30,29,2,1,3,4,1,Late Luteal
+247,30,25,2,3,4,1,0,Early Luteal
+247,30,11,2,4,4,0,0,Follicular
+247,30,18,1,4,4,0,0,Ovulation
+247,30,3,2,2,4,0,0,Menstrual
+247,30,10,1,2,3,0,0,Follicular
+247,30,23,2,4,2,0,1,Early Luteal
+247,30,19,0,2,3,0,2,Early Luteal
+247,30,6,2,4,3,0,0,Follicular
+247,30,24,2,4,3,2,0,Early Luteal
+248,27,20,0,3,5,2,3,Early Luteal
+248,27,7,1,4,4,0,1,Follicular
+248,27,16,2,4,3,1,1,Ovulation
+248,27,19,2,4,3,3,3,Early Luteal
+248,27,13,1,5,4,0,0,Ovulation
+248,27,26,2,1,1,3,2,Late Luteal
+248,27,26,1,2,1,3,5,Late Luteal
+248,27,4,2,2,3,3,3,Menstrual
+248,27,4,2,1,4,2,1,Menstrual
+248,27,15,0,3,4,0,1,Ovulation
+248,27,6,2,3,3,1,0,Follicular
+248,27,26,0,1,3,2,2,Late Luteal
+248,27,4,0,1,2,3,2,Menstrual
+248,27,19,2,4,2,3,3,Early Luteal
+248,27,15,2,4,4,1,1,Ovulation
+248,27,22,2,2,4,1,3,Early Luteal
+248,27,9,1,5,4,1,1,Follicular
+248,27,15,2,4,5,0,1,Ovulation
+248,27,25,2,1,1,2,2,Late Luteal
+248,27,11,2,3,5,0,0,Follicular
+249,31,25,0,2,2,2,2,Early Luteal
+249,31,21,2,3,2,2,3,Early Luteal
+249,31,22,2,4,1,2,2,Early Luteal
+249,31,30,0,1,4,3,3,Late Luteal
+249,31,10,1,5,5,0,0,Follicular
+249,31,9,2,4,4,0,1,Follicular
+249,31,16,2,4,5,0,1,Ovulation
+249,31,2,1,4,3,2,2,Menstrual
+249,31,1,0,1,3,2,1,Menstrual
+249,31,19,2,5,5,0,1,Ovulation
+249,31,27,1,2,2,5,5,Late Luteal
+249,31,30,0,1,5,2,4,Late Luteal
+249,31,21,1,2,3,1,2,Early Luteal
+249,31,23,1,5,4,3,2,Early Luteal
+249,31,5,1,3,4,1,0,Follicular
+249,31,6,0,4,4,1,0,Follicular
+249,31,9,1,4,5,0,1,Follicular
+249,31,11,0,3,2,1,1,Follicular
+249,31,30,1,3,2,4,3,Late Luteal
+249,31,18,1,5,4,1,0,Ovulation

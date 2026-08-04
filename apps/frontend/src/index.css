@@ -1,0 +1,200 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #06030B;
+    color: #F3EEF9;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -0.015em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Syne', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.font-display {
+  font-family: 'Syne', sans-serif;
+}
+
+.font-serif-title {
+  font-family: 'Instrument Serif', Georgia, serif;
+}
+
+/* Atmosphere-First Soft Glass Surfaces (No Hard Rectangular Card Borders) */
+.soft-surface {
+  background: rgba(18, 10, 32, 0.45);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
+  border-radius: 36px;
+}
+
+.soft-surface-hero {
+  background: radial-gradient(circle at 50% 0%, rgba(40, 18, 68, 0.6) 0%, rgba(14, 7, 26, 0.75) 100%);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  border: 1px solid rgba(244, 114, 182, 0.08);
+  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.6);
+  border-radius: 40px;
+}
+
+.floating-chip {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 9999px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.floating-chip:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(244, 114, 182, 0.25);
+  transform: translateY(-2px);
+}
+
+/* Living AI Orb Companion Styles & 7-Tier Emotional Spectrum */
+.rhythm-living-orb {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@media (min-width: 768px) {
+  .rhythm-living-orb {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+/* 1. Deep Fatigue / Sleepy */
+.rhythm-living-orb.orb-state-fatigue {
+  transform: scale(0.85) translateY(6px);
+  background: radial-gradient(circle at 35% 35%, #8B5CF6 0%, #6D28D9 45%, #3B0764 85%);
+  box-shadow: 
+    0 0 45px rgba(139, 92, 246, 0.35),
+    0 0 90px rgba(109, 40, 217, 0.2),
+    inset 0 0 25px rgba(255, 255, 255, 0.3);
+  animation: swaySlow 8.5s ease-in-out infinite alternate;
+}
+
+/* 2. Stressed / Overwhelmed */
+.rhythm-living-orb.orb-state-stressed {
+  transform: scale(0.92) translateY(3px);
+  background: radial-gradient(circle at 35% 35%, #F43F5E 0%, #BE123C 50%, #4C0519 85%);
+  box-shadow: 
+    0 0 55px rgba(244, 63, 94, 0.45),
+    0 0 100px rgba(190, 18, 60, 0.25),
+    inset 0 0 30px rgba(255, 255, 255, 0.4);
+  animation: swaySlow 4.5s ease-in-out infinite alternate;
+}
+
+/* 3. Calm & Serene */
+.rhythm-living-orb.orb-state-serene {
+  transform: scale(0.98) translateY(0px);
+  background: radial-gradient(circle at 35% 35%, #67E8F9 0%, #A855F7 50%, #4C1D95 85%);
+  box-shadow: 
+    0 0 65px rgba(103, 232, 249, 0.45),
+    0 0 120px rgba(168, 85, 247, 0.3),
+    inset 0 0 35px rgba(255, 255, 255, 0.55);
+  animation: swayMedium 6.5s ease-in-out infinite alternate;
+}
+
+/* 4. Balanced & Focused */
+.rhythm-living-orb.orb-state-balanced {
+  transform: scale(1.04) translateY(-2px);
+  background: radial-gradient(circle at 35% 35%, #F472B6 0%, #A855F7 45%, #4F46E5 80%);
+  box-shadow: 
+    0 0 75px rgba(244, 114, 182, 0.55),
+    0 0 140px rgba(168, 85, 247, 0.35),
+    inset 0 0 40px rgba(255, 255, 255, 0.65);
+  animation: swayMedium 5.5s ease-in-out infinite alternate;
+}
+
+/* 5. Determined & Motivated */
+.rhythm-living-orb.orb-state-determined {
+  transform: scale(1.12) translateY(-6px);
+  background: radial-gradient(circle at 35% 35%, #F59E0B 0%, #EC4899 45%, #BE185D 80%);
+  box-shadow: 
+    0 0 90px rgba(245, 158, 11, 0.65),
+    0 0 160px rgba(236, 72, 153, 0.45),
+    inset 0 0 45px rgba(255, 255, 255, 0.8);
+  animation: swayFast 4.0s ease-in-out infinite alternate;
+}
+
+/* 6. Radiant / Peak Vitality */
+.rhythm-living-orb.orb-state-radiant {
+  transform: scale(1.22) translateY(-10px);
+  background: radial-gradient(circle at 35% 35%, #F9A8D4 0%, #06B6D4 40%, #818CF8 75%, #3B82F6 100%);
+  box-shadow: 
+    0 0 115px rgba(249, 168, 212, 0.85),
+    0 0 200px rgba(6, 182, 212, 0.6),
+    inset 0 0 55px rgba(255, 255, 255, 0.95);
+  animation: swayFast 3.5s ease-in-out infinite alternate;
+}
+
+/* 7. Confident & Reassuring */
+.rhythm-living-orb.orb-state-confident {
+  transform: scale(1.45) translateY(-5px);
+  background: radial-gradient(circle at 35% 35%, #F9A8D4 0%, #10B981 40%, #8B5CF6 75%, #3B82F6 100%);
+  box-shadow: 
+    0 0 135px rgba(16, 185, 129, 0.85),
+    0 0 230px rgba(139, 92, 246, 0.65),
+    inset 0 0 60px rgba(255, 255, 255, 1);
+  animation: swayMedium 5.0s ease-in-out infinite alternate;
+}
+
+/* HORIZONTAL SWAY KEYFRAMES (STRICT LEFT-RIGHT SWAYING) */
+@keyframes swaySlow {
+  0% { transform: scale(0.85) translateY(6px) rotate(-8deg); }
+  50% { transform: scale(0.85) translateY(0px) rotate(8deg); }
+  100% { transform: scale(0.85) translateY(6px) rotate(-8deg); }
+}
+
+@keyframes swayMedium {
+  0% { transform: rotate(-12deg); }
+  50% { transform: translateY(-8px) rotate(12deg); }
+  100% { transform: rotate(-12deg); }
+}
+
+@keyframes swayFast {
+  0% { transform: scale(1.18) translateY(-10px) rotate(-16deg); }
+  50% { transform: scale(1.18) translateY(-16px) rotate(16deg); }
+  100% { transform: scale(1.18) translateY(-10px) rotate(-16deg); }
+}
+
+.glow-gradient-text {
+  background: linear-gradient(135deg, #F9A8D4 0%, #D8B4FE 50%, #C7D2FE 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Deep Atmosphere Ambient Canvas Mesh */
+.bg-mesh-atmosphere {
+  background-color: #06030B;
+  background-image: 
+    radial-gradient(at 15% 10%, rgba(244, 114, 182, 0.15) 0px, transparent 50%),
+    radial-gradient(at 85% 15%, rgba(168, 85, 247, 0.18) 0px, transparent 50%),
+    radial-gradient(at 50% 60%, rgba(99, 102, 241, 0.12) 0px, transparent 50%),
+    radial-gradient(at 20% 85%, rgba(244, 114, 182, 0.1) 0px, transparent 50%);
+  background-attachment: fixed;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #06030B;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(244, 114, 182, 0.3);
+}

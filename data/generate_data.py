@@ -76,7 +76,7 @@ for user_id in range(NUM_USERS):
             bloating += 1
             cravings += 1
 
-        elif user_type == "pmdd" and phase == "Luteal":
+        elif user_type == "pmdd" and phase == "Late Luteal":
             mood -= 2
             cravings += 2
             bloating += 2

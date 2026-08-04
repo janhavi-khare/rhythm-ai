@@ -1,0 +1,126 @@
+const User = require("../models/User");
+const DailyCheckIn = require("../models/DailyCheckIn");
+const MorningRecommendation = require("../models/MorningRecommendation");
+const WorkoutSession = require("../models/Workoutsession");
+
+const getCycleDay = require("../utils/cycleDay");
+
+const { generateMorningPlan } = require("./aiService");
+
+console.log(
+  "Mood required:",
+  DailyCheckIn.schema.path("mood").options.required
+);
+
+console.log(
+  "Cravings required:",
+  DailyCheckIn.schema.path("cravings").options.required
+);
+
+async function submitCheckIn(userId, body) {
+  const user = await User.findById(userId);
+
+  if (!user) {
+    throw new Error("User not found");
+  }
+
+  // Construct check-in object containing mandatory current check-in fields
+  const checkInData = {
+    userId,
+    sleepQuality: body.sleepQuality,
+    energy: Number(body.energy),
+    soreness: body.soreness,
+    stress: body.stress,
+    yesterdayWorkout: body.yesterdayWorkout,
+    targetIntensity: body.targetIntensity,
+  };
+
+  // Optional fields are added only if explicitly present in body; otherwise left undefined
+  if (body.mood !== undefined) checkInData.mood = body.mood;
+  if (body.bloating !== undefined) checkInData.bloating = body.bloating;
+  if (body.cravings !== undefined) checkInData.cravings = body.cravings;
+  if (body.workoutType !== undefined) checkInData.workoutType = body.workoutType;
+  if (body.workoutIntensity !== undefined) checkInData.workoutIntensity = body.workoutIntensity;
+
+  console.log("Creating checkin with:");
+  console.log(checkInData);
+
+  console.log(DailyCheckIn.schema.obj);
+
+  const checkIn = await DailyCheckIn.create(checkInData);
+
+  const cycleDay = getCycleDay(
+    user.lastPeriodDate,
+    user.cycleLength
+  );
+
+  console.log("Calculated cycle day:", cycleDay);
+
+  const aiPayload = {
+    cycleDay,
+    sleepQuality: body.sleepQuality,
+    subjectiveEnergy: Number(body.energy),
+    soreness: body.soreness,
+    stress: body.stress,
+    yesterdayWorkout: body.yesterdayWorkout,
+    targetIntensity: body.targetIntensity,
+    workoutType: body.workoutType || body.targetIntensity || "General Fitness",
+    workoutIntensity: body.workoutIntensity || body.targetIntensity || "Moderate",
+    plannedWorkoutTime: body.plannedWorkoutTime || "Morning",
+  };
+
+  if (body.mood !== undefined) aiPayload.mood = body.mood;
+  if (body.bloating !== undefined) aiPayload.bloating = body.bloating;
+  if (body.cravings !== undefined) aiPayload.cravings = body.cravings;
+
+  const aiResponse = await generateMorningPlan({
+    profile: {
+      weight: user.weight,
+      goals: user.goals,
+      cycleLength: user.cycleLength,
+      lastPeriodDate: user.lastPeriodDate,
+      age: user.age,
+    },
+
+    checkin: aiPayload,
+  });
+
+  const morningRec = await MorningRecommendation.create({
+    userId,
+    checkIn: {
+      sleepQuality: body.sleepQuality,
+      subjectiveEnergy: Number(body.energy),
+      mood: body.mood !== undefined ? body.mood : null,
+      bloating: body.bloating !== undefined ? body.bloating : null,
+      cravings: body.cravings !== undefined ? body.cravings : null,
+      workoutType: body.workoutType || body.targetIntensity || "General Fitness",
+      plannedWorkoutTime: body.plannedWorkoutTime || "Morning",
+    },
+    phase: aiResponse.phase,
+    readiness: aiResponse.readiness ?? null,
+    fatigue: aiResponse.fatigue ?? null,
+    gamePlan: aiResponse.gamePlan ?? null,
+    preWorkoutNutrition:
+      aiResponse.preWorkoutNutrition || aiResponse.nutrition || null,
+    predictions: aiResponse.predictions,
+    explanation: aiResponse.explanation,
+  });
+
+  const workoutSession = await WorkoutSession.create({
+    userId,
+    morningRecommendationId: morningRec._id,
+    status: "PLANNED",
+    workoutType: body.workoutType || body.targetIntensity || "General Fitness",
+    intensity: body.workoutIntensity || body.targetIntensity || "Moderate",
+  });
+
+  return {
+    aiResponse,
+    morningRecommendation: morningRec,
+    workoutSession,
+  };
+}
+
+module.exports = {
+  submitCheckIn,
+};
