@@ -103,7 +103,7 @@ def generate_pre_workout_checklist(
         candidates.append({
             "id": "pre_protein",
             "category": "Protein",
-            "label": "Include 15–25g easily digestible protein in pre-workout fuel.",
+            "label": "Include easily digestible protein in pre-workout fuel.",
             "priority": 90,
             "completed": False
         })

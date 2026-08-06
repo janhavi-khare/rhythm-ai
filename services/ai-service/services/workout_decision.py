@@ -470,6 +470,3 @@ if __name__ == "__main__":
         planned_workout_type="Strength",
         available_time=60,
     )
-
-    from pprint import pprint
-    pprint(plan)

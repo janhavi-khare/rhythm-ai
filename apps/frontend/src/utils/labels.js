@@ -5,11 +5,11 @@
 
 export function getReadinessLabel(score) {
   const s = typeof score === "number" ? score : parseFloat(score) || 0;
-  if (s >= 90) return "Peak Performance";
-  if (s >= 75) return "Training Ready";
-  if (s >= 60) return "Balanced";
-  if (s >= 45) return "Recovery Recommended";
-  return "Recovery First";
+  if (s >= 81) return "High Readiness";
+  if (s >= 61) return "Good Readiness";
+  if (s >= 41) return "Moderate Readiness";
+  if (s >= 21) return "Low Readiness";
+  return "Recovery Required";
 }
 
 export function getTrainingLoadLabel(load) {

@@ -7,16 +7,6 @@ const getCycleDay = require("../utils/cycleDay");
 
 const { generateMorningPlan } = require("./aiService");
 
-console.log(
-  "Mood required:",
-  DailyCheckIn.schema.path("mood").options.required
-);
-
-console.log(
-  "Cravings required:",
-  DailyCheckIn.schema.path("cravings").options.required
-);
-
 async function submitCheckIn(userId, body) {
   const user = await User.findById(userId);
 
@@ -42,19 +32,12 @@ async function submitCheckIn(userId, body) {
   if (body.workoutType !== undefined) checkInData.workoutType = body.workoutType;
   if (body.workoutIntensity !== undefined) checkInData.workoutIntensity = body.workoutIntensity;
 
-  console.log("Creating checkin with:");
-  console.log(checkInData);
-
-  console.log(DailyCheckIn.schema.obj);
-
   const checkIn = await DailyCheckIn.create(checkInData);
 
   const cycleDay = getCycleDay(
     user.lastPeriodDate,
     user.cycleLength
   );
-
-  console.log("Calculated cycle day:", cycleDay);
 
   const aiPayload = {
     cycleDay,
@@ -96,14 +79,8 @@ async function submitCheckIn(userId, body) {
       workoutType: body.workoutType || body.targetIntensity || "General Fitness",
       plannedWorkoutTime: body.plannedWorkoutTime || "Morning",
     },
-    phase: aiResponse.phase,
-    readiness: aiResponse.readiness ?? null,
-    fatigue: aiResponse.fatigue ?? null,
-    gamePlan: aiResponse.gamePlan ?? null,
-    preWorkoutNutrition:
-      aiResponse.preWorkoutNutrition || aiResponse.nutrition || null,
+    todayPlan: aiResponse.todayPlan,
     predictions: aiResponse.predictions,
-    explanation: aiResponse.explanation,
   });
 
   const workoutSession = await WorkoutSession.create({

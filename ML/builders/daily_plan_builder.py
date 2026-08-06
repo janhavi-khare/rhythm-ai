@@ -1,10 +1,12 @@
 from datetime import datetime
-
 from builders.ui_labels import (
     get_phase_description,
     get_readiness_label,
     get_fatigue_label,
     get_workout_badge,
+    get_readiness_summary,
+    get_fatigue_summary,
+    get_phase_summary,
 )
 
 
@@ -22,14 +24,34 @@ def build_daily_plan(
     readiness_score = readiness.get("score", 0)
     fatigue_score = fatigue.get("score", 0)
 
+    readiness_summary = get_readiness_summary(
+        readiness_score,
+        sleep_quality=checkin.get("sleepQuality", "Good"),
+        energy=checkin.get("subjectiveEnergy", 3)
+    )
+    fatigue_summary = get_fatigue_summary(fatigue_score)
+    phase_summary = get_phase_summary(phase_name)
+
     priority_nutrients = []
+    
+    ICON_MAP = {
+    "protein": "protein",
+    "iron": "iron",
+    "vitamin c": "vitamin-c",
+    "magnesium": "magnesium",
+    "calcium": "calcium",
+    "carbohydrates": "carbs",
+    "electrolytes": "electrolytes",
+    "hydration": "water",
+    }
+
 
     for i, nutrient in enumerate(nutrition.get("priorityNutrients", [])):
         priority_nutrients.append({
         "rank": i + 1,
         "name": nutrient,
         "priority": "High Priority" if i == 0 else "Essential",
-        "icon": "protein" if nutrient.lower() == "protein" else "water"
+        "icon": ICON_MAP.get(nutrient.lower(), "nutrition")
         })
 
     recommendation_factors = []
@@ -105,21 +127,32 @@ def build_daily_plan(
         "cta": "View Insights"
     }
 
-    raw_hydration = nutrition.get("hydration", "500-600 mL")
-    hydration_val = raw_hydration.replace(" mL", "") if isinstance(raw_hydration, str) else str(raw_hydration)
+    raw_hydration = nutrition.get("hydration")
+    hydration_val = raw_hydration if raw_hydration is not None else ""
+    
+    duration = workout.get("duration")
+
 
     return {
         "generatedAt": datetime.utcnow().isoformat(),
 
         "mode": "PRE_WORKOUT",
 
+        "readinessSummary": readiness_summary,
+        "fatigueSummary": fatigue_summary,
+        "phaseSummary": phase_summary,
+
         "bodySnapshot": {
+            "readinessSummary": readiness_summary,
+            "fatigueSummary": fatigue_summary,
+            "phaseSummary": phase_summary,
 
             "phase": {
                 "name": phase_name,
                 "description": get_phase_description(
                     phase_name
                 ),
+                "summary": phase_summary,
                 "confidence": phase.get("confidence", 95),
             },
 
@@ -128,6 +161,7 @@ def build_daily_plan(
                 "label": get_readiness_label(
                     readiness_score
                 ),
+                "summary": readiness_summary,
             },
 
             "fatigue": {
@@ -135,6 +169,7 @@ def build_daily_plan(
                 "label": get_fatigue_label(
                     fatigue_score
                 ),
+                "summary": fatigue_summary,
             },
 
             "sleep": {
@@ -157,11 +192,14 @@ def build_daily_plan(
             ),
         },
 
-
         "workout": {
             "title": workout_title,
             "displayTitle": workout_title,
-            "duration": f"{workout.get('duration')} min" if isinstance(workout.get('duration'), (int, float)) else str(workout.get('duration') or "45 min"),
+            "duration": (
+                f"{duration} min"
+                if isinstance(duration, (int, float))
+                else duration
+            ),
             "intensity": workout.get("intensity"),
             "badge": get_workout_badge(readiness_score),
             "available": True,
@@ -195,25 +233,19 @@ def build_daily_plan(
                 "subtitle": "Fluid Intake Target",
                 "badge": "Target",
                 "value": hydration_val,
-                "unit": "mL",
                 "icon": "water"
             },
             "hydrationTarget": raw_hydration,
 
             "macros": {
-                "calories": nutrition.get("calories") or 378,
-                "protein": nutrition.get("protein") or 19,
-                "carbs": nutrition.get("carbs") or 53,
-                "fats": nutrition.get("fats") or 9,
-                "fiber": nutrition.get("fiber") or 8,
+                "calories": nutrition.get("calories"),
+                "protein": nutrition.get("protein"),
+                "carbs": nutrition.get("carbs"),
+                "fats": nutrition.get("fats"),
+                "fiber": nutrition.get("fiber"),
             },
 
-            "mealSuggestions": [
-                {"type": "Breakfast", "title": "Overnight Oats + Almond Butter & Berries", "text": "Low glycemic index for sustained morning energy", "calories": 320, "protein": 14},
-                {"type": "Lunch", "title": "Grilled Chicken Bowl & Quinoa", "text": "Leucine-rich for muscle synthesis during Luteal", "calories": 480, "protein": 42},
-                {"type": "Dinner", "title": "Baked Salmon & Roasted Sweet Potato", "text": "Omega-3 anti-inflammatory recovery profile", "calories": 420, "protein": 35},
-                {"type": "Snacks", "title": "Greek Yogurt + Honey & Walnuts", "text": "Probiotics for gut health and slow-release casein", "calories": 180, "protein": 18}
-            ],
+            "mealSuggestions": nutrition.get("mealSuggestions", []),
 
             "coachMessage": nutrition.get("coachMessage") or nutrition.get("phaseTip") or "Fuel your body with nutrient-dense foods aligned with today's activity level.",
             "tip": nutrition.get("phaseTip"),

@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { FiMoon } from "react-icons/fi";
+import { FITNESS_GOALS } from "./constants/goals";
 
 export default function Onboarding() {
     const [step, setStep] = useState(1);
@@ -80,9 +81,7 @@ export default function Onboarding() {
 
             <div className="w-full max-w-lg glass-panel-glow rounded-[32px] border border-pink-500/30 p-8 md:p-10 shadow-[0_0_50px_rgba(236,72,153,0.15)] z-10">
                 <div className="flex items-center gap-3 mb-6">
-                    <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-pink-500 to-purple-600 flex items-center justify-center text-white shadow-[0_0_15px_rgba(236,72,153,0.5)]">
-                        <FiMoon className="text-xl" />
-                    </div>
+                    <img src="/logo.png" alt="Rhythm Logo" className="w-10 h-10 object-contain drop-shadow-[0_0_15px_rgba(168,85,247,0.6)]" />
                     <div>
                         <h1 className="text-2xl font-extrabold glow-gradient-text">Welcome to Rhythm</h1>
                         <p className="text-slate-400 text-xs">
@@ -230,14 +229,7 @@ function StepThree({
     handleChange,
     handleGoalChange,
 }) {
-    const goals = [
-        "Weight Loss",
-        "Muscle Gain",
-        "Maintenance",
-        "Improved Energy",
-        "Better Sleep",
-        "Hormonal Balance"
-    ];
+    const goals = FITNESS_GOALS.map((g) => g.label);
 
     return (
         <div className="space-y-4">

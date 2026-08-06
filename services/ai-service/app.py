@@ -7,8 +7,6 @@ ROOT_DIR = SERVICE_DIR.parent.parent
 for path in [
     str(SERVICE_DIR),
     str(SERVICE_DIR / "services"),
-    str(SERVICE_DIR / "services" / "nutrition"),
-    str(SERVICE_DIR / "services" / "predictors"),
     str(ROOT_DIR),
     str(ROOT_DIR / "services"),
 ]:
@@ -20,44 +18,14 @@ from pydantic import BaseModel
 from typing import Optional, Union, List
 
 try:
-    from services.orchestrator import generate_daily_plan
-except ModuleNotFoundError:
-    from orchestrator import generate_daily_plan
-
-try:
     from services.recovery_engine import generate_post_workout_plan
 except ModuleNotFoundError:
-    try:
-        from recovery_engine import generate_post_workout_plan
-    except ModuleNotFoundError:
-        try:
-            from services.nutrition.post_workout_nutrition import generate_post_workout_plan
-        except ModuleNotFoundError:
-            from post_workout_nutrition import generate_post_workout_plan
+    from recovery_engine import generate_post_workout_plan
 
 app = FastAPI(
     title="Rhythm AI Service",
     version="2.0.0"
 )
-
-
-class MorningCheckIn(BaseModel):
-    cycleDay: Optional[int] = 14
-    sleepQuality: Optional[str] = "Good"
-    mood: Optional[Union[int, str]] = None
-    subjectiveEnergy: Optional[Union[int, str]] = None
-    energy: Optional[Union[int, str]] = None
-    bloating: Optional[str] = None
-    cravings: Optional[str] = None
-    workoutType: Optional[str] = None
-    workoutIntensity: Optional[str] = None
-    plannedWorkoutTime: Optional[str] = None
-    goals: Optional[List[str]] = None
-    soreness: Optional[str] = None
-    stress: Optional[str] = None
-    yesterdayWorkout: Optional[str] = None
-    targetIntensity: Optional[str] = None
-
 
 class RecoveryRequest(BaseModel):
     phase: str
@@ -78,6 +46,7 @@ def root():
         "status": "running",
     }
 
+from services.orchestrator import generate_daily_plan
 
 @app.post("/morning-plan")
 async def generate_morning_plan(request: Request):
@@ -85,12 +54,6 @@ async def generate_morning_plan(request: Request):
 
     profile = body.get("profile", {})
     checkin = body.get("checkin", {})
-
-    print("\n========== PROFILE ==========")
-    print(profile)
-
-    print("\n========== CHECKIN ==========")
-    print(checkin)
 
     result = generate_daily_plan(profile, checkin)
 
@@ -128,12 +91,7 @@ def generate_recovery_plan(request: RecoveryRequest):
             "priorityNutrients": plan.get("priorityNutrients", []),
             "recoveryFoods": plan.get("recommendedFoods", []),
             "foods": plan.get("recommendedFoods", []),
-            "checklist": [
-                f"Hydration target: {plan.get('hydration')}",
-                f"Electrolytes: {'Recommended' if plan.get('electrolytes') else 'Optional'}",
-                f"Recovery tip: {plan.get('recoveryTip')}",
-                f"Phase guidance: {plan.get('phaseTip')}",
-            ],
+            "checklist": plan.get("checklist", []),
             "hydration": plan.get("hydration"),
             "recoveryTip": plan.get("recoveryTip"),
             "macros": {
@@ -144,8 +102,8 @@ def generate_recovery_plan(request: RecoveryRequest):
             },
         },
         "recoveryFocus": plan.get("recoveryFocus") or {"title": "Today's Recovery Focus", "items": plan.get("priorityNutrients", [])},
-        "message": plan.get("coachMessage") or (
-            f"Post-workout plan: {plan.get('calories')} kcal target "
-            f"({plan.get('protein')}g protein, {plan.get('carbs')}g carbs)."
-        ),
+        "message": (
+            plan.get("coachSummary")
+            or plan.get("coachMessage")
+        )
     }

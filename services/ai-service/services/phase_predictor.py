@@ -3,11 +3,7 @@ import pandas as pd
 import os
 
 MODEL_PATH = os.path.join(
-    os.path.dirname(__file__),
-    "..",
-    "..",
-    "models",
-    "phase_classifier.pkl"
+    os.path.dirname(__file__), "phase_classifier.pkl"
 )
 
 model = joblib.load(MODEL_PATH)
@@ -115,13 +111,6 @@ def predict_phase(checkin):
 
     prediction = model.predict(df)[0]
     probabilities = model.predict_proba(df)[0]
-
-    print("========== PHASE MODEL ==========")
-    print(df)
-    print("Prediction:", prediction)
-    print("Prediction Type:", type(prediction))
-    print("Classes:", model.classes_)
-    print("Probabilities:", probabilities)
 
     return {
         "prediction": prediction,

@@ -9,13 +9,13 @@ export default function FocusCard({
   workout,
 }) {
   const isRecovery = mode === "RECOVERY";
-  const nutrients = nutrition?.priorityNutrients || workout?.todayRecoveryFocus || ["Protein", "Healthy Fats"];
-  const macros = nutrition?.macros || { calories: 378, protein: 19, carbs: 53, fats: 9 };
-  const hydration = nutrition?.hydration || "980 mL";
+  const nutrients = nutrition?.priorityNutrients || workout?.todayRecoveryFocus;
+  const macros = nutrition?.macros;
+  const hydration = nutrition?.hydration;
 
-  const objective = workout?.workoutObjective || workout?.title || workout?.workoutType || (isRecovery ? "Post-Workout Recovery" : "Today's Game Plan");
+  const objective = workout?.workoutObjective || workout?.title || workout?.workoutType;
   const loadLabel = getTrainingLoadLabel(workout?.trainingLoad || workout?.intensity);
-  const coachSummary = workout?.coachSummary || gamePlan?.message || (isRecovery ? "Prioritize hydration and protein for optimal recovery." : "Execute today's target session with controlled effort.");
+  const coachSummary = workout?.coachSummary || gamePlan?.message;
 
   return (
     <Card className="soft-surface relative overflow-hidden flex flex-col justify-between border-0 p-8 lg:p-10">

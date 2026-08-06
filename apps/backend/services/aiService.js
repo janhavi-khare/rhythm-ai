@@ -5,16 +5,10 @@ const AI_SERVICE_URL =
 
 const generateMorningPlan = async (payload) => {
   try {
-    console.log("========== AI REQUEST ==========");
-    console.log(JSON.stringify(payload, null, 2));
-
     const response = await axios.post(
       `${AI_SERVICE_URL}/morning-plan`,
       payload
     );
-
-    console.log("========== AI RESPONSE ==========");
-    console.log(JSON.stringify(response.data, null, 2));
 
     return response.data;
   } catch (error) {
@@ -32,16 +26,10 @@ const generateMorningPlan = async (payload) => {
 
 const generateRecoveryPlan = async (workoutData) => {
   try {
-    console.log("========== RECOVERY REQUEST ==========");
-    console.log(JSON.stringify(workoutData, null, 2));
-
     const response = await axios.post(
       `${AI_SERVICE_URL}/recovery-plan`,
       workoutData
     );
-
-    console.log("========== RECOVERY RESPONSE ==========");
-    console.log(JSON.stringify(response.data, null, 2));
 
     return response.data;
   } catch (error) {

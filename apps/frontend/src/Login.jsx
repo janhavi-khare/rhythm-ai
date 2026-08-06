@@ -11,15 +11,18 @@ export default function Login() {
 
   const navigate = useNavigate();
 
+  const API = import.meta.env.VITE_API_URL;
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       setLoading(true);
-      const result = await axios.post("http://localhost:5000/login", { email, password });
+      axios.post(`${API}/login`, { email, password });
       if (result.data.message === "Login successful") {
         const userId = result.data.userId;
         localStorage.setItem("userId", userId);
-        localStorage.setItem("userEmail", email);
+        localStorage.setItem("userName", user.name);
+        localStorage.setItem("userEmail", user.email);
         navigate(`/checkin/${userId}`);
       } else {
         alert(result.data.message || "Invalid credentials");
@@ -39,9 +42,7 @@ export default function Login() {
 
       <div className="w-full max-w-md glass-panel-glow rounded-[32px] border border-pink-500/30 p-8 md:p-10 shadow-[0_0_50px_rgba(236,72,153,0.15)] z-10">
         <div className="text-center mb-8">
-          <div className="w-14 h-14 rounded-2xl bg-gradient-to-tr from-pink-500 to-purple-600 flex items-center justify-center text-white mx-auto shadow-[0_0_20px_rgba(236,72,153,0.5)] mb-3">
-            <FiMoon className="text-2xl" />
-          </div>
+          <img src="/logo.png" alt="Rhythm Logo" className="w-16 h-16 object-contain mx-auto drop-shadow-[0_0_20px_rgba(168,85,247,0.6)] mb-3" />
           <h1 className="text-4xl font-extrabold tracking-tight glow-gradient-text">
             Rhythm
           </h1>

@@ -85,41 +85,41 @@ export default function WorkoutSessionView({ workout, onComplete, onBack }) {
       <Card className="soft-surface-hero p-6 md:p-8 border-0 relative overflow-hidden space-y-6">
         <div className="absolute -top-20 -right-20 w-72 h-72 bg-gradient-to-bl from-pink-500/15 to-purple-600/15 rounded-full blur-[120px] pointer-events-none"></div>
 
-        <div className="space-y-3 relative z-10">
+        <div className="space-y-4 relative z-10">
           <div className="flex items-center gap-2">
-            <span className="floating-chip px-3 py-1 text-[11px] font-bold text-pink-300 font-display uppercase tracking-wider flex items-center gap-1.5">
+            <span className="floating-chip px-3.5 py-1 text-sm font-semibold text-pink-300 font-display uppercase tracking-wider flex items-center gap-1.5">
               <FiCpu className="text-pink-400 text-xs" />
-              <span>AI Prescribed Plan</span>
+              <span>Today's Plan</span>
             </span>
             {workout.badge && (
-              <span className="floating-chip px-3 py-1 text-[11px] font-semibold text-slate-200">
+              <span className="floating-chip px-3.5 py-1 text-sm font-semibold text-slate-200">
                 {workout.badge}
               </span>
             )}
           </div>
 
-          <h2 className="text-2xl md:text-4xl font-light font-display text-white">
+          <h2 className="text-3xl md:text-4xl font-bold font-display text-white">
             {title}
           </h2>
 
           {coachSummary && (
-            <p className="text-xs md:text-sm text-slate-300 font-light leading-relaxed">
+            <p className="text-base text-slate-300 font-normal leading-relaxed">
               {coachSummary}
             </p>
           )}
 
           <div className="flex flex-wrap items-center gap-3 pt-2">
-            <div className="floating-chip px-4 py-2 text-xs font-semibold text-slate-200 flex items-center gap-2">
+            <div className="floating-chip px-4 py-2 text-sm font-semibold text-slate-200 flex items-center gap-2">
               <FiClock className="text-pink-400 text-sm" />
               <span>Duration: <strong className="text-white">{duration}</strong></span>
             </div>
 
-            <div className="floating-chip px-4 py-2 text-xs font-semibold text-pink-300 flex items-center gap-2">
+            <div className="floating-chip px-4 py-2 text-sm font-semibold text-pink-300 flex items-center gap-2">
               <FiZap className="text-amber-400 text-sm" />
               <span>Training Load: <strong className="text-pink-200">{loadLabel}</strong></span>
             </div>
             {intensity && (
-              <div className="floating-chip px-4 py-2 text-xs font-semibold text-purple-300 flex items-center gap-2">
+              <div className="floating-chip px-4 py-2 text-sm font-semibold text-purple-300 flex items-center gap-2">
                 <span>Intensity: <strong>{intensity}</strong></span>
               </div>
             )}
@@ -130,30 +130,30 @@ export default function WorkoutSessionView({ workout, onComplete, onBack }) {
         <div className="pt-6 border-t border-white/[0.06] space-y-3 relative z-10">
           <div className="flex items-center gap-2">
             <FiActivity className="text-pink-400 text-sm" />
-            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-300 font-display">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-pink-300 font-display">
               Why This Workout (AI Reasoning)
             </h3>
           </div>
 
           {reasoningList.length > 0 ? (
-            <div className="space-y-2">
+            <div className="space-y-3">
               {reasoningList.map((reason, idx) => {
                 const text = typeof reason === "object" ? (reason.text || reason.description) : String(reason);
                 const tag = typeof reason === "object" ? reason.type : null;
                 return (
-                  <div key={idx} className="p-3 rounded-2xl bg-white/[0.03] border border-white/[0.04] text-xs text-slate-300 flex items-start gap-2.5">
+                  <div key={idx} className="p-4.5 rounded-2xl bg-white/[0.03] border border-white/[0.04] text-base text-slate-200 flex items-start gap-3">
                     {tag && (
-                      <span className="floating-chip px-2 py-0.5 text-[10px] font-bold text-pink-300 shrink-0">
+                      <span className="floating-chip px-2.5 py-1 text-xs font-semibold text-pink-300 shrink-0">
                         {tag}
                       </span>
                     )}
-                    <span className="leading-relaxed">{text}</span>
+                    <span className="leading-relaxed font-normal">{text}</span>
                   </div>
                 );
               })}
             </div>
           ) : (
-            <p className="text-xs text-slate-400 italic">
+            <p className="text-sm text-slate-300 italic">
               No specific reasoning provided for today's workout session.
             </p>
           )}

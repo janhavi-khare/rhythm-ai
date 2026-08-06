@@ -49,14 +49,12 @@ export default function Signup() {
         
         {/* Logo / Brand */}
         <div className="text-center mb-6">
-          <div className="w-14 h-14 rounded-2xl bg-gradient-to-tr from-pink-500 to-purple-600 flex items-center justify-center text-white mx-auto shadow-[0_0_20px_rgba(236,72,153,0.5)] mb-3">
-            <FiMoon className="text-2xl" />
-          </div>
+          <img src="/logo.png" alt="Rhythm Logo" className="w-16 h-16 object-contain mx-auto drop-shadow-[0_0_20px_rgba(168,85,247,0.6)] mb-3" />
           <h1 className="text-4xl font-extrabold tracking-tight glow-gradient-text">
             Rhythm
           </h1>
           <p className="text-slate-400 text-sm mt-1">
-            Understand your body's biological rhythm.
+            Personalized Nutrition Intelligence for Women
           </p>
         </div>
 

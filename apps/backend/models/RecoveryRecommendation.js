@@ -29,7 +29,6 @@ const recoveryRecommendationSchema = new mongoose.Schema(
       hydration: String,
       electrolytes: Boolean,
       recoveryFoods: [String],
-      foods: [String],
       priorityNutrients: [String],
       recoveryTip: String,
       checklist: [String],

@@ -138,15 +138,3 @@ sample_input = {
 }
 
 result = explain_prediction(sample_input)
-
-print("\nRecovery Score:", result["recoveryScore"])
-
-print("\nTop Positive Factors")
-
-for factor in result["positiveSHAP"]:
-    print(f"[+] {factor[0]} (+{factor[1]:.2f})")
-
-print("\nTop Negative Factors")
-
-for factor in result["negativeSHAP"]:
-    print(f"[-] {factor[0]} (-{factor[1]:.2f})")

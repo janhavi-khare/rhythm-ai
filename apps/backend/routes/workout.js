@@ -95,13 +95,6 @@ router.post("/complete/:sessionId", async (req, res) => {
     }
 
     // -------------------------
-    // DEBUG
-    // -------------------------
-
-    console.log("========== MORNING RECOMMENDATION ==========");
-    console.log(JSON.stringify(morningRecommendation, null, 2));
-
-    // -------------------------
     // Find phase regardless of schema
     // -------------------------
 
@@ -127,6 +120,8 @@ router.post("/complete/:sessionId", async (req, res) => {
     workoutSession.intensity = intensity;
     workoutSession.duration = duration;
     workoutSession.completedAt = new Date();
+    workoutSession.rpe = rpe;
+    workoutSession.muscleSoreness = muscleSoreness;
 
     await workoutSession.save();
 
@@ -153,13 +148,10 @@ router.post("/complete/:sessionId", async (req, res) => {
 
       goal:
         Array.isArray(user?.goals) &&
-        user.goals.length
+          user.goals.length
           ? user.goals[0]
           : "General Fitness",
     };
-
-    console.log("========== RECOVERY REQUEST ==========");
-    console.log(JSON.stringify(recoveryInput, null, 2));
 
     const aiResult =
       await generateRecoveryPlan(recoveryInput);

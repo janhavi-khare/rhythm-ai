@@ -33,6 +33,24 @@ const workoutSessionSchema = new mongoose.Schema(
 
     workoutType: {
       type: String,
+      enum: [
+        "Strength",
+        "Hypertrophy",
+        "Conditioning",
+        "Cardio",
+        "Mobility",
+        "Recovery",
+      ],
+    },
+
+    rpe: {
+      type: Number,
+      min: 1,
+      max: 10
+    },
+
+    muscleSoreness: {
+      type: String
     },
 
     intensity: {

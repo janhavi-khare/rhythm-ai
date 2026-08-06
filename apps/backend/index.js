@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 const UserModel = require("./models/User");
 const dashboardRoutes = require("./routes/dashboard");
 const checkInRoutes = require("./routes/checkin");
-const morningCheckinRoutes = require("./routes/morningCheckin");
 const workoutRoutes = require("./routes/workout");
 
 const app = express();
@@ -13,15 +12,14 @@ app.use(cors());
 
 app.use("/dashboard", dashboardRoutes);
 app.use("/checkin", checkInRoutes);
-app.use(
-  "/checkin/morning",
-  morningCheckinRoutes
-);
 app.use("/workout", workoutRoutes);
 
-mongoose.connect("mongodb://localhost:27017/rhythm")
-
 require("dotenv").config();
+
+mongoose.connect(
+    process.env.MONGO_URI ||
+    "mongodb://localhost:27017/rhythm"
+);
 
 app.post("/signup", (req, res) => {
     UserModel.create(req.body)
@@ -57,22 +55,22 @@ app.post("/login", (req, res) => {
         });
 });
 
+const { normalizeGoals } = require("./constants/goals");
+
 app.post("/onboarding", async (req, res) => {
     try {
+        const updateData = {};
+        if (req.body.height !== undefined) updateData.height = req.body.height;
+        if (req.body.weight !== undefined) updateData.weight = req.body.weight;
+        if (req.body.cycleLength !== undefined) updateData.cycleLength = req.body.cycleLength;
+        if (req.body.periodLength !== undefined) updateData.periodLength = req.body.periodLength;
+        if (req.body.lastPeriodDate !== undefined) updateData.lastPeriodDate = req.body.lastPeriodDate;
+        if (req.body.activityLevel !== undefined) updateData.activityLevel = req.body.activityLevel;
+        if (req.body.goals !== undefined) updateData.goals = normalizeGoals(req.body.goals);
 
         const result = await UserModel.findOneAndUpdate(
             { email: req.body.email },
-            {
-                height: req.body.height,
-                weight: req.body.weight,
-
-                cycleLength: req.body.cycleLength,
-                periodLength: req.body.periodLength,
-                lastPeriodDate: req.body.lastPeriodDate,
-
-                goals: req.body.goals,
-                activityLevel: req.body.activityLevel
-            },
+            updateData,
             { new: true }
         );
 

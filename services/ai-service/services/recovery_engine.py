@@ -275,12 +275,3 @@ def generate_post_workout_plan(
 
 generate_recovery_plan = generate_post_workout_plan
 calculate_recovery_plan = generate_post_workout_plan
-
-
-if __name__ == "__main__":
-    from pprint import pprint
-    plan = generate_post_workout_plan(
-        weight=60.0, workoutType="Strength Training", intensity="High", duration=60,
-        rpe=8.0, muscleSoreness="Moderate", goal="Build Muscle", phase="Follicular", recovery_score=78.0,
-    )
-    pprint(plan)

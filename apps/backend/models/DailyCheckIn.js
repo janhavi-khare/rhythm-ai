@@ -1,5 +1,3 @@
-console.log("✅ Loading DailyCheckIn schema");
-
 const mongoose = require("mongoose");
 
 const dailyCheckInSchema = new mongoose.Schema(
@@ -12,7 +10,13 @@ const dailyCheckInSchema = new mongoose.Schema(
 
     sleepQuality: {
       type: String,
-      required: true,
+      enum: [
+        "Poor",
+        "Average",
+        "Good",
+        "Very Good"
+      ],
+      required: true
     },
 
     energy: {
@@ -24,12 +28,21 @@ const dailyCheckInSchema = new mongoose.Schema(
 
     soreness: {
       type: String,
-      required: true,
+      enum: [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ]
     },
 
     stress: {
       type: String,
-      required: true,
+      enum: [
+        "Low",
+        "Moderate",
+        "High"
+      ]
     },
 
     yesterdayWorkout: {
@@ -46,29 +59,45 @@ const dailyCheckInSchema = new mongoose.Schema(
 
     mood: {
       type: Number,
-      required: false,
+      min: 1,
+      max: 5,
     },
 
     bloating: {
       type: String,
-      required: false,
+      enum: ["None", "Mild", "Moderate", "Severe"],
     },
 
     cravings: {
       type: String,
-      required: false,
+      enum: ["None", "Sweet", "Salty", "Both"],
     },
 
     workoutType: {
       type: String,
+      enum: [
+        "Strength",
+        "Hypertrophy",
+        "Conditioning",
+        "Cardio",
+        "Mobility",
+        "Recovery",
+      ],
       required: false,
     },
 
     workoutIntensity: {
       type: String,
+      enum: ["Low", "Moderate", "High"],
       required: false,
     },
+
+    plannedWorkoutTime: {
+      type: String,
+      enum: ["Morning", "Afternoon", "Evening"],
+    },
   },
+
   {
     timestamps: true,
   }

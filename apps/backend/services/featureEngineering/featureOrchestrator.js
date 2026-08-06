@@ -65,8 +65,13 @@ async function generateFeatureVector(userId) {
 
   const cycleDay = getCycleDay(
     user.lastPeriodDate,
-    user.cycleLength || 28
+    user.cycleLength
   );
+
+  const phase = getCurrentPhase(
+    cycleDay,
+    user.cycleLength
+);
 
   return {
     sleepDebt,
@@ -78,7 +83,7 @@ async function generateFeatureVector(userId) {
     muscleSoreness: latestWorkout?.muscleSoreness || 0,
     mood: latestWorkout?.mood || 0,
     energy: latestWorkout?.energy || 0,
-    phase: healthMemory?.phase || null,
+    phase: phase || null,
     cycleDay,
   };
 }

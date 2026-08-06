@@ -249,7 +249,3 @@ if __name__ == "__main__":
         phase="Follicular"
 
     )
-
-    from pprint import pprint
-
-    pprint(plan)

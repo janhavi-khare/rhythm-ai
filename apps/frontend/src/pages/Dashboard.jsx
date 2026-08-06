@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { getDashboard } from "../services/dashboardService";
 import mapDashboard from "../services/dashboardMapper";
 import { completeWorkout } from "../services/workoutService";
-import LoadingScreen from "../components/checkin/LoadingScreen";
+import SkeletonLoader from "../ui/SkeletonLoader";
 
 import Sidebar from "../layout/Sidebar";
 import TopBar from "../layout/Topbar";
@@ -19,14 +19,15 @@ import ProfileView from "../components/views/ProfileView";
 
 import WorkoutCompletionModal from "../components/workoutCompletion";
 
+function isValidUserId(id) {
+  return typeof id === "string" && id.length === 24 && /^[0-9a-fA-F]{24}$/.test(id);
+}
+
 export default function Dashboard({ initialTab = "dashboard" }) {
   const { userId: routeUserId } = useParams();
   const [dashboard, setDashboard] = useState(null);
   const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState("");
-
-  const isValidUserId = (id) =>
-    typeof id === "string" && /^[0-9a-fA-F]{24}$/.test(id);
 
   const userId = (() => {
     if (isValidUserId(routeUserId)) return routeUserId;
@@ -45,7 +46,6 @@ export default function Dashboard({ initialTab = "dashboard" }) {
       setLoading(true);
       setLoadError("");
       const data = await getDashboard(userId);
-      console.log("Dashboard Loaded:", data);
       setDashboard(data);
       setDashboardVM(mapDashboard(data));
     } catch (err) {
@@ -66,7 +66,7 @@ export default function Dashboard({ initialTab = "dashboard" }) {
   }, [userId]);
 
   if (loading) {
-    return <LoadingScreen />;
+    return <SkeletonLoader />;
   }
 
   if (loadError) {
@@ -191,22 +191,40 @@ export default function Dashboard({ initialTab = "dashboard" }) {
 
           {activeTab === "nutrition" && (
             <NutritionView
+              todayPlan={todayPlan}
               nutrition={nutrition}
               foods={nutrition?.foods || []}
               mode={todayPlan?.mode}
+              setActiveTab={setActiveTab}
             />
           )}
 
           {activeTab === "insights" && (
-            <InsightsView />
+            <InsightsView
+              todayPlan={todayPlan}
+              predictions={predictions}
+              user={user}
+              setActiveTab={setActiveTab}
+            />
           )}
 
           {activeTab === "cycle" && (
-            <CycleView phase={phase} />
+            <CycleView
+              todayPlan={todayPlan}
+              phase={phase}
+              user={user}
+              predictions={predictions}
+              setActiveTab={setActiveTab}
+            />
           )}
 
           {activeTab === "profile" && (
-            <ProfileView user={user} />
+            <ProfileView
+              user={user}
+              todayPlan={todayPlan}
+              predictions={predictions}
+              onUpdateUser={loadDashboard}
+            />
           )}
         </main>
       </div>

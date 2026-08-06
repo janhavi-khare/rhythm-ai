@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+:root {
+  --brand-purple-primary: #A351F8;
+  --brand-purple-secondary: #8F37FA;
+  --brand-indigo: #6163F3;
+  --brand-cyan: #2EA8DE;
+  --brand-gradient: linear-gradient(90deg, #8F37FA 0%, #A351F8 35%, #6163F3 70%, #2EA8DE 100%);
+}
+
 @layer base {
   body {
     background-color: #06030B;
@@ -21,23 +29,109 @@
   font-family: 'Instrument Serif', Georgia, serif;
 }
 
-/* Atmosphere-First Soft Glass Surfaces (No Hard Rectangular Card Borders) */
+/* Rhythm Premium Typography Scale System (Apple/Notion/Oura style) */
+.text-h1 {
+  font-size: 2.625rem; /* 42px */
+  line-height: 1.15;
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  .text-h1 {
+    font-size: 3rem; /* 48px */
+  }
+}
+
+.text-h2 {
+  font-size: 1.875rem; /* 30px */
+  line-height: 1.2;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .text-h2 {
+    font-size: 2.125rem; /* 34px */
+  }
+}
+
+.text-card-title {
+  font-size: 1.5rem; /* 24px */
+  line-height: 1.25;
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  .text-card-title {
+    font-size: 1.75rem; /* 28px */
+  }
+}
+
+.text-primary-value {
+  font-size: 2.25rem; /* 36px */
+  line-height: 1.1;
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  .text-primary-value {
+    font-size: 3rem; /* 48px */
+  }
+}
+
+.text-secondary-value {
+  font-size: 1.1875rem; /* 19px */
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+.text-description {
+  font-size: 1rem; /* 16px */
+  line-height: 1.75; /* 1.75 comfortable line-height */
+  font-weight: 400;
+}
+
+.text-meta {
+  font-size: 0.875rem; /* 14px */
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.btn-primary, .btn-secondary, .btn-ghost, .btn-danger {
+  font-size: 1rem; /* 16px */
+  font-weight: 600;
+}
+
+/* Official Rhythm Brand Gradient Text & Background Utilities */
+.glow-gradient-text,
+.brand-gradient-text {
+  background: linear-gradient(90deg, #8F37FA 0%, #A351F8 35%, #6163F3 70%, #2EA8DE 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brand-gradient-bg {
+  background: linear-gradient(90deg, #8F37FA 0%, #A351F8 35%, #6163F3 70%, #2EA8DE 100%);
+}
+
+/* Luxury Health App Soft Glass Surfaces (Oura / Apple Health style) */
 .soft-surface {
-  background: rgba(18, 10, 32, 0.45);
+  background: rgba(16, 10, 28, 0.5);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
-  border: 1px solid rgba(255, 255, 255, 0.04);
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
-  border-radius: 36px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.soft-surface:hover {
+  background: rgba(22, 14, 38, 0.58);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 30px rgba(163, 81, 248, 0.1);
 }
 
 .soft-surface-hero {
-  background: radial-gradient(circle at 50% 0%, rgba(40, 18, 68, 0.6) 0%, rgba(14, 7, 26, 0.75) 100%);
+  background: radial-gradient(circle at 50% 0%, rgba(143, 55, 250, 0.18) 0%, rgba(12, 7, 22, 0.8) 100%);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
-  border: 1px solid rgba(244, 114, 182, 0.08);
-  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.6);
-  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55);
+  border-radius: 24px;
 }
 
 .floating-chip {
@@ -45,16 +139,163 @@
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 9999px;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.2s ease-in-out;
 }
 
 .floating-chip:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(244, 114, 182, 0.25);
-  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.07);
+  box-shadow: 0 0 20px rgba(163, 81, 248, 0.12);
+  transform: translateY(-1px);
 }
 
-/* Living AI Orb Companion Styles & 7-Tier Emotional Spectrum */
+/* Translucent Soft Badges (No Heavy Borders) */
+.badge-pending {
+  background: rgba(163, 81, 248, 0.14);
+  color: #D8B4FE;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 14px;
+  border-radius: 9999px;
+}
+
+.badge-completed {
+  background: rgba(46, 168, 222, 0.16);
+  color: #7DD3FC;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 14px;
+  border-radius: 9999px;
+}
+
+.badge-high-priority {
+  background: rgba(244, 114, 182, 0.16);
+  color: #F472B6;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 14px;
+  border-radius: 9999px;
+}
+
+.badge-essential {
+  background: rgba(129, 140, 248, 0.16);
+  color: #818CF8;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 14px;
+  border-radius: 9999px;
+}
+
+/* Standardized Rhythm Brand Button System */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 1rem;
+  background: linear-gradient(90deg, #8F37FA 0%, #A351F8 35%, #6163F3 70%, #2EA8DE 100%);
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 0.75rem;
+  box-shadow: 0 0 25px rgba(163, 81, 248, 0.4);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary:hover:not(:disabled) {
+  opacity: 0.95;
+  box-shadow: 0 0 30px rgba(46, 168, 222, 0.6);
+  transform: translateY(-1px);
+}
+
+.btn-primary:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  color: #2EA8DE;
+  border: 1px solid rgba(163, 81, 248, 0.35);
+  font-weight: 600;
+  font-size: 0.75rem;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(46, 168, 222, 0.6);
+  color: #FFFFFF;
+  transform: translateY(-1px);
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  color: #CBD5E1;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  font-weight: 600;
+  font-size: 0.75rem;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.btn-ghost:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.07);
+  color: #FFFFFF;
+  transform: translateY(-1px);
+}
+
+.btn-danger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1rem;
+  border-radius: 1rem;
+  background: rgba(244, 63, 94, 0.12);
+  color: #FDA4AF;
+  border: 1px solid rgba(244, 63, 94, 0.3);
+  font-weight: 700;
+  font-size: 0.75rem;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.btn-danger:hover:not(:disabled) {
+  background: rgba(244, 63, 94, 0.25);
+  transform: translateY(-1px);
+}
+
+/* Skeleton Loader Animation */
+@keyframes skeletonPulse {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 0.8; }
+}
+
+.skeleton-box {
+  background: rgba(163, 81, 248, 0.08);
+  border-radius: 16px;
+  animation: skeletonPulse 1.8s ease-in-out infinite;
+}
+
+/* Living AI Orb Companion Styles & Brand Gradient */
 .rhythm-living-orb {
   width: 200px;
   height: 200px;
@@ -70,84 +311,57 @@
   }
 }
 
-/* 1. Deep Fatigue / Sleepy */
+/* Living Orb Tiers */
 .rhythm-living-orb.orb-state-fatigue {
   transform: scale(0.85) translateY(6px);
-  background: radial-gradient(circle at 35% 35%, #8B5CF6 0%, #6D28D9 45%, #3B0764 85%);
-  box-shadow: 
-    0 0 45px rgba(139, 92, 246, 0.35),
-    0 0 90px rgba(109, 40, 217, 0.2),
-    inset 0 0 25px rgba(255, 255, 255, 0.3);
+  background: radial-gradient(circle at 35% 35%, #8F37FA 0%, #6163F3 45%, #2EA8DE 85%);
+  box-shadow: 0 0 45px rgba(143, 55, 250, 0.4), inset 0 0 25px rgba(255, 255, 255, 0.3);
   animation: swaySlow 8.5s ease-in-out infinite alternate;
 }
 
-/* 2. Stressed / Overwhelmed */
 .rhythm-living-orb.orb-state-stressed {
   transform: scale(0.92) translateY(3px);
   background: radial-gradient(circle at 35% 35%, #F43F5E 0%, #BE123C 50%, #4C0519 85%);
-  box-shadow: 
-    0 0 55px rgba(244, 63, 94, 0.45),
-    0 0 100px rgba(190, 18, 60, 0.25),
-    inset 0 0 30px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 55px rgba(244, 63, 94, 0.45), inset 0 0 30px rgba(255, 255, 255, 0.4);
   animation: swaySlow 4.5s ease-in-out infinite alternate;
 }
 
-/* 3. Calm & Serene */
 .rhythm-living-orb.orb-state-serene {
   transform: scale(0.98) translateY(0px);
-  background: radial-gradient(circle at 35% 35%, #67E8F9 0%, #A855F7 50%, #4C1D95 85%);
-  box-shadow: 
-    0 0 65px rgba(103, 232, 249, 0.45),
-    0 0 120px rgba(168, 85, 247, 0.3),
-    inset 0 0 35px rgba(255, 255, 255, 0.55);
+  background: radial-gradient(circle at 35% 35%, #2EA8DE 0%, #A351F8 50%, #6163F3 85%);
+  box-shadow: 0 0 65px rgba(46, 168, 222, 0.45), inset 0 0 35px rgba(255, 255, 255, 0.55);
   animation: swayMedium 6.5s ease-in-out infinite alternate;
 }
 
-/* 4. Balanced & Focused */
 .rhythm-living-orb.orb-state-balanced {
   transform: scale(1.04) translateY(-2px);
-  background: radial-gradient(circle at 35% 35%, #F472B6 0%, #A855F7 45%, #4F46E5 80%);
-  box-shadow: 
-    0 0 75px rgba(244, 114, 182, 0.55),
-    0 0 140px rgba(168, 85, 247, 0.35),
-    inset 0 0 40px rgba(255, 255, 255, 0.65);
+  background: radial-gradient(circle at 35% 35%, #A351F8 0%, #6163F3 45%, #2EA8DE 80%);
+  box-shadow: 0 0 75px rgba(163, 81, 248, 0.55), inset 0 0 40px rgba(255, 255, 255, 0.65);
   animation: swayMedium 5.5s ease-in-out infinite alternate;
 }
 
-/* 5. Determined & Motivated */
 .rhythm-living-orb.orb-state-determined {
   transform: scale(1.12) translateY(-6px);
-  background: radial-gradient(circle at 35% 35%, #F59E0B 0%, #EC4899 45%, #BE185D 80%);
-  box-shadow: 
-    0 0 90px rgba(245, 158, 11, 0.65),
-    0 0 160px rgba(236, 72, 153, 0.45),
-    inset 0 0 45px rgba(255, 255, 255, 0.8);
+  background: radial-gradient(circle at 35% 35%, #F59E0B 0%, #A351F8 45%, #6163F3 80%);
+  box-shadow: 0 0 90px rgba(163, 81, 248, 0.65), inset 0 0 45px rgba(255, 255, 255, 0.8);
   animation: swayFast 4.0s ease-in-out infinite alternate;
 }
 
-/* 6. Radiant / Peak Vitality */
 .rhythm-living-orb.orb-state-radiant {
   transform: scale(1.22) translateY(-10px);
-  background: radial-gradient(circle at 35% 35%, #F9A8D4 0%, #06B6D4 40%, #818CF8 75%, #3B82F6 100%);
-  box-shadow: 
-    0 0 115px rgba(249, 168, 212, 0.85),
-    0 0 200px rgba(6, 182, 212, 0.6),
-    inset 0 0 55px rgba(255, 255, 255, 0.95);
+  background: radial-gradient(circle at 35% 35%, #8F37FA 0%, #A351F8 30%, #6163F3 65%, #2EA8DE 100%);
+  box-shadow: 0 0 115px rgba(163, 81, 248, 0.85), inset 0 0 55px rgba(255, 255, 255, 0.95);
   animation: swayFast 3.5s ease-in-out infinite alternate;
 }
 
-/* 7. Confident & Reassuring */
 .rhythm-living-orb.orb-state-confident {
   transform: scale(1.45) translateY(-5px);
-  background: radial-gradient(circle at 35% 35%, #F9A8D4 0%, #10B981 40%, #8B5CF6 75%, #3B82F6 100%);
-  box-shadow: 
-    0 0 135px rgba(16, 185, 129, 0.85),
-    0 0 230px rgba(139, 92, 246, 0.65),
-    inset 0 0 60px rgba(255, 255, 255, 1);
+  background: radial-gradient(circle at 35% 35%, #10B981 0%, #A351F8 40%, #6163F3 75%, #2EA8DE 100%);
+  box-shadow: 0 0 135px rgba(16, 185, 129, 0.85), inset 0 0 60px rgba(255, 255, 255, 1);
   animation: swayMedium 5.0s ease-in-out infinite alternate;
 }
 
-/* HORIZONTAL SWAY KEYFRAMES (STRICT LEFT-RIGHT SWAYING) */
+/* HORIZONTAL SWAY KEYFRAMES */
 @keyframes swaySlow {
   0% { transform: scale(0.85) translateY(6px) rotate(-8deg); }
   50% { transform: scale(0.85) translateY(0px) rotate(8deg); }
@@ -166,20 +380,14 @@
   100% { transform: scale(1.18) translateY(-10px) rotate(-16deg); }
 }
 
-.glow-gradient-text {
-  background: linear-gradient(135deg, #F9A8D4 0%, #D8B4FE 50%, #C7D2FE 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 /* Deep Atmosphere Ambient Canvas Mesh */
 .bg-mesh-atmosphere {
   background-color: #06030B;
   background-image: 
-    radial-gradient(at 15% 10%, rgba(244, 114, 182, 0.15) 0px, transparent 50%),
-    radial-gradient(at 85% 15%, rgba(168, 85, 247, 0.18) 0px, transparent 50%),
-    radial-gradient(at 50% 60%, rgba(99, 102, 241, 0.12) 0px, transparent 50%),
-    radial-gradient(at 20% 85%, rgba(244, 114, 182, 0.1) 0px, transparent 50%);
+    radial-gradient(at 15% 10%, rgba(143, 55, 250, 0.18) 0px, transparent 50%),
+    radial-gradient(at 85% 15%, rgba(97, 99, 243, 0.18) 0px, transparent 50%),
+    radial-gradient(at 50% 60%, rgba(46, 168, 222, 0.14) 0px, transparent 50%),
+    radial-gradient(at 20% 85%, rgba(163, 81, 248, 0.12) 0px, transparent 50%);
   background-attachment: fixed;
 }
 
@@ -192,9 +400,9 @@
   background: #06030B;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(163, 81, 248, 0.2);
   border-radius: 9999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(244, 114, 182, 0.3);
+  background: rgba(46, 168, 222, 0.4);
 }

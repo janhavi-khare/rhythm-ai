@@ -18,8 +18,6 @@ async function getDashboard(userId) {
     user.cycleLength
   );
 
-  console.log("Dashboard Cycle Day:", cycleDay);
-
   const latestCheckIn = await DailyCheckIn.findOne({
     userId,
   })
@@ -179,14 +177,51 @@ async function getDashboard(userId) {
     }
   }
 
+  const generatePhaseTimeline = require("../utils/generatePhaseTimeline");
+  const currentPhaseName = todayPlan?.bodySnapshot?.phase?.name || "Follicular";
+  const timelineInfo = generatePhaseTimeline(
+    user.cycleLength || 28,
+    cycleDay,
+    currentPhaseName
+  );
+
+  const totalCheckIns = await DailyCheckIn.countDocuments({ userId });
+  const completedWorkouts = await WorkoutSession.countDocuments({ userId, status: "COMPLETED" });
+  const streak = user.streak || (totalCheckIns > 0 ? 1 : 0);
+
   return {
     user: {
       id: user._id,
       name: user.name,
       email: user.email,
+      age: user.age || null,
+      height: user.height || null,
+      weight: user.weight || null,
+      goals: user.goals || [],
+      activityLevel: user.activityLevel || "Moderate",
+      cycleLength: user.cycleLength || 28,
+      periodLength: user.periodLength || 5,
+      lastPeriodDate: user.lastPeriodDate,
+      totalCheckIns,
+      completedWorkouts,
+      streak,
     },
 
-    todayPlan: todayPlan,
+    cycleLength: timelineInfo.cycleLength,
+    cycleDay: timelineInfo.cycleDay,
+    currentPhase: timelineInfo.currentPhase,
+    nextPhase: timelineInfo.nextPhase,
+    phaseTimeline: timelineInfo.phaseTimeline,
+
+    todayPlan: {
+      ...todayPlan,
+      streak,
+      cycleLength: timelineInfo.cycleLength,
+      cycleDay: timelineInfo.cycleDay,
+      currentPhase: timelineInfo.currentPhase,
+      nextPhase: timelineInfo.nextPhase,
+      phaseTimeline: timelineInfo.phaseTimeline,
+    },
 
     predictions: aiResult.predictions,
   };

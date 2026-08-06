@@ -31,10 +31,10 @@ export default function WorkoutView({ workout, readiness, fatigue }) {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-3xl md:text-4xl font-light font-display text-white">
-            Workout & <span className="font-serif-title italic text-pink-300">Session Planner</span>
+          <h1 className="text-4xl md:text-5xl font-bold font-display text-white">
+            Workout & <span className="font-serif-title italic text-[#2EA8DE]">Session Planner</span>
           </h1>
-          <p className="text-slate-400 text-sm mt-1">
+          <p className="text-slate-300 text-base mt-1 font-normal">
             Personalized workout objective, volume, and warm-up recommendations tuned for your biological rhythm.
           </p>
         </div>
@@ -42,7 +42,7 @@ export default function WorkoutView({ workout, readiness, fatigue }) {
         <div className="flex items-center gap-3 self-start sm:self-auto">
           <span className="floating-chip px-4 py-2 text-xs font-semibold text-amber-300 flex items-center gap-1.5">
             <FiZap className="text-amber-400" />
-            <span>AI Prescribed Plan</span>
+            <span>Today's Plan</span>
           </span>
         </div>
       </div>
@@ -54,30 +54,30 @@ export default function WorkoutView({ workout, readiness, fatigue }) {
             <div>
               <div className="flex justify-between items-center mb-4">
                 <div>
-                  <span className="text-xs font-bold uppercase tracking-wider text-pink-300 font-display">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-[#A351F8] font-display">
                     Readiness Score
                   </span>
-                  <h3 className="text-xl font-light font-display text-white mt-0.5">
-                    Biological <span className="font-serif-title italic text-pink-300">State</span>
+                  <h3 className="text-2xl font-semibold font-display text-white mt-0.5">
+                    Biological <span className="font-serif-title italic text-[#2EA8DE]">State</span>
                   </h3>
                 </div>
-                <span className="floating-chip px-3.5 py-1 text-emerald-300 text-xs font-semibold">
-                  {label}
+                <span className="floating-chip px-4 py-1.5 text-emerald-300 text-xs font-semibold">
+                  Biological Index
                 </span>
               </div>
 
               <div className="flex items-center justify-center my-4">
-                <CircularProgress value={score} color="#D8B4FE" size={140} />
+                <CircularProgress value={score} label={label} size={160} />
               </div>
 
               <div className="grid grid-cols-2 gap-2 pt-4 border-t border-white/[0.05] text-center">
-                <div className="p-3 rounded-2xl bg-white/[0.03]">
-                  <span className="text-[10px] text-slate-400 block uppercase">Volume</span>
-                  <span className="text-xs font-bold text-emerald-400 font-display mt-0.5 block">{volumeLabel}</span>
+                <div className="p-3.5 rounded-2xl bg-white/[0.03] space-y-1">
+                  <span className="text-xs font-semibold text-slate-400 block uppercase tracking-wider">Volume</span>
+                  <span className="text-base font-bold text-emerald-400 font-display block">{volumeLabel}</span>
                 </div>
-                <div className="p-3 rounded-2xl bg-white/[0.03]">
-                  <span className="text-[10px] text-slate-400 block uppercase">Training Load</span>
-                  <span className="text-xs font-bold text-purple-300 font-display mt-0.5 block">{trainingLoad}</span>
+                <div className="p-3.5 rounded-2xl bg-white/[0.03] space-y-1">
+                  <span className="text-xs font-semibold text-slate-400 block uppercase tracking-wider">Training Load</span>
+                  <span className="text-base font-bold text-purple-300 font-display block">{trainingLoad}</span>
                 </div>
               </div>
             </div>
@@ -90,25 +90,25 @@ export default function WorkoutView({ workout, readiness, fatigue }) {
             <div>
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-white/[0.06] pb-4">
                 <div>
-                  <span className="text-xs font-bold uppercase tracking-wider text-pink-300 font-display flex items-center gap-1.5">
-                    <FiCpu className="text-pink-400" />
-                    <span>AI Prescribed Objective</span>
+                  <span className="text-xs font-semibold uppercase tracking-wider text-[#A351F8] font-display flex items-center gap-1.5">
+                    <FiCpu className="text-[#2EA8DE]" />
+                    <span>Objective</span>
                   </span>
-                  <h2 className="text-2xl md:text-3xl font-light font-display text-white mt-1">
+                  <h2 className="text-3xl md:text-4xl font-semibold font-display text-white mt-1">
                     {workoutObjective}
                   </h2>
                 </div>
 
                 <div className="flex flex-wrap items-center gap-2 shrink-0">
                   {workout?.duration && (
-                    <span className="floating-chip px-3 py-1 text-xs text-slate-200">
+                    <span className="floating-chip px-3.5 py-1.5 text-xs font-semibold text-slate-200">
                       ⏱ {workout.duration}
                     </span>
                   )}
-                  <span className="floating-chip px-3 py-1 text-xs text-pink-300 font-semibold">
+                  <span className="floating-chip px-3.5 py-1.5 text-xs text-[#2EA8DE] font-semibold">
                     ⚡ Load: {trainingLoad}
                   </span>
-                  <span className="floating-chip px-3 py-1 text-xs text-purple-300 font-semibold">
+                  <span className="floating-chip px-3.5 py-1.5 text-xs text-purple-300 font-semibold">
                     Volume: {volumeLabel}
                   </span>
                 </div>
@@ -116,34 +116,34 @@ export default function WorkoutView({ workout, readiness, fatigue }) {
 
               {/* Coach Summary */}
               <div className="my-4 p-4 rounded-2xl bg-white/[0.03] border border-white/[0.04]">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-pink-300 block mb-1 font-display">
+                <span className="text-xs font-semibold uppercase tracking-wider text-[#A351F8] block mb-1 font-display">
                   Coach Guidance:
                 </span>
-                <p className="text-xs md:text-sm text-slate-200 font-light leading-relaxed">
+                <p className="text-sm md:text-base text-slate-200 font-normal leading-relaxed">
                   {coachSummary}
                 </p>
               </div>
 
               {/* Structure Parameters Grid */}
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 my-4">
-                <div className="p-3 rounded-2xl bg-white/[0.03] text-center">
-                  <span className="text-[10px] text-slate-400 block uppercase font-display">Warm-up</span>
-                  <span className="text-xs font-bold text-white mt-0.5 block">{warmupDur}</span>
+                <div className="p-3.5 rounded-2xl bg-white/[0.03] text-center space-y-1">
+                  <span className="text-xs font-semibold text-slate-400 block uppercase tracking-wider font-display">Warm-up</span>
+                  <span className="text-base font-bold text-white block">{warmupDur}</span>
                 </div>
 
-                <div className="p-3 rounded-2xl bg-white/[0.03] text-center">
-                  <span className="text-[10px] text-slate-400 block uppercase font-display">Cooldown</span>
-                  <span className="text-xs font-bold text-white mt-0.5 block">{cooldownDur}</span>
+                <div className="p-3.5 rounded-2xl bg-white/[0.03] text-center space-y-1">
+                  <span className="text-xs font-semibold text-slate-400 block uppercase tracking-wider font-display">Cooldown</span>
+                  <span className="text-base font-bold text-white block">{cooldownDur}</span>
                 </div>
 
-                <div className="p-3 rounded-2xl bg-white/[0.03] text-center">
-                  <span className="text-[10px] text-slate-400 block uppercase font-display">Rest Intervals</span>
-                  <span className="text-xs font-bold text-pink-300 mt-0.5 block">{restIntervals}</span>
+                <div className="p-3.5 rounded-2xl bg-white/[0.03] text-center space-y-1">
+                  <span className="text-xs font-semibold text-slate-400 block uppercase tracking-wider font-display">Rest Intervals</span>
+                  <span className="text-base font-bold text-[#2EA8DE] block">{restIntervals}</span>
                 </div>
 
-                <div className="p-3 rounded-2xl bg-white/[0.03] text-center">
-                  <span className="text-[10px] text-slate-400 block uppercase font-display">Recovery Focus</span>
-                  <span className="text-xs font-bold text-emerald-400 mt-0.5 block truncate">
+                <div className="p-3.5 rounded-2xl bg-white/[0.03] text-center space-y-1">
+                  <span className="text-xs font-semibold text-slate-400 block uppercase tracking-wider font-display">Recovery Focus</span>
+                  <span className="text-base font-bold text-emerald-400 block truncate">
                     {workout?.recoveryFocus?.items?.[0] || workout?.todayRecoveryFocus?.[0] || "Hydration"}
                   </span>
                 </div>
@@ -151,17 +151,17 @@ export default function WorkoutView({ workout, readiness, fatigue }) {
 
               {/* Reasoning Section */}
               <div className="mt-4 space-y-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-slate-400 block font-display">
-                  AI Prescribed Reasoning:
+                <span className="text-xs font-semibold uppercase tracking-wider text-slate-400 block font-display">
+                  Reasoning:
                 </span>
 
-                <ul className="space-y-2 text-xs text-slate-300">
+                <ul className="space-y-2 text-sm text-slate-300">
                   {reasoningList.map((reason, idx) => {
                     const text = typeof reason === "object" ? `${reason.type ? `[${reason.type}] ` : ""}${reason.text}` : String(reason);
                     return (
                       <li key={idx} className="flex items-start gap-2.5">
-                        <span className="w-1.5 h-1.5 rounded-full bg-pink-400 mt-1.5 shrink-0"></span>
-                        <span className="leading-relaxed font-light">{text}</span>
+                        <span className="w-2 h-2 rounded-full bg-[#A351F8] mt-1.5 shrink-0"></span>
+                        <span className="leading-relaxed font-normal">{text}</span>
                       </li>
                     );
                   })}
