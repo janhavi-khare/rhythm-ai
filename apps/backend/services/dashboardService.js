@@ -1,6 +1,6 @@
 const User = require("../models/User");
 const DailyCheckIn = require("../models/DailyCheckIn");
-const WorkoutSession = require("../models/Workoutsession");
+const WorkoutSession = require("../models/WorkoutSession");
 const MorningRecommendation = require("../models/MorningRecommendation");
 const RecoveryRecommendation = require("../models/RecoveryRecommendation");
 const { generateMorningPlan } = require("./aiService");

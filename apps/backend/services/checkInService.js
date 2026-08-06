@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const User = require("../models/User");
 const DailyCheckIn = require("../models/DailyCheckIn");
 const MorningRecommendation = require("../models/MorningRecommendation");
-const WorkoutSession = require("../models/Workoutsession");
+const WorkoutSession = require("../models/WorkoutSession");
 
 const getCycleDay = require("../utils/cycleDay");
 const { generateMorningPlan } = require("./aiService");
