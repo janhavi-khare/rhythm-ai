@@ -139,12 +139,15 @@ export default function DailyCheckIn() {
     // Save as local source of truth for immediate frontend data-driven rendering
     localStorage.setItem("latestCheckIn", JSON.stringify(payload));
 
+    const storedUserId = localStorage.getItem("userId");
+    const activeUserId = (userId && userId !== "guest") ? userId : (storedUserId && storedUserId !== "guest" ? storedUserId : "");
+
     try {
-      await submitCheckIn(userId || "guest", payload);
-      navigate(`/dashboard/${userId || localStorage.getItem("userId") || "guest"}`);
+      await submitCheckIn(activeUserId, payload);
+      navigate(`/dashboard/${activeUserId}`);
     } catch (err) {
       console.error(err);
-      navigate(`/dashboard/${userId || localStorage.getItem("userId") || "guest"}`);
+      navigate(`/dashboard/${activeUserId}`);
     }
   };
 

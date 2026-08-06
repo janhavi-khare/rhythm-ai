@@ -34,12 +34,21 @@ const workoutSessionSchema = new mongoose.Schema(
     workoutType: {
       type: String,
       enum: [
+        "Build Strength",
         "Strength",
+        "Build Muscle",
         "Hypertrophy",
+        "Improve Conditioning",
         "Conditioning",
         "Cardio",
+        "Mixed Training",
+        "Active Recovery",
+        "Mobility & Recovery",
         "Mobility",
         "Recovery",
+        "Technique Focus",
+        "Rest Day",
+        "General Fitness"
       ],
     },
 
@@ -55,7 +64,11 @@ const workoutSessionSchema = new mongoose.Schema(
 
     intensity: {
       type: String,
-      enum: ["Low", "Moderate", "High"],
+      enum: [
+        "Low",
+        "Moderate",
+        "High",
+      ],
     },
 
     duration: {

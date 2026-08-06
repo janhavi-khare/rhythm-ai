@@ -39,6 +39,7 @@ const dailyCheckInSchema = new mongoose.Schema(
     stress: {
       type: String,
       enum: [
+        "Calm",
         "Low",
         "Moderate",
         "High"
@@ -76,19 +77,37 @@ const dailyCheckInSchema = new mongoose.Schema(
     workoutType: {
       type: String,
       enum: [
+        "Build Strength",
         "Strength",
+        "Build Muscle",
         "Hypertrophy",
+        "Improve Conditioning",
         "Conditioning",
         "Cardio",
+        "Mixed Training",
+        "Active Recovery",
+        "Mobility & Recovery",
         "Mobility",
         "Recovery",
+        "Technique Focus",
+        "Rest Day",
+        "General Fitness"
       ],
       required: false,
     },
 
     workoutIntensity: {
       type: String,
-      enum: ["Low", "Moderate", "High"],
+      enum: [
+        "Rest",
+        "Very Light",
+        "Light",
+        "Low",
+        "Moderate",
+        "Moderately High",
+        "High",
+        "Intense"
+      ],
       required: false,
     },
 
