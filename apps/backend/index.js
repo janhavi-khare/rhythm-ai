@@ -77,3 +77,7 @@ mongoose
 app.listen(PORT, () => {
   console.log(`🚀 Rhythm Backend running on port ${PORT}`);
 });
+
+app.get("/test", (req, res) => {
+  res.send("Backend version Aug 7");
+});
