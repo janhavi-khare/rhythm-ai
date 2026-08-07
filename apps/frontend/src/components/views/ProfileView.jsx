@@ -21,7 +21,7 @@ import {
   FiTrendingUp
 } from "react-icons/fi";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export default function ProfileView({ user, todayPlan, predictions, onUpdateUser }) {
   // User Personal Information (Strictly real data or null/empty state)

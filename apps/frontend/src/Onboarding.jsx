@@ -54,7 +54,7 @@ export default function Onboarding() {
         try {
             const email = localStorage.getItem("userEmail");
             const result = await axios.post(
-                "http://localhost:5000/onboarding",
+                '${import.meta.env.VITE_API_URL}/onboarding',
                 {
                     email,
                     ...formData

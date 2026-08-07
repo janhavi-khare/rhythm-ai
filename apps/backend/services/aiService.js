@@ -1,10 +1,15 @@
 const axios = require("axios");
 
+const axios = require("axios");
+
 const AI_SERVICE_URL =
   process.env.AI_SERVICE_URL || "http://127.0.0.1:8000";
 
 const generateMorningPlan = async (payload) => {
   try {
+    console.log("AI_SERVICE_URL raw value:", JSON.stringify(AI_SERVICE_URL));
+    console.log("Full request URL:", JSON.stringify(`${AI_SERVICE_URL}/morning-plan`));
+
     const response = await axios.post(
       `${AI_SERVICE_URL}/morning-plan`,
       payload
@@ -61,3 +66,4 @@ module.exports = {
   generateMorningPlan,
   generateRecoveryPlan,
 };
+

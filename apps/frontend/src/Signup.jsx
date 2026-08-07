@@ -21,7 +21,7 @@ export default function Signup() {
         }
         try {
             setLoading(true);
-            const result = await axios.post("http://localhost:5000/signup", { name, age, email, password });
+            const result = await axios.post(`${import.meta.env.VITE_API_URL}/signup`, { name, age, email, password });
             if (result.data && result.data._id) {
                 localStorage.setItem("userId", result.data._id);
                 localStorage.setItem("userEmail", email);
