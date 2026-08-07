@@ -15,21 +15,30 @@ export default function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     try {
       setLoading(true);
-      axios.post(`${API}/login`, { email, password });
+
+      const result = await axios.post(`${API}/login`, {
+        email,
+        password,
+      });
+
       if (result.data.message === "Login successful") {
-        const userId = result.data.userId;
-        localStorage.setItem("userId", userId);
-        localStorage.setItem("userName", user.name);
-        localStorage.setItem("userEmail", user.email);
-        navigate(`/checkin/${userId}`);
+        localStorage.setItem("userId", result.data.userId);
+        localStorage.setItem("userEmail", result.data.email || email);
+
+        if (result.data.name) {
+          localStorage.setItem("userName", result.data.name);
+        }
+
+        navigate(`/checkin/${result.data.userId}`);
       } else {
-        alert(result.data.message || "Invalid credentials");
+        alert(result.data.message || "Login failed");
       }
     } catch (err) {
       console.error(err);
-      alert(err.response?.data?.message || "Login failed. Please check your credentials.");
+      alert(err.response?.data?.message || "Login failed");
     } finally {
       setLoading(false);
     }
