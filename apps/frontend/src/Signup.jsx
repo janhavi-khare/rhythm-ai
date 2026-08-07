@@ -37,6 +37,8 @@ export default function Signup() {
         }
     }
 
+    console.log("API URL =", import.meta.env.VITE_API_URL);
+
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
