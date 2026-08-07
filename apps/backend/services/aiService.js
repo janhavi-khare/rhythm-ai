@@ -27,3 +27,8 @@ const generateMorningPlan = async (payload) => {
     throw new Error("Failed to generate morning plan");
   }
 };
+
+module.exports = {
+  generateMorningPlan,
+  generateRecoveryPlan,
+};
