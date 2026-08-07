@@ -13,6 +13,10 @@ export default function Login() {
 
   const API = import.meta.env.VITE_API_URL;
 
+  router.post("/login", async (req, res) => {
+    console.log("🔥 HIT LOGIN ROUTE");
+  });
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -43,6 +47,8 @@ export default function Login() {
       setLoading(false);
     }
   };
+
+
 
   return (
     <div className="min-h-screen bg-[#0B0614] bg-mesh-dark text-slate-100 flex items-center justify-center p-4 relative overflow-hidden">
