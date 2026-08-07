@@ -75,4 +75,6 @@ router.post("/login", async (req, res) => {
   }
 });
 
+console.log("AUTH ROUTES LOADED");
+
 module.exports = router;
