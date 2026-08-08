@@ -77,10 +77,11 @@ router.post("/login", async (req, res) => {
           lastPeriodDate: user.lastPeriodDate,
         },
       });
-    } catch (err) {
-      console.error("Login Error:", err);
-      return res.status(500).json({ message: "Login error", error: err.message });
-    }
-  });
+    });
+  } catch (err) {
+    console.error("Login Error:", err);
+    return res.status(500).json({ message: "Login error", error: err.message });
+  }
+});
 
 module.exports = router;
