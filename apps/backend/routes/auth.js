@@ -1,3 +1,5 @@
+console.log("✅ AUTH FILE LOADED");
+
 const express = require("express");
 const router = express.Router();
 const UserModel = require("../models/User");
@@ -53,7 +55,6 @@ router.post("/login", async (req, res) => {
     }
 
     const express = require("express");
-    console.log("✅ AUTH FILE LOADED");
 
     const router = express.Router();
 

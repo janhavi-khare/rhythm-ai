@@ -20,11 +20,15 @@ app.get("/health", (req, res) => {
 });
 
 // Route Registrations
+console.log("Mounting auth routes...");
+
 app.use("/auth", authRoutes);
 app.use("/", authRoutes); // Supports direct /signup & /login
 app.use("/dashboard", dashboardRoutes);
 app.use("/checkin", checkInRoutes);
 app.use("/workout", workoutRoutes);
+
+console.log("Auth routes object:", authRoutes);
 
 // Onboarding Route
 app.post("/onboarding", async (req, res) => {
