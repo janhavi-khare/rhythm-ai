@@ -28,7 +28,27 @@ app.use("/dashboard", dashboardRoutes);
 app.use("/checkin", checkInRoutes);
 app.use("/workout", workoutRoutes);
 
-console.log("Auth routes object:", authRoutes);
+const listEndpoints = (app) => {
+  app._router.stack.forEach((middleware) => {
+    if (middleware.route) {
+      console.log(
+        Object.keys(middleware.route.methods).join(",").toUpperCase(),
+        middleware.route.path
+      );
+    } else if (middleware.name === "router") {
+      middleware.handle.stack.forEach((handler) => {
+        if (handler.route) {
+          console.log(
+            Object.keys(handler.route.methods).join(",").toUpperCase(),
+            handler.route.path
+          );
+        }
+      });
+    }
+  });
+};
+
+listEndpoints(app);
 
 // Onboarding Route
 app.post("/onboarding", async (req, res) => {

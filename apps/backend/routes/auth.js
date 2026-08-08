@@ -54,30 +54,22 @@ router.post("/login", async (req, res) => {
       return res.status(401).json({ message: "Invalid credentials" });
     }
 
-    const express = require("express");
-
-    const router = express.Router();
-
-    router.post("/signup", async (req, res) => {
-      console.log("🔥 HIT SIGNUP ROUTE");
-
-      return res.json({
-        message: "Login successful",
-        userId: user._id,
-        user: {
-          _id: user._id,
-          name: user.name,
-          email: user.email,
-          age: user.age,
-          height: user.height,
-          weight: user.weight,
-          goals: user.goals,
-          activityLevel: user.activityLevel,
-          cycleLength: user.cycleLength,
-          periodLength: user.periodLength,
-          lastPeriodDate: user.lastPeriodDate,
-        },
-      });
+    return res.json({
+      message: "Login successful",
+      userId: user._id,
+      user: {
+        _id: user._id,
+        name: user.name,
+        email: user.email,
+        age: user.age,
+        height: user.height,
+        weight: user.weight,
+        goals: user.goals,
+        activityLevel: user.activityLevel,
+        cycleLength: user.cycleLength,
+        periodLength: user.periodLength,
+        lastPeriodDate: user.lastPeriodDate,
+      },
     });
   } catch (err) {
     console.error("Login Error:", err);
