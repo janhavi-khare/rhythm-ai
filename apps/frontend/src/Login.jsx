@@ -13,10 +13,6 @@ export default function Login() {
 
   const API = import.meta.env.VITE_API_URL;
 
-  router.post("/login", async (req, res) => {
-    console.log("🔥 HIT LOGIN ROUTE");
-  });
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
