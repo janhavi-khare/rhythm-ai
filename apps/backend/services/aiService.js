@@ -3,22 +3,18 @@ const axios = require("axios");
 const AI_SERVICE_URL =
   process.env.AI_SERVICE_URL || "http://127.0.0.1:8000";
 
-// ======================
-// MORNING PLAN
-// ======================
-console.log("Calling AI:", `${AI_SERVICE_URL}/morning-plan`);
-console.log(payload);
-
 const generateMorningPlan = async (payload) => {
   try {
-    const url = `${AI_SERVICE_URL}/morning-plan`;
+    console.log("Calling AI:", `${AI_SERVICE_URL}/morning-plan`);
+    console.log("Payload:", payload);
 
-    console.log("========== AI REQUEST ==========");
-    console.log("Calling:", url);
-
-    const response = await axios.post(url, payload);
+    const response = await axios.post(
+      `${AI_SERVICE_URL}/morning-plan`,
+      payload
+    );
 
     return response.data;
+
   } catch (error) {
     console.error("========== AI SERVICE ERROR ==========");
 
