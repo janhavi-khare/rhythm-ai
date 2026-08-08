@@ -85,4 +85,11 @@ router.post("/login", async (req, res) => {
   }
 });
 
+console.log(
+  router.stack.map((layer) => ({
+    path: layer.route?.path,
+    methods: layer.route?.methods,
+  }))
+);
+
 module.exports = router;

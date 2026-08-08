@@ -85,3 +85,7 @@ app.listen(PORT, () => {
 app.get("/test", (req, res) => {
   res.send("Backend version Aug 7");
 });
+
+app.post("/ping", (req, res) => {
+  res.json({ ok: true });
+});
