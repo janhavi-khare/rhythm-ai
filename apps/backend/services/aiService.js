@@ -6,6 +6,9 @@ const AI_SERVICE_URL =
 // ======================
 // MORNING PLAN
 // ======================
+console.log("Calling AI:", `${AI_SERVICE_URL}/morning-plan`);
+console.log(payload);
+
 const generateMorningPlan = async (payload) => {
   try {
     const url = `${AI_SERVICE_URL}/morning-plan`;
@@ -21,12 +24,12 @@ const generateMorningPlan = async (payload) => {
 
     if (error.response) {
       console.error("Status:", error.response.status);
-      console.error(JSON.stringify(error.response.data, null, 2));
+      console.error("Data:", error.response.data);
     } else {
-      console.error(error.message);
+      console.error(error);
     }
 
-    throw new Error("Failed to generate morning plan");
+    throw error;
   }
 };
 
