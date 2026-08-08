@@ -47,18 +47,21 @@ def root():
     }
 
 from services.orchestrator import generate_daily_plan
+import traceback
 
 @app.post("/morning-plan")
 async def generate_morning_plan(request: Request):
     body = await request.json()
 
-    profile = body.get("profile", {})
-    checkin = body.get("checkin", {})
+    try:
+        profile = body.get("profile", {})
+        checkin = body.get("checkin", {})
 
-    result = generate_daily_plan(profile, checkin)
+        return generate_daily_plan(profile, checkin)
 
-    return result
-
+    except Exception:
+        traceback.print_exc()
+        raise
 
 @app.post("/recovery-plan")
 def generate_recovery_plan(request: RecoveryRequest):

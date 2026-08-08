@@ -36,6 +36,7 @@ def generate_daily_plan(profile, checkin):
     # --------------------------------------------------
     # Phase Prediction
     # --------------------------------------------------
+    print("1. Phase prediction")
 
     phase = predict_phase(checkin)
     phase_name = phase.get("prediction", "Follicular")
@@ -43,6 +44,7 @@ def generate_daily_plan(profile, checkin):
     # --------------------------------------------------
     # Biological Variables
     # --------------------------------------------------
+    print("2. Biological variables")
 
     body_state = compute_all_biological_variables(
         profile=profile,
@@ -91,6 +93,7 @@ def generate_daily_plan(profile, checkin):
     # --------------------------------------------------
     # Workout Recommendation
     # --------------------------------------------------
+    print("3. Workout")
 
     workout_decision = generate_workout_plan(
         recovery_score=recovery["score"],
@@ -110,6 +113,7 @@ def generate_daily_plan(profile, checkin):
     # --------------------------------------------------
     # Nutrition
     # --------------------------------------------------
+    print("4. Nutrition")
 
     pre_workout = generate_pre_workout_plan(
         weight=float(profile.get("weight") or 60),
@@ -126,6 +130,7 @@ def generate_daily_plan(profile, checkin):
     # --------------------------------------------------
     # Build UI Payload
     # --------------------------------------------------
+    print("5. Build")
 
     today_plan = build_daily_plan(
         profile=profile,
